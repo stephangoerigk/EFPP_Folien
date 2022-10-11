@@ -1,60 +1,26 @@
----
-title: "Einheit"
-subtitle: "⚔<br/>with xaringan"
-author: "Dr. Stephan Goerigk"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
-output:
-  xaringan::moon_reader:
-    css: [xaringan-themer.css, "hygge"]
-    lib_dir: libs
-    nature:
-      slideNumberFormat: "%current%"
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
-    seal: false
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Einheit</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Stephan Goerigk" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/kePrint/kePrint.js"></script>
+    <link href="libs/lightable/lightable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
 
-setwd("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Einführung in die Forschungsmethoden der Psychologie und Psychotherapie/EFPP_Folien/")
 
-library(tidyverse)
-library(kableExtra)
-library(ggplot2)
-library(plotly)
-library(htmlwidgets)
-library(MASS)
-library(ggpubr)
-library(xaringanthemer)
-library(xaringanExtra)
-
-style_duo_accent(
-  primary_color = "#621C37",
-  secondary_color = "#EE0071",
-  background_image = "blank.png"
-)
-
-xaringanExtra::use_xaringan_extra(c("tile_view"))
-
-# use_scribble(
-#   pen_color = "#EE0071",
-#   pen_size = 4
-#   )
-
-knitr::opts_chunk$set(
-  fig.retina = TRUE,
-  warning = FALSE,
-  message = FALSE
-)
-```
 
 name: Title slide
 class: middle, left
-<br><br><br><br><br><br><br>
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 # Einführung in die Psychologie, ihre Geschichte und Forschungsmethoden
 
 ### Einheit 1
@@ -81,14 +47,14 @@ Meeting-ID: 284 567 8838
 
 Kenncode: 807174
 
-[Publikationen](https://scholar.google.at/citations?user=nlvO-e4AAAAJ&hl=de)
+[Publikationen](https://scholar.google.at/citations?user=nlvO-e4AAAAJ&amp;hl=de)
 
 [Commitment to Research Transparency](http://www.researchtransparency.org)
 ]
 
 .pull-right[
 .center[
-<br><br><br>
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
 .bottom[![](rtransperency.png)]
 ]
 ]
@@ -118,13 +84,87 @@ Prüfungsleistung:
 class: top, left
 ### Termine
 
-```{r echo = F}
-df = readxl::read_xlsx("Einführung in die Forschungsmethoden der Psychologie und Psychotherapie_Termine.xlsx", sheet = "Tabelle1")[1:14, 1:3]
-df$Datum = format(as.Date(df$Datum), "%d.%m.%Y")
-df %>%
-  kbl() %>%
-  kable_classic(full_width = T)
-```
+&lt;table class=" lightable-classic" style='font-family: "Arial Narrow", "Source Sans Pro", sans-serif; margin-left: auto; margin-right: auto;'&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Einheit &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Datum &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Thema &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 12.10.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Wie ist Psychologie als Wissenschaft möglich? - 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 19.10.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Wie ist Psychologie als Wissenschaft möglich? - 2 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 26.10.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Paradigmengeschichte - Menschenbild bestimmt Methode &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 02.11.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Messen in der Psychologie - manifest &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 09.11.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Messen in der Psychologie - latent &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 16.11.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Das Experiment: Alternativerklärungen und Kontrollbedingungen &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 7 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 23.11.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Qualitative Methoden: Verstehen des Einzelfalls &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 30.11.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Leib-Seele Problematik &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 14.12.2022 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Bio-psychologische Methoden &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 04.01.2023 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Operationalisierung von Gesundheit und Krankheit &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 11 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 11.01.2023 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Digitale Messmethoden &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 12 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 18.01.2023 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Big Data und Machine-Learning &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 13 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 25.01.2023 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Forschungsethik &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 14 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 01.02.2023 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Freie Spitze und Fragen &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 ---
 class: top, left
@@ -163,7 +203,7 @@ Menschlliches Verhalten ist ohne mentale Prozesse (Erleben und Bewusstsein) nich
 Beschreibungsebenen: behavioral, emotional, kognitiv, (physiologisch)
 
 .pull-left[
-<br>
+&lt;br&gt;
 ![](/bilder/KVT.png)]
 .pull-right[
 
@@ -298,7 +338,7 @@ Haben sich sicher schon einmal gefragt...
 
 Ich habe ich ein Bewusstsein meiner selbst und der Welt um mich herum 
 
-$\downarrow$
+`\(\downarrow\)`
 
 Andere müssen auch ein solches Bewusstsein haben.
 ]
@@ -320,9 +360,9 @@ Ich bediene mich einer **Heuristik**:
 
 Erinnerung: Untersuchungsgegestand der Psychologie:
 
-* Verhalten des Menschen $\rightarrow$ beobachtbar
-* Erleben des Menschen $\rightarrow$ ?
-* Bewusstsein des Menschen $\rightarrow$ ?
+* Verhalten des Menschen `\(\rightarrow\)` beobachtbar
+* Erleben des Menschen `\(\rightarrow\)` ?
+* Bewusstsein des Menschen `\(\rightarrow\)` ?
 
 **Dilemma**:
 
@@ -372,7 +412,7 @@ Weitere Zuspitzung:
 * Wie der Gegenstand, so ist auch die Auffassung dieses Gegenstandes ein privater Vollzug.
 * Der Beobachter muss sein eigenes Beobachten beobachten.
 
-$\rightarrow$ Wie kann unter diesen Umständen die Psychologie eine Wissenschaft sein?
+`\(\rightarrow\)` Wie kann unter diesen Umständen die Psychologie eine Wissenschaft sein?
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -392,9 +432,7 @@ Begriffsklärungen und Voraussetzungen:
 ]
 
 .pull-right[.center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/Introspektion.png")
-```
+&lt;img src="bilder/Introspektion.png" width="300px" /&gt;
 ]
 ]
 
@@ -406,7 +444,7 @@ knitr::include_graphics("bilder/Introspektion.png")
 .center[
 Zentraler Gegenstand der **Erkenntnistheorie** (aka Epistemologie)
 
-$\downarrow$
+`\(\downarrow\)`
 
 Was kann der Mensch über sich selbst erkennen?
 ]
@@ -443,7 +481,7 @@ Stangl, W. (2022, 9. Oktober). Erkenntnistheoretische Grundpositionen der Psycho
 .center[
 Unterschiedliche Ansätze zur Lösung des Introspektionsproblems 
 
-$\downarrow$
+`\(\downarrow\)`
 
 Grundrichtungen der Psychologie (**Paradigmen**, s.h. 3. Vorlesung)
 ]
@@ -502,7 +540,7 @@ Grundrichtungen der Psychologie (**Paradigmen**, s.h. 3. Vorlesung)
 * Skalierung - in der nicht nur untersucht wird, ob eine Person einen Reiz erkannt hat, sondern, ob sie schätzen kann, wie stark der Reiz ist.Die Skalierungsfähigkeiten können in verschiedenen Situationen erheblich variieren.
 
 * Fechners Gesetz (auch Fechner-Skala) beschreibt den Zusammenhang zwischen Reiz- und Erlebnisintensität:
-$$E=k\cdot \log R+f$$
+`$$E=k\cdot \log R+f$$`
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -527,14 +565,10 @@ $$E=k\cdot \log R+f$$
 
 .pull-right[
 .pull-left[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/Kuelpe.jpg")
-```
+&lt;img src="bilder/Kuelpe.jpg" width="200px" /&gt;
 ]
 .pull-right[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/Buehler.jpg")
-```
+&lt;img src="bilder/Buehler.jpg" width="200px" /&gt;
 ]
 ]
 * Methodische Lösung des Introspektionsproblems: **Retrospektion** statt Introspektion
@@ -715,15 +749,15 @@ class: top, left
 #### Zugang zu mentalen Prozessen
 
 Beispiel einer ungeeigneten Anwendung der Methode (laut Wundt): Bühlers „Ausfrageexperimente“ des lauten Denkens
--> Bühler stellte seinen Probanden Fragen, wie:
+-&gt; Bühler stellte seinen Probanden Fragen, wie:
 „Wenn Eucken von einer weltgeschichtlichen Apperzeption spricht, wissen Sie, was er damit meint?“
--> Probanden mussten antworten und berichten, wie sie zur Antwort kamen.
+-&gt; Probanden mussten antworten und berichten, wie sie zur Antwort kamen.
 
 
 Beispiel einer ungeeigneten Anwendung der Methode (laut Wundt): Bühlers „Ausfrageexperimente“ des lauten Denkens
--> Bühlers berühmt gewordenes Ergebnis:
+-&gt; Bühlers berühmt gewordenes Ergebnis:
 „Aha“-Erlebnisse = unanschauliche Gedanken, denen keine anschaulichen Empfindungen entsprechen, gingen der Antwort voraus.
--> nach Wundt sind das Scheinexperimente, denn sie erfüllen keines der Kriterien der experimentellen Methode
+-&gt; nach Wundt sind das Scheinexperimente, denn sie erfüllen keines der Kriterien der experimentellen Methode
 
 ---
 class: top, left
@@ -732,8 +766,8 @@ class: top, left
 #### Zugang zu mentalen Prozessen
 
 Grenzen der Methode nach Wundt:
--> geeignet für einfache psychische Vorgänge (z.B. Wahrnehmung)
--> ungeeignet für höhere psychische Vorgänge (z.B. Denken, Problemlösen)
+-&gt; geeignet für einfache psychische Vorgänge (z.B. Wahrnehmung)
+-&gt; ungeeignet für höhere psychische Vorgänge (z.B. Denken, Problemlösen)
 
 ---
 class: top, left
@@ -742,11 +776,11 @@ class: top, left
 #### Zugang zu mentalen Prozessen
 
 Grenzen der Methode nach Wundt:
--> geeignet für einfache psychische Vorgänge (z.B.
+-&gt; geeignet für einfache psychische Vorgänge (z.B.
 Wahrnehmung)
--> ungeeignet für höhere psychische Vorgänge (z.B. Denken, Problemlösen)
+-&gt; ungeeignet für höhere psychische Vorgänge (z.B. Denken, Problemlösen)
 
--> erfüllt im Idealfall vier Kriterien der experimentellen Methode, gesehen am Beispiel der induzierten Bewegung:
+-&gt; erfüllt im Idealfall vier Kriterien der experimentellen Methode, gesehen am Beispiel der induzierten Bewegung:
 (1) willkürliche Wahl des Zeitpunktes
 (2) optimale Einstellung der Aufmerksamkeit des Beobachters
 (3) Wiederholung zur Sicherung der Ergebnisse
@@ -768,16 +802,16 @@ class: top, left
 
 Objektivität: Kommen verschiedene Personen zu denselben Ergebnissen? Sind die Ergebnisse unabhängig vom Untersucher und vom Untersuchten?
 Introspektion:
--> subjektive Daten
-Leistungen und physiologische Reaktionen: -> objektive Daten
+-&gt; subjektive Daten
+Leistungen und physiologische Reaktionen: -&gt; objektive Daten
 
 
-Einschränkungen der Objektivität bei introspektiven Daten: -> Vergessen (z.B. wenn zwischen Introspektion und
+Einschränkungen der Objektivität bei introspektiven Daten: -&gt; Vergessen (z.B. wenn zwischen Introspektion und
 Selbstbericht Zeit vergeht)
--> Unzugänglichkeit (z.B. unbewusste Prozesse sind der Introspektion nicht zugänglich)
--> Verfälschbarkeit (z.B. im Sinne sozialer Erwünschtheit); Bsp. Einstellungsmessung: „Sind Sie fremdenfeindlich?“
+-&gt; Unzugänglichkeit (z.B. unbewusste Prozesse sind der Introspektion nicht zugänglich)
+-&gt; Verfälschbarkeit (z.B. im Sinne sozialer Erwünschtheit); Bsp. Einstellungsmessung: „Sind Sie fremdenfeindlich?“
 
---> IAT vs. Befragung
+--&gt; IAT vs. Befragung
 ---
 class: top, left
 ### Vom schlussfolgernden Beobachten zur experimentellen Methode
@@ -789,7 +823,7 @@ Mensch als Wissenschaftler
 John Stuart Mill: A System of Logic (1843) – Five methods of induction
 
 Induktives Schließen
--> Schluss von der vergleichenden Beobachtung auf generelle zugrundeliegende Ursachen.
+-&gt; Schluss von der vergleichenden Beobachtung auf generelle zugrundeliegende Ursachen.
 
 1. Direct method of agreement
 2. Method of difference
@@ -815,3 +849,141 @@ class: top, left
 * Welche 4 Komponenten umfasst die Definition des Begriffs "Psychologie"?
 * Welche 4 Ziele sind für Psychologen in der Forschungsarbeit relevant?
 * Warum besteht oft ein enger Zusammenhand zwischen den Zielen, der Erklärung und denen der Vorhersage?
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
