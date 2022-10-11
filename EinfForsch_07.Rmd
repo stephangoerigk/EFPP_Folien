@@ -1,0 +1,116 @@
+---
+title: "Einheit"
+subtitle: "⚔<br/>with xaringan"
+author: "Dr. Stephan Goerigk"
+institute: "RStudio, PBC"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css, "hygge"]
+    lib_dir: libs
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+    seal: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+setwd("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Einführung in die Forschungsmethoden der Psychologie und Psychotherapie/Folien/")
+
+library(tidyverse)
+library(kableExtra)
+library(ggplot2)
+library(plotly)
+library(htmlwidgets)
+library(MASS)
+library(ggpubr)
+library(xaringanthemer)
+library(xaringanExtra)
+
+style_duo_accent(
+  primary_color = "#621C37",
+  secondary_color = "#EE0071",
+  background_image = "blank.png"
+)
+
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+
+# use_scribble(
+#   pen_color = "#EE0071",
+#   pen_size = 4
+#   )
+
+knitr::opts_chunk$set(
+  fig.retina = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+name: Title slide
+class: middle, left
+<br><br><br><br><br><br><br>
+# Statistik I
+
+### Einheit 2
+##### 19.10.2022 | Dr. Stephan Goerigk
+
+---
+class: top, left
+name: Contact Slide
+
+### Kontakt
+
+.pull-left[
+Dr. Stephan Goerigk 
+
+Psychologische Methodenlehre
+
+Infanteriestraße 11a · 80797 München · Raum: xxx
+
+[stephan.goerigk@charlotte-fresenius.de](mailto:stephan.goerigk@charlotte-fresenius.de)
+
+Zoom Sprechstunde (bitte per Email anmelden): 
+
+Meeting-ID: 284 567 8838
+
+Kenncode: 807174
+
+[Publikationen](https://scholar.google.at/citations?user=nlvO-e4AAAAJ&hl=de)
+
+[Commitment to Research Transparency](http://www.researchtransparency.org)
+]
+
+.pull-right[
+.center[
+<br><br><br>
+.bottom[![](rtransperency.png)]
+]
+]
+
+---
+class: top, left
+### Übersicht Lehrveranstaltung 
+
+Termine:
+* 14 Termine
+* Mittwoch 13:50 - 15:20
+
+Begleitende Vorlesung:
+* Dienstag 10:50-12:20 (Audimax / P3)
+* Dozentin: Prof. Dr. Nina Sarubin ([nina.sarubin@charlotte-fresenius-uni.de](mailto:nina.sarubin@charlotte-fresenius-uni.de))
+
+Materialien:
+* werden auf [Studynet](https://studynet.hs-fresenius.de/goto_STUDYNETHSF_fold_17283.html) bereitgestellt
+
+Interaktion während der Lehrveranstaltung:
+* [Note-Pad](https://docs.google.com/document/d/1dnTL3c64X8Z9hgiLzWk-SrjS0QJodd1TMauePhHf7dk/edit) 
+
+Prüfungsleistung:
+* Mündliche Prüfung (beide Vorlesungen gemeinsam)
+
