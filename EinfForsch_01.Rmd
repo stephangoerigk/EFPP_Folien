@@ -137,6 +137,25 @@ df %>%
 
 ---
 class: top, left
+### Wissenschaftliche Methoden?
+
+.center[
+*"Nichts beflügelt die Wissenschaft so wie der Schwatz mit Kollegen auf dem Flur."*
+
+Arno Penzias 
+]
+
+#### Psychologische Methodenlehre
+
+* Instrumentarium zur systematischen Entwicklung und Überprüfung (!) psychologischer Theorien
+
+* Manchmal mehrere Zugänge zur Erkenntnis (**Methodenpluralismus**)
+
+* Nutzen wissenschaftlicher Methoden unterscheiden Psychologie und Alltagspsychologie
+
+* Wissenschaftliche Systematik ermöglicht vergleichbare Erfassung individueller psychologischer Eigenschaften
+---
+class: top, left
 ### Was macht Psychologie einzigartig?
 
 #### Definitionen
@@ -167,9 +186,140 @@ class: top, left
 
 #### Verhalten, Erleben und Bewusstsein
 
-Menschliches Verhalten ist ohne mentale Prozesse (Erleben und Bewusstsein) nicht verständlich.
+* Gegenstand psychologischer Untersuchungen: **Individuum** (Neugeborenes, Athlet, Student, Frau, Mann...)
 
-Beschreibungsebenen: behavioral, emotional, kognitiv, (physiologisch)
+* **Verhalten:** Mittel durch welches Individuum sich an die Umwelt anpasst
+
+.pull-left[
+* Wesentlicher Teil der Psychologie: **Beobachtbares Verhalten**
+
+  * Lachen
+  * Weinen
+  * Sprechen
+  * Berühren
+  * ...
+]
+.pull-right[
+
+* Aber: Viele menschliche Aktivitäten laufen als private, **innere Prozesse** ab
+
+  * Denken
+  * Schlussfolgern
+  * Fantasieren
+  * Träumen
+  * ...
+]  
+
+**Annahme der meisten Psychologen:**
+
+$\rightarrow$ Menschliches Verhalten ist ohne mentale Prozesse (Erleben und Bewusstsein) nicht verständlich.
+
+---
+class: top, left
+### Was macht Psychologie einzigartig?
+
+#### Ziele der Psychologie
+
+1. Beschreibung
+
+2. Erklärung
+
+3. Vorhersage
+
+4. Kontrolle
+
+... menschlichen Verhaltens, Erleben und Bewusstseins (Gegenstand der Psychologie).
+
+---
+class: top, left
+### Was macht Psychologie einzigartig?
+
+#### Ziele der Psychologie
+
+.pull-left[
+
+##### Beschreibung
+
+**Wahl angemessener Analyseebene (grob $\rightarrow$ spezifisch)**
+
+**Aufgabe 1:** 
+
+Sie wollen sich mit einem Freund vor diesem Gemälde verabreden. Wie würden Sie es beschreiben?
+]
+
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "250px"}
+knitr::include_graphics("bilder/eifel.jpg")
+```
+]
+]
+
+---
+class: top, left
+### Was macht Psychologie einzigartig?
+
+#### Ziele der Psychologie
+
+.pull-left[
+##### Beschreibung
+
+**Wahl angemessener Analyseebene (grob $\rightarrow$ spezifisch)**
+
+**Aufgabe 2:** 
+
+Sie wollen, dass Ihr Freund das Gemälde exakt kopiert. Wie würden Sie es beschreiben?
+]
+
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "250px"}
+knitr::include_graphics("bilder/eifel.jpg")
+```
+]
+]
+
+---
+class: top, left
+### Was macht Psychologie einzigartig?
+
+#### Ziele der Psychologie
+
+##### Beschreibung
+
+**Wahl angemessener Analyseebene (grob $\rightarrow$ spezifisch)**
+
+Beispielverhalten: Jemanden überzeugen.
+
+.pull-left[
+**Beispiel Sprache:**
+
+* Gespräch
+* Aussage
+* Satz
+* Wort
+* Phonem 
+* Buchstabe
+]
+
+.pull-right[
+**Beispiel Physiologie:**
+
+* Gehirn
+* Frontallappen
+* Gyrus praecentralis
+* Neuron
+* Synapse
+* Protein
+]
+
+---
+class: top, left
+### Was macht Psychologie einzigartig?
+
+#### Verhalten, Erleben und Bewusstsein
+
+**Beschreibungsebenen:** behavioral, emotional, kognitiv, (physiologisch) 
 
 .pull-left[
 <br>
@@ -194,34 +344,26 @@ Beschreibungsebenen: behavioral, emotional, kognitiv, (physiologisch)
 ]
 
 ---
-class: top, left
-### Was macht Psychologie einzigartig?
-
-#### Ziele der Psychologie
-
-1. Beschreibung
-
-2. Erklärung
-
-3. Vorhersage
-
-4. Kontrolle
-
----
-class: top, left
-### Was macht Psychologie einzigartig?
-
-#### Ziele der Psychologie
-
-##### Beschreibung
-
----
 ### Was macht Psychologie einzigartig?
 
 #### Ziele der Psychologie
 
 #####  Erklärung
 
+* Erklärungen gehen über das Beobachtbare hinaus
+
+* **regelhafte Muster** in Verhalten und mentalen Prozessen finden
+
+* Ideal: Identifizieren von **Kausalitäten**
+
+* verstehen, "wie etwas funktioniert"
+
+* Psychologie: i.d.R. **Komination** von Determinanten
+
+  * innere/organismische/dispositionelle Variablen
+  * externale/situationale/Umweltvariablen
+  
+* **Aufgabe:** Erklären Sie warum Menschen mit dem Rauchen anfangen?
 
 ---
 class: top, left
@@ -231,6 +373,16 @@ class: top, left
 
 #####  Vorhersage
 
+* Wahrscheinlichkeit über Auftreten bestimmten Ereignisses
+
+* Wann und unter welchen Bedingungen?
+
+* z.B. mehrere Erklärungen (s.o.) denkbar $\rightarrow$ die wahrscheinlichste gewinnt
+
+* **Prädiktoren** = bedingende Faktoren
+
+* Vorhersagen müssen exakt formuliert werden
+
 ---
 class: top, left
 ### Was macht Psychologie einzigartig?
@@ -239,6 +391,19 @@ class: top, left
 
 #####  Kontrolle
 
+* für viele das zentralste Ziel
+
+* setzt häufig genaue Beschreibung/Vorhersage, bzw. Verständnis voraus
+
+* Verhalten oder mentale Prozesse 
+
+  * auftreten lassen
+  * sie aufrechterhalten
+  * sie beenden
+  
+* Verhaltenskontrolle durch **Interventionen** (z.B. Psychotherapie)
+
+* **Aufgabe:** Was fallen Ihnen für psychologische Möglichkeiten der **Kontrolle** ein?
 ---
 class: top, left
 ### Entwicklung der modernen Psychologie
@@ -386,7 +551,7 @@ Wie kann über etwas, das ganz allein meine innerste private Erfahrung ist wisse
 Wissenschaft ist...
 * ein soziales, kollektives Unterfangen
 * ein Kommunikationssystem
-* funktionier nach bestimmten (oft implizit) festgelegten Regeln 
+* funktioniert nach bestimmten (oft implizit) festgelegten Regeln 
 
 **Oberster Grundsatz der Wissenschaft**:
 
@@ -516,9 +681,9 @@ Grundrichtungen der Psychologie (**Paradigmen**, s.h. 3. Vorlesung)
 
 #### Hermann Ludwig von Helmholtz (Sinnesphysiologie)
 
-* sinnlicher Wahrnehmung aus der Perspektive der Physiologie
+* sinnliche Wahrnehmung aus der Perspektive der **Physiologie**
 
-* Aufnahme von Reizen durch Sinnesorgane mit Bildung neuronaler Signale sowie deren Verarbeitung im Nervensystem
+* Aufnahme von **Reizen** durch Sinnesorgane mit Bildung **neuronaler Signale** (Verarbeitung im Nervensystem)
 
   * Sehen – visuelle Wahrnehmung
   * Hören – auditive Wahrnehmung
@@ -538,20 +703,27 @@ Grundrichtungen der Psychologie (**Paradigmen**, s.h. 3. Vorlesung)
 
 * Teilgebiet der **experimentellen Psychologie** 
 
-* Fokus: v.A. Wahrnehmung (**low Level**)
+* Fokus: v. A. Wahrnehmung (**low Level**)
 
-* Unterscheidung: äußere vs. innere Psychophysik
+* Unterscheidung: äußere (1) vs. innere (2) Psychophysik
 
 * Zusammenhang zwischen Reizungen der Sinnesorgane und Erleben
 
-* befasst sich z. T. auch mit ästhetischen Fragen des Geschmacks
+* befasst sich z. T. auch mit **ästhetischen** Fragen des Geschmacks
 ]
 
 .pull-right[
 .center[
+.pull-left[
 ```{r eval = TRUE, echo = F, out.width = "200px"}
 knitr::include_graphics("bilder/fechner.jpg")
 ```
+]
+.pull-right[
+```{r eval = TRUE, echo = F, out.width = "300px"}
+knitr::include_graphics("bilder/psychophysik.png")
+```
+]
 ]
 ]
 
@@ -663,7 +835,7 @@ Wissenschaftliche Methodik:
 
 * **Retrospektion** = rückschauenden Selbstbeobachtung
 
-* Ziel: experimentelle Erforschung von Denk- und Willensvorgängen
+* **Ziel:** experimentelle Erforschung von Denk- und Willensvorgängen
 
 * Assistenten und Professoren waren Versuchsleiter und Versuchperson
 
@@ -682,23 +854,23 @@ Wissenschaftliche Methodik:
 
 #### Würzburger Schule
 
-Beispiele für damals verwendete Denkaufgaben:
+Beispiele für damals verwendete **Denkaufgaben**:
 
 * Wissensfragen
 
-* Gedankenpaarungen eingeprägen und reproduzieren
+* Gedankenpaarungen eingeprägen und reproduzieren (z.B. *Hannibal, Elefant*)
 
-* philosophische Aphorismen verstehen
+* philosophische Aphorismen verstehen (z.B. *Wer ein Warum hat, dem ist kein Wie zu schwer.*)
 
-* Teile von Sprichwörtern ergänzen
+* Teile von Sprichwörtern ergänzen (z.B. *Eigensinn – ist die Energie der Dummen.*)
 
 aus "Tatsachen und Probleme einer Psychologie der Denkvorgänge", Karl Bühler (1907/1908)
 
-Hauptergebnisse laut Bühler:
+**Hauptergebnisse laut Bühler:**
 
 1. Träger jedes geordneten Denkverlaufs = **Gedanken**
 2. Gedanken = "unanschauliche“, von Sinnesempfindungen und Wahrnehmungen losgelöste Erlebniseinheiten
-3. Gedankenfolge im Denkverlauf gehorcht nicht primär Gesetzen der Assoziation, sondern Forderungen der gedachten Gegenstände.
+3. **Gedankenfolge** im Denkverlauf gehorcht nicht primär Gesetzen der Assoziation, sondern Forderungen der gedachten Gegenstände.
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -722,17 +894,17 @@ Antwort (nach 10 sec.): „Nein“
 
 #### Würzburger Schule
 
-* Retrospektion = unmittelbarer Ausdruck inneren Erlebens?
+* **Retrospektion** = unmittelbarer Ausdruck inneren Erlebens?
 
-* nachträgliche Beschreibung in der versucht wird, über innere Abläufe so zu reden, wie ein Naturforscher über Vorgänge der äußeren Natur redet
+* **nachträgliche Beschreibung** in der versucht wird, über innere Abläufe so zu reden, wie ein Naturforscher über Vorgänge der äußeren Natur redet
 
-* Voraussetzung: Beschreibung muss vom Versuchsleiter verstanden und für seine wissenschaftlichen Zwecke verwertet werden können
+* **Voraussetzung:** Beschreibung muss vom Versuchsleiter verstanden und für seine wissenschaftlichen Zwecke verwertet werden können
 
-* in einer weitgehend formelhaften, weitgehend normierten Sprache erfolgt
+* in einer weitgehend formelhaften, **normierten Sprache** erfolgt
 
-* Je mehr aber die sprachliche Kommunikation normiert wird, desto mehr ist sie zwangsläufig von der phänomenalen Wirklichkeit des Erlebens entfernt.
+* Je mehr aber die sprachliche Kommunikation normiert wird, desto mehr ist sie zwangsläufig von der **phänomenalen Wirklichkeit** des Erlebens entfernt.
 
-* In der Würzburger Schule wird das Problem der Selbstbeobachtung zum Problem der sprachlichen Kommunizierbarkeit inneren Erlebens.
+* In der Würzburger Schule wird das Problem der Selbstbeobachtung zum Problem der **sprachlichen Kommunizierbarkeit** inneren Erlebens.
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -798,7 +970,7 @@ knitr::include_graphics("bilder/noema.jpg")
 
 Quantifizierung von Bewusstseinsphänomenen:
 
-* Apperzeption: Eintreten eines Bewusstseinsinhaltes in das "innere Blickfeld"
+* **Apperzeption:** Eintreten eines Bewusstseinsinhaltes in das "innere Blickfeld"
 
 * würde man heute ggf. mit Aufmerksamkeit übersetzen
 
@@ -820,7 +992,7 @@ knitr::include_graphics("bilder/tachi.png")
 .pull-left[
 Quantifizierung von Bewusstseinsphänomenen:
 
-* Emotion: Provokation bestimmter Affekte
+* **Emotion:** Provokation bestimmter Affekte
 
 * Registrierung Puls und Atmung 
 
@@ -846,13 +1018,13 @@ knitr::include_graphics("bilder/kymo.jpg")
 
 ##### Wundts Definition: Das psychologische Experiment
 
-1. Der Beobachter muss womöglich in der Lage sein, den Eintritt des zu beobachtenden Vorganges selbst bestimmen zu können.
+1.  willkürliche Wahl des Zeitpunktes
 
-2. Der Beobachter muss, soweit möglich, im Zustand gespannter Aufmerksamkeit die Erscheinungen auffassen und in ihrem Verlauf verfolgen.
+2.  optimale Einstellung der Aufmerksamkeit des Beobachters
 
-3. Jede Beobachtung muss zum Zweck der Sicherung der Ergebnisse unter den gleichen Umständen mehrmals wiederholt werden können.
+3.  Wiederholung zur Sicherung der Ergebnisse
 
-4. Die Bedingungen, unter denen die Erscheinung eintritt, müssen durch Variation der begleitenden Umstände ermittelt und, wenn sie ermittelt sind, in den verschiedenen zusammengehörigen Versuchen planmäßig verändert werden, indem man sie teils in einzelnen Versuchen ganz ausschaltet, teils in ihrer Stärke oder Qualität abstuft.“
+4.  systematische Variation der Randbedingungen; Ein- und Ausschalten der für die Erscheinung
 
 Neuere Lehrbücher geben Definitionen, die an Wundt anschließen, jedoch weitere Definitionsmerkmale und Unterscheidungen enthalten (vgl. Psychologisches Experiment).
 
@@ -863,171 +1035,86 @@ Neuere Lehrbücher geben Definitionen, die an Wundt anschließen, jedoch weitere
 
 ##### Implikationen des Experimentellen Ansatzes
 
-*  Psychologen-Generation nach Wundt gegann, Psychisches in seiner Beziehung zu physischen Vorgängen zu betrachten. 
+*  Psychologen-Generation nach Wundt begann, Psychisches in seiner Beziehung zu physischen Vorgängen zu betrachten. 
 
-* privates subjektives Erleben nicht objektiv, d. h. intersubjektiv verbindlich beobachtbar 
+* private,s subjektives Erleben nicht objektiv, d. h. intersubjektiv verbindlich beobachtbar 
 
-* ABER: körperlichen Vorgänge (begleiten viele psychischen Vorgänge)
+* **ABER:** körperlichen Vorgänge (begleiten viele psychischen Vorgänge) sind messbar
 
-* Diskussion: Wie sehr ist dieser Ansatz haltbar?
+* **Diskussion:** Wie sehr ist dieser Ansatz haltbar?
 
----
-### Wie ist Psychologie als Wissenschaft möglich?
+**Grenzen der Methode nach Wundt:**
 
-#### Willhelm Wundt (Experimentelle Psychologie und Strukturalismus)
-
-##### Die Wundt-Bühler Kontroverse
-
-In einer Kontroverse mit Karl Bühler lehnte Wundt die denkpsychologischen Untersuchungen Bühlers als „Ausfrageexperimente“ scharf ab, weil die verlangten (freien) introspektiven Berichte den aktuellen Denkprozess durch das Verbalisieren verändern. Demgegenüber sah Wundt in seiner Sprachpsychologie einen adäquaten Weg denkpsychologischer Forschung. Bühlers Forschung liefe auf unsichere und zufällige Auskünfte hinaus, und es mangele an Wiederholbarkeit.
+* geeignet für einfache psychische Vorgänge (z.B. Wahrnehmung)
+* ungeeignet für höhere psychische Vorgänge (z.B. Denken, Problemlösen)
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
 
 #### Willhelm Wundt (Experimentelle Psychologie und Strukturalismus)
 
-"KINDER" des Leipziger Laboratoriums
+##### Berühmte Wundt-Schüler
 
-Wundts Vorlesungen und sein Labor wurden von Studenten und Gästen aus aller Welt besucht. Viele seiner Assistenten und zeitweiligen Mitarbeiter gehören zu der Gründergeneration der Psychologie als wissenschaftlicher Disziplin.[1] So gründete Benjamin Bourdon (1860–1943), ein französischer Schüler Wundts, 1896 ein psychologisches Laboratorium in Rennes, Victor Henri (1872–1940) arbeitete in Paris unter der Leitung von Alfred Binet ab 1895 nach einer Ausbildung bei Wundt. Auch Stanley Hall (1844–1924) war zwei Jahre lang in Leipzig und etablierte das erste psychologische Laboratorium der USA an der Johns Hopkins University in Baltimore ab 1882. Dort war sein Nachfolger John B. Watson (1878–1958), der Begründer des Behaviourismus. Wundts erster Assistent James McKeen Cattell (1860–1944) wurde 1888 der erste Psychologie-Professor in den USA. Der US-Amerikaner Lightner Witmer (Februar 1891-Ende 1892 in Leipzig, erhielt sein doctoral diploma von Wundt) eröffnete 1896 die erste Psychologische Klinik an der University of Pennsylvania mit der Absicht, Kinder zu beobachten, die entweder Lernschwächen oder Verhaltensauffälligkeiten zeigten. Ein weiterer Schüler Wundts war der Begründer des Strukturalismus, Edward Bradford Titchener (1867–1927). Auch Emil Kraepelin (1856–1926), der Pionier der modernen Psychiatrie, lernte in Leipzig die Methoden der experimentellen Psychologie kennen. 1887 promovierte Oswald Külpe und habilitierte sich ein Jahr später mit „Die Lehre vom Willen in der neueren Philosophie“; 1887–94 war er Assistent. Mit der Würzburger Schule ging er jedoch später eigene Wege.
+* Wundts Assistenten gehören zu der Gründergeneration der Psychologie als wissenschaftlicher Disziplin 
+* **Stanley Hall** (1844–1924)   
+ * gründete erstes psychologische Laboratorium der USA() Johns Hopkins University)
+* **James McKeen Cattell** (1869-1944)
+  * Einer der Begründer der Differentiellen und Persönlichkeitspsychologie
+* **Lightner Witmer** (1867-1956)
+  * einer der Pioniere der Schulpsychologie
+  * gründete er die erste „psychologische Klinik“ in den USA
+  * prägte den Begriff „klinische Psychologie“.
+* **Edward Bradford Titchener** (1867–1927)
+  * Begründer des Strukturalismus
+* **Emil Kraepelin** (1856–1926)
+  * der Pionier der modernen Psychiatrie
+* **Oswald Külpe** (1862-1914)
+  * Gründer der Denkpsychologie und der Würzburger Schule
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
 
-#### Behaviorismus - Der amerikanische Weg
+#### Ausblick: Versuche zur experimentellen Untersuchung höherer Kognitionen
 
-In den Vereinigten Staaten hat die Psychologie eine ganz andere Entwicklung genommen. Hier musste sich die Disziplin nicht innerhalb eines bereits festgefügten Universitätssystems entwickeln. Die amerikanische Universitäten entstanden eben erst zu jener Zeit, als die Psychologie in Europa ihre ersten eigenständigen Schritte tat. Auch waren diese Universitäten von Anfang an anders organisiert als ihre deutschen Vorbilder. Die Kontrolle über Stellenbesetzungen, Finanzierung etc. lag nicht in der Verantwortung staatlicher Einrichtungen, sondern in den Händen wirtschaftlicher Interessensgruppen und der sie repräsentierenden Politiker. Von der Förderung der Wissenschaft versprach man sich vor allem eines: einen praktischen Nutzen. Von den Humanwissenschaften – so auch von der Psychologie – wurde ein Beitrag zu Lösung der vielen sozialen Probleme erwartet, die der rasche Übergang von einem Agrar- zu einem Industriestaat mit sich brachte.
-Diesen Hintergrund – ich werde auf ihn vor allem unter dem Kapitel „Psychologie des Lernens“ noch ausführlich zu sprechen kommen – müssen wir uns vergegenwärtigen, wenn wir verstehen wollen, warum in den USA die Definition der Psychologie als Wissenschaft vom inneren Erleben fallengelassen und durch die Bestimmung: „Psychologie ist die Wissenschaft vom Verhalten von Organismen“ ersetzt wurde. Das ging natürlich nicht von heute auf morgen von statten. Die Konsequenz aber war von allen Anfang an klar: Wenn das innere Erleben oder die Struktur des privaten Bewusstseins als Gegenstand der Psychologie aufgegeben wird, dann lösen sich alle die Probleme der Introspektion, die wir bisher angedeutet haben, sozusagen in Luft auf. Die Sache wurde erstmals 1913 von John B. Watson (1878-1858) in aller Radikalität auf den Punkt gebracht. Zu Beginn seiner Programmschrift, dem Gründungsmanifest des Behaviorismus, Psychology as the Behaviorist views it heißt es:
-„Psychologie, wie sie der Behaviorist sieht, ist ein vollkommen objektiver, experimenteller Zweig der Naturwissenschaft. Ihr theoretisches Ziel ist die Vorhersage und Kontrolle von Verhalten. Introspektion spielt keine wesentliche Rolle in ihren Methoden, und auch der wissenschaftliche Wert ihrer Daten hängt nicht davon ab, inwieweit sie sich zu einer Interpretation in Bewusstseinsbegriffen eignen. Bei dem Bemühen, ein einheitliches Schema der Reaktionen von Lebensweisen zu gewinnen, erkennt der Behaviorist keine Trennungslinie zwischen Mensch und Tier an.“
+.pull-left[
 
----
-### Wie ist Psychologie als Wissenschaft möglich?
+##### Beispiel: Einstellungen
 
-#### Der geisteswissenschaftliche Weg
+**Implizite Assoziationstest (IAT)**
 
-Wie der Behaviorismus ein rein US-amerikanisches, so ist die geisteswissenschaftliche Psychologie ein rein deutsches Unternehmen. Die wichtigsten Vertreter sind: Wilhelm Dilthey (1833-1911; Begründer der ganzen Richtung; Ideen über eine beschreibende und zergliedernde Psychologie aus 1894), Eduard Spranger (1882-1963), Karl Jaspers (1883-1969), Theodor Erismann (1883-1961)
-Bei der geisteswissenschaftlichen Psychologie handelt es sich um alles andere als um eine irgendwie einheitliche Denkschule. Gemeinsam ist diesen Ansätzen, dass sie jede Art von naturwissenschaftlichen Erklärung menschlicher Lebensverhältnisse als unangemessen zurückweisen. Die wissenschaftliche Untersuchung des geistigen Lebens der Menschen bedarf, so wird behauptet, einer eigenen, von den Naturwissenschaften unterschiedenen Forschungsstrategie.
-„Es ist tatsächlich kein Mensch das, was er ist, rein aus sich selbst geworden, sondern nur unter dem bestimmenden Einfluss der Gesellschaft, in der er lebt.“ Diesen Satz – er stammt aus einer frühen programmatischen Schrift über Völkerpsychologie – könnte man getrost der ganzen Bewegung als eine Art Motto voranstellen. Nach Ansicht der Vertreter der geisteswissenschaftlichen Psychologie erhält jedes individuelle menschliche Handeln seinen Sinn und seine Bedeutung erst durch den kulturellen Kontext, in dem es sich vollzieht. D. h., dass mir als Beobachter Sinn und Zweck von jedem individuellen Handeln nur zugänglich ist, wenn ich die kulturellen Lebensäußerungen der Gemeinschaft, dem dieses Individuum angehört, verstehe. Solche kulturellen Lebensäußerungen – nach Dilthey hat sich dafür der aus der Philosophie Hegels entlehnte Begriff des „objektiven Geistes“ durchgesetzt – sind z. B. die Sprache, soziale Normen und Gebräuche, Handlungsgewohnheiten, kulturelle, staatliche, rechtliche, wirtschaftliche Einrichtungen, aber auch Dichtungen, Gemälde, Musikstücke oder philosophische Abhandlungen etc.
-In methodischer Hinsicht – und das ist für unseren Zusammenhang entscheidend - geht die geisteswissenschaftliche Psychologie davon aus, dass das innere psychische Erleben einer wissenschaftlichen Untersuchung nicht direkt zugänglich ist. Der wissenschaftlichen Untersuchung zugänglich ist allerdings der Ausdruck dieses Erlebens, seine Objektivationen (wie man damals sagte) in individuellen Handlungen. Über den Erlebnisausdruck ist schließlich ein Verstehen dieses Erlebens selbst möglich. Das Verstehen fremder Lebensäußerungen setzt aber ein verwandtes eigenes Erleben voraus; Verstehen von Fremderleben gründet sich also in einem Nacherleben.
-Das klingt jetzt vielleicht ein bisschen nach der vielzitierten Empathie in der Gesprächspsychotherapie, und Sie werden sich fragen, wie man auf „Einfühlen“ und „Nacherleben“ eine wissenschaftliche Psychologie bauen soll. Die Sache stellt sich jedoch gleich anders dar, wenn wir statt Verstehen „Interpretation“ und statt Objektivationen in individuellen Handlungen konkrete „Produkte“ einsetzen: also, dass wir in der Psychologie die Aussagen von interviewten Personen interpretieren, werden Sie sich leicht vorstellen können, und ebenso, dass wir gelegentlich auch die geistigen Produktionen von Menschen – Gedichte, Zeichnungen oder, vor allem für die Entwicklungspsychologie von Bedeutung, z. B. die Tagebuchaufzeichnungen von Jugendlichen als Material für unsere psychologischen Analysen verwenden. Die Kunst der wissenschaftlichen Interpretation solcher kulturellen Erzeugnisse bezeichnet man als Hermeneutik. Hermeneutik ist also die Methode des Deutens, Auslegens, Verstehen von schriftlichen Texten (darauf war der Begriff zunächst ausschließlich bezogen!), gesprochenen Worten, allgemein (und dann lässt sich auch das individuelle Handeln leicht subsumieren) von allen irgendwie symbolisch artikulierten Bedeutungen, d.h. von allem was sinnvoll ist, von allem, was einen Sinn hat oder auch nur Sinn haben könnte. Grundlage dieser Methode ist der sogenannte „hermeneutische Zirkel“: Einzelnes kann nur in seiner Beziehung zum Ganzen, das Ganze aber wiederum nur durch eine angemessene Interpretation des Einzelnen verstanden werden.
+* Messverfahren in der Sozialpsychologie
 
+* Ziel: Stärke der Assoziationen zwischen einzelnen Elementen des Gedächtnisses messen
 
----
-class: top, left
-### Entwicklung der modernen Psychologie
+* impliziten Messung von Einstellungen (z.B. **Stereotype**)
 
-#### Zugang zu mentalen Prozessen
-
-"Psychologie ist Lehre von der unmittelbaren Erfahrung"
-
-Wilhelm Wundt
-
-(heute würden man sagen: „vom Erleben“ oder „vom Bewusstsein“)
-
-Gegenstand der Psychologie sind demnach die „Objekte“, so wie sie uns im Bewusstsein erscheinen.
-
+* **Logik:** Personen fällt es leichter (schneller) assoziierte Konzepte mit derselben Antworttaste zu reagieren
+]
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "320px"}
+knitr::include_graphics("bilder/iat.gif")
+```
+]
+]
+ https://de.wikipedia.org/w/index.php?curid=1884957
 ---
 class: top, left
-### Entwicklung der modernen Psychologie
+### Take-Aways
+.content-box-gray[
+* Psychologie befasst sich mit **Verhalte, Erleben und Bewusstsein**
 
-#### Zugang zu mentalen Prozessen
+* Ziele psychologischer Forschungsarbeit sind **Beschreibung, Erklärung, Vorhersage Kontrolle**
 
-Beispiel einer ungeeigneten Anwendung der Methode (laut Wundt): Bühlers „Ausfrageexperimente“ des lauten Denkens
--> Bühler stellte seinen Probanden Fragen, wie:
-„Wenn Eucken von einer weltgeschichtlichen Apperzeption spricht, wissen Sie, was er damit meint?“
--> Probanden mussten antworten und berichten, wie sie zur Antwort kamen.
+* Menschen denken seit jeher über ihre Natur nach, wissenschaftliche Psychologie seit **19. Jahrhundert**
 
+* **Introspektion** = Selbstbeobachtung mentaler Prozesse
 
-Beispiel einer ungeeigneten Anwendung der Methode (laut Wundt): Bühlers „Ausfrageexperimente“ des lauten Denkens
--> Bühlers berühmt gewordenes Ergebnis:
-„Aha“-Erlebnisse = unanschauliche Gedanken, denen keine anschaulichen Empfindungen entsprechen, gingen der Antwort voraus.
--> nach Wundt sind das Scheinexperimente, denn sie erfüllen keines der Kriterien der experimentellen Methode
+* **Introspektionsproblem:** Beobachteter = Beobachtender
 
----
-class: top, left
-### Entwicklung der modernen Psychologie
+* Schließen auf Inneres durch Erfassung des Beobachtbaren (**Experimenteller Ansatz**)
 
-#### Zugang zu mentalen Prozessen
-
-Grenzen der Methode nach Wundt:
--> geeignet für einfache psychische Vorgänge (z.B. Wahrnehmung)
--> ungeeignet für höhere psychische Vorgänge (z.B. Denken, Problemlösen)
-
----
-class: top, left
-### Entwicklung der modernen Psychologie
-
-#### Zugang zu mentalen Prozessen
-
-Grenzen der Methode nach Wundt:
--> geeignet für einfache psychische Vorgänge (z.B.
-Wahrnehmung)
--> ungeeignet für höhere psychische Vorgänge (z.B. Denken, Problemlösen)
-
--> erfüllt im Idealfall vier Kriterien der experimentellen Methode, gesehen am Beispiel der induzierten Bewegung:
-(1) willkürliche Wahl des Zeitpunktes
-(2) optimale Einstellung der Aufmerksamkeit des Beobachters
-(3) Wiederholung zur Sicherung der Ergebnisse
-(4) systematische Variation der Randbedingungen; Ein- und Ausschalten der für die Erscheinung kritischen Randbedingungen
-
----
-class: top, left
-### Entwicklung der modernen Psychologie
-
-#### Zugang zu mentalen Prozessen
-
-Introspektion
-
----
-class: top, left
-### Entwicklung der modernen Psychologie
-
-#### Zugang zu mentalen Prozessen
-
-Objektivität: Kommen verschiedene Personen zu denselben Ergebnissen? Sind die Ergebnisse unabhängig vom Untersucher und vom Untersuchten?
-Introspektion:
--> subjektive Daten
-Leistungen und physiologische Reaktionen: -> objektive Daten
+* Unterschiedliche Lösungsansätze für Introspektionsproblem führten zu **Paradigmen** der Psychologie
+]
 
 
-Einschränkungen der Objektivität bei introspektiven Daten: -> Vergessen (z.B. wenn zwischen Introspektion und
-Selbstbericht Zeit vergeht)
--> Unzugänglichkeit (z.B. unbewusste Prozesse sind der Introspektion nicht zugänglich)
--> Verfälschbarkeit (z.B. im Sinne sozialer Erwünschtheit); Bsp. Einstellungsmessung: „Sind Sie fremdenfeindlich?“
-
---> IAT vs. Befragung
----
-class: top, left
-### Vom schlussfolgernden Beobachten zur experimentellen Methode
-
-#### Wurzeln der empirischen Psychologie
-
-Mensch als Wissenschaftler
-
-John Stuart Mill: A System of Logic (1843) – Five methods of induction
-
-Induktives Schließen
--> Schluss von der vergleichenden Beobachtung auf generelle zugrundeliegende Ursachen.
-
-1. Direct method of agreement
-2. Method of difference
-3. Method of concomitant variations
-
----
-class: top, left
-### Test Slide
-
----
-class: top, left
-### Test Slide
-
----
-class: top, left
-### Test Slide
-
-.full-width[.content-box-gray[I feel **bluemmlmlmbbjkjb**]]
-.content-box-gray[I feel **bluemmlmlmbbjkjb**]
-
-# Fragen
-
-* Welche 4 Komponenten umfasst die Definition des Begriffs "Psychologie"?
-* Welche 4 Ziele sind für Psychologen in der Forschungsarbeit relevant?
-* Warum besteht oft ein enger Zusammenhang zwischen den Zielen, der Erklärung und denen der Vorhersage?
