@@ -8,6 +8,10 @@
     <link href="libs/remark-css/hygge.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
     <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/fabric/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#EE0071"],"pen_size":4,"eraser_size":40,"palette":[]}) })</script>
     <script src="libs/kePrint/kePrint.js"></script>
     <link href="libs/lightable/lightable.css" rel="stylesheet" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
@@ -21,9 +25,9 @@
 name: Title slide
 class: middle, left
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-# Einführung in die Psychologie, ihre Geschichte und Forschungsmethoden
+# Einführung in die Forschungsmethoden der Psychologie und Psychotherapie
 
-### Einheit 1
+### Einheit 1: Wie ist Psychologie als Wissenschaft möglich? 
 ##### 12.10.2022 | Dr. Stephan Goerigk
 
 ---
@@ -37,7 +41,7 @@ Dr. Stephan Goerigk
 
 Psychologische Methodenlehre
 
-Infanteriestraße 11a · 80797 München · Raum: xxx
+Infanteriestraße 11a · 80797 München ·
 
 [stephan.goerigk@charlotte-fresenius.de](mailto:stephan.goerigk@charlotte-fresenius.de)
 
@@ -58,7 +62,6 @@ Kenncode: 807174
 .bottom[![](rtransperency.png)]
 ]
 ]
-
 ---
 class: top, left
 ### Übersicht Lehrveranstaltung 
@@ -78,7 +81,7 @@ Interaktion während der Lehrveranstaltung:
 * [Note-Pad](https://docs.google.com/document/d/1dnTL3c64X8Z9hgiLzWk-SrjS0QJodd1TMauePhHf7dk/edit) 
 
 Prüfungsleistung:
-* Mündliche Prüfung (beide Vorlesungen gemeinsam)
+* Mündliche Prüfung (beide VOs gemeinsam)
 
 ---
 class: top, left
@@ -96,12 +99,12 @@ class: top, left
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; 12.10.2022 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Wie ist Psychologie als Wissenschaft möglich? - 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Wie ist Psychologie als Wissenschaft möglich? &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; 19.10.2022 &lt;/td&gt;
-   &lt;td style="text-align:left;"&gt; Wie ist Psychologie als Wissenschaft möglich? - 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Wissenschafts- und Erkenntnistheorie &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; 3 &lt;/td&gt;
@@ -173,7 +176,7 @@ class: top, left
 #### Definitionen
 
 .center[
-Frage:
+**Frage:**
 
 „Womit befasst sich die Psychologie?“
 
@@ -182,7 +185,7 @@ Wissenschaftlich ausgedrückt:
 „Was ist der Gegenstand der Psychologie?“
 ]
 
-Definition:
+**Definition:**
 
 Gegenstand der Psychologie sind 
 * **Verhalten**
@@ -198,7 +201,7 @@ class: top, left
 
 #### Verhalten, Erleben und Bewusstsein
 
-Menschlliches Verhalten ist ohne mentale Prozesse (Erleben und Bewusstsein) nicht verständlich.
+Menschliches Verhalten ist ohne mentale Prozesse (Erleben und Bewusstsein) nicht verständlich.
 
 Beschreibungsebenen: behavioral, emotional, kognitiv, (physiologisch)
 
@@ -277,22 +280,29 @@ class: top, left
 #### Historische Grundlagen
 
 .center[
-"Die Psychologie hat eine lange Vergangenheit, aber nur eine kurze Geschichte"
+*"Die Psychologie hat eine lange Vergangenheit, aber nur eine kurze Geschichte."*
 
 Gedächtnisforscher Hermann Ebbinghaus (1908)
 ]
 
+.pull-left[
 Was ist damit gemeint?
 
-Seit Jahrtausenden beschäftigen sich Menschen mit dem Nachdenken über
+Seit Jahrtausenden denken Menschen nach über
 * die Natur des Menschen
 * die Geheimnisse seiner Seele
 * die Beweggründe seines Handelns
 * seine Gefühle
 * seine Erkenntnisfähigkeit
+]
 
-ABER: Psychologie als empirische, methodisch überprüfbare Forschung wird erst seit dem 19. Jahrhundert betrieben.
-Zeit, in der sich die Naturwissenschaften zu emanzipieren begannen und gegenüber den Geisteswissenschaften und Religion die Deutungshoheit über Mensch und Welt beanspruchten
+.pull-right[
+.center[
+&lt;img src="bilder/ebbinghaus.jpg" width="200px" /&gt;
+]
+]
+
+**ABER:** Psychologie als empirische, methodisch überprüfbare Forschung wird erst seit dem 19. Jahrhundert betrieben.
 
 ---
 class: top, left
@@ -300,10 +310,29 @@ class: top, left
 
 #### Historische Grundlagen
 
-Deutungshoheit über Natur des Menschen vor dem 19. Jahrhundert
+.pull-left[
+**Deutungshoheit** über Natur des Menschen vor dem 19. Jahrhundert:
+
 * Dichter und Denker
 * Philosophie
 * Religionen und ihre Vertreter
+
+**Erkenntnisgewinn** durch: 
+
+* gründliches Nachdenken
+* Spekulation
+* Debatte
+]
+
+.pull-right[
+.center[
+&lt;img src="bilder/denker.jpg" width="200px" /&gt;
+]
+]
+
+**Ab 19. Jahrhundert:**
+* Naturwissenschaften emanzipieren sich und gegenüber Geisteswissenschaften und Religion 
+* beanspruchen Deutungshoheit über Mensch und Welt
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -343,7 +372,7 @@ Ich habe ich ein Bewusstsein meiner selbst und der Welt um mich herum
 Andere müssen auch ein solches Bewusstsein haben.
 ]
 
-ABER: Was aber berechtigt mich zu diesem Schluss? 
+**ABER:** Was aber berechtigt mich zu diesem Schluss? 
 
 Ich bediene mich einer **Heuristik**:
 * Ich bin nicht alleine auf der Welt
@@ -356,13 +385,22 @@ Ich bediene mich einer **Heuristik**:
 
 #### Die Welt im Kopf
 
+.pull-left[
+
 ##### Das Dilemma des Analogieschlusses
 
-Erinnerung: Untersuchungsgegestand der Psychologie:
+**Untersuchungsgegestand der Psychologie:**
 
-* Verhalten des Menschen `\(\rightarrow\)` beobachtbar
-* Erleben des Menschen `\(\rightarrow\)` ?
-* Bewusstsein des Menschen `\(\rightarrow\)` ?
+* Verhalten des Menschen `\(\rightarrow\)` **beobachtbar**
+* Erleben des Menschen `\(\rightarrow\)` **?**
+* Bewusstsein des Menschen `\(\rightarrow\)` **?**
+]
+
+.pull-right[
+.center[
+&lt;img src="bilder/Head.jpg" width="250px" /&gt;
+]
+]
 
 **Dilemma**:
 
@@ -380,15 +418,15 @@ Wissenschaft ist...
 
 **Oberster Grundsatz der Wissenschaft**:
 
-Das (z.B. Wissen), was erforscht wird und das Wie des Forschens (Entstehung, Begrüngung, Methode) muss 
+Das, was erforscht wird und das Wie des Forschens (Entstehung, Begrüngung, Methode) muss ...
 
 * kommunizierbar sein
 
-und von jedem Teilnehmer des Kommunikationssystems, der sich entsprechend kundig gemacht hat
+...und von jedem Teilnehmer des Kommunikationssystems, der sich entsprechend kundig gemacht hat...
 
 * intersubjektiv nachvollziehbar 
 
-* und überprüfbar sein.
+* überprüfbar sein.
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -400,16 +438,16 @@ Wie also soll in diesem Sinne öffentliches Wissen über privates Erleben mögli
 .center[
 **Zentralproblem der Psychologie**
 
-Das forschende Subjekt muss sich selbst als Forschungsobjekt nehmen. 
+*Das forschende Subjekt muss sich selbst als Forschungsobjekt nehmen. *
 
-Forschungspraktisch formuliert: 
+**Forschungspraktisch formuliert: **
 
-Das beobachtende Subjekt fällt mit dem zu beobachtenden Objekt zusammen.
+*Das beobachtende Subjekt fällt mit dem zu beobachtenden Objekt zusammen.*
 ]
 
-Weitere Zuspitzung:
+**Weitere Zuspitzung:**
 
-* Wie der Gegenstand, so ist auch die Auffassung dieses Gegenstandes ein privater Vollzug.
+* Wie der Gegenstand, so ist auch die **Auffassung** dieses Gegenstandes ein privater Vollzug.
 * Der Beobachter muss sein eigenes Beobachten beobachten.
 
 `\(\rightarrow\)` Wie kann unter diesen Umständen die Psychologie eine Wissenschaft sein?
@@ -420,7 +458,7 @@ Weitere Zuspitzung:
 #### Psychisches Erleben und Selbstbeobachtung
 
 .pull-left[
-Begriffsklärungen und Voraussetzungen:
+**Begriffsklärungen und Voraussetzungen:**
 
 **Psychisches Erleben** (z.B. denken, fühlen...)
 * Vorgang ist uns irgendwie „gegeben“ 
@@ -441,24 +479,33 @@ Begriffsklärungen und Voraussetzungen:
 
 #### Psychisches Erleben und Selbstbeobachtung
 
+##### Übung in Introspektion
+
+.center[
+*“Es ist nicht immer einfach, zwischen Nachdenken und dem Blick aus dem Fenster zu unterscheiden.”*
+
+Wallace Stevens
+
+**Übung:** 2 Minuten Selbstbeobachtung
+
+&lt;img src="bilder/hopper.jpg" width="700px" /&gt;
+]
+---
+### Wie ist Psychologie als Wissenschaft möglich?
+
+#### Psychisches Erleben und Selbstbeobachtung
+
 .center[
 Zentraler Gegenstand der **Erkenntnistheorie** (aka Epistemologie)
 
 `\(\downarrow\)`
 
-Was kann der Mensch über sich selbst erkennen?
+Was kann der Mensch über sich selbst erkennen? (s.h. 2. Vorlesung)
+
+&lt;img src="bilder/platocave.jpg" width="700px" /&gt;
+
+*Das Höhlengleichnis*, Platons Republik
 ]
-
-Zur Ableitung von Erkenntnis relevante Felder (s.h. 2. Vorlesung)
-* Logik
-* Philosophie der Kognition
-* Wissenschaftstheorie
-* Ontologie (allg. Metaphysik)
-
-Realismus (vs. Idealismus): Wirklichkeit existiert unabhängig von uns, ist durch Wahrnehmung bzw. Denken erfahrbar. Konsequenz: Psychologische Theorie als Versuch der Wirklichkeitsabbildung. Idealismus (vs. Realismus): nur geistige Wirklichkeit ist gegeben; Erkennbarkeit einer “äußeren” Wirklichkeit wird geleugnet, deren Existenz von extremen Vertretern sogar bestritten wird. Konsequenz: Psychologische Theorie beschreibt nichts tatsächlich Existierendes; der Wert einer Theorie bestimmt sich ausschließlich von ihrem (instrumentellem) Nutzen. Empirismus (vs. Rationalismus): Sinneserfahrung ist die alleinige oder zumindest wichtigste Erkenntnisquelle. Konsequenz: Psychologische Theorie stellt die Zusammenfassung der in psychologischen Beobachtungen und Experimenten gesammelten, möglichst zuverlässigen Erfahrungen dar. Rationalismus (vs. Empirismus): Form und Inhalt allen Wissens liegt primär in Verstand und Vernunft begründet. Konsequenz: Psychologische Theorie ist keine Sammlung voraussetzungsfreier Erfahrungen, Primat der Theorie über die Erfahrung. Skeptizismus: generelle oder teilweise Leugnung von Erkenntnismöglichkeiten. (Stangl, 2022).
-
-Verwendete Literatur
-Stangl, W. (2022, 9. Oktober). Erkenntnistheoretische Grundpositionen der Psychologie – Psychologie-News.
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -508,39 +555,83 @@ Grundrichtungen der Psychologie (**Paradigmen**, s.h. 3. Vorlesung)
 
 #### Gustav Theodor Fechner (Psychophysik)
 
-* Psychophysik 1860 von Fechner begründet
+.pull-left[
+* **Psychophysik** 1860 von Fechner begründet
 
-* Teilgebiet der experimentellen Psychologie 
+* Teilgebiet der **experimentellen Psychologie** 
 
-* Fokus: v.A. Wahrnehmung (low Level)
-
-* gesetzmäßigen Wechselbeziehungen zwischen subjektivem psychischen (mentalen) Erleben und quantitativ messbaren, also objektiven physikalischen Reizen
+* Fokus: v.A. Wahrnehmung (**low Level**)
 
 * Unterscheidung: äußere vs. innere Psychophysik
 
 * Zusammenhang zwischen Reizungen der Sinnesorgane und Erleben
 
 * befasst sich z. T. auch mit ästhetischen Fragen des Geschmacks
+]
+
+.pull-right[
+.center[
+&lt;img src="bilder/fechner.jpg" width="200px" /&gt;
+]
+]
+
+`\(\rightarrow\)` gesetzmäßige Wechselbeziehungen zwischen subjektivem, mentalen Erleben vs. quantitativ messbaren, also objektiven physikalischen Reizen
+---
+### Wie ist Psychologie als Wissenschaft möglich?
+
+#### Gustav Theodor Fechner (Psychophysik)
+
+##### Beispiele für Studien aus Psychophysik:
+
+* Fechner untersuchte z.B. ästhetische Präferenz für **Goldenen Schnitt** (aka göttliche Proportion)
+
+* Größenverhältnis (**Proportion**) zweier Abschnitte mit definierter unterschiedlicher Länge einer Strecke (Euklid)
+
+* Teilung nach nach dem Goldenen Schnitt:
+
+  *Der größere Teil verhält sich zum kleineren, wie beide zusammen zum größeren Teil.*
+ 
+.center[
+&lt;img src="bilder/schnitt.png" width="300px" /&gt;
+]
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
 
 #### Gustav Theodor Fechner (Psychophysik)
 
-##### Beispiele für Fechners Studien:
+##### Beispiele für Studien aus Psychophysik:
 
-* Goldener Schnitt
+.pull-left[
+**Wahrnehmungsschwelle (Absolutschwelle):**
 
-* Wahrnehmungsschwelle (Absolutschwelle) - wie stark die Reizung eines gegebenen Sinnesorgans sein muss, damit eine Reaktion erfolgt.
+  Wie stark die Reizung eines gegebenen Sinnesorgans sein muss, damit eine Reaktion erfolgt.
 
-* Diskriminationsschwelle (Reizunterscheidung) - Wie verschieden müssen zwei Reize sein, damit sie in einem gegebenen Kontext als unterschiedlich empfunden werden
+**Diskriminationsschwelle (Reizunterscheidung):**
+  
+  Wie verschieden müssen zwei Reize sein, damit sie in einem gegebenen Kontext als unterschiedlich empfunden werden
  
-* Reizerkennung - wann etwa ein blaues Dreieck als ein blaues Dreieck erkannt wird.
+**Reizerkennung**
 
-* Skalierung - in der nicht nur untersucht wird, ob eine Person einen Reiz erkannt hat, sondern, ob sie schätzen kann, wie stark der Reiz ist.Die Skalierungsfähigkeiten können in verschiedenen Situationen erheblich variieren.
+  Wann etwa ein blaues Dreieck als ein blaues Dreieck erkannt wird.
+]
 
-* Fechners Gesetz (auch Fechner-Skala) beschreibt den Zusammenhang zwischen Reiz- und Erlebnisintensität:
+.pull-right[
+**Fechners Gesetz (auch Fechner-Skala)**
+
+Zusammenhang zwischen Reiz- und Erlebnisintensität:
 `$$E=k\cdot \log R+f$$`
+.center[
+
+.pull-left[
+&lt;img src="bilder/fechnersquare.png" width="200px" /&gt;
+]
+.pull-right[
+&lt;img src="bilder/fechnergesetz.png" width="300px" /&gt;
+]
+]
+
+]
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -658,17 +749,102 @@ Antwort (nach 10 sec.): „Nein“
 
 #### Willhelm Wundt (Experimentelle Psychologie und Strukturalismus)
 
-Werfen wir zunächst einen Blick nach Leipzig in das Wundtsche Laboratorium. Wie also ist Wilhelm Wundt mit dem Problem der Selbstbeobachtung umgegangen? Wundt hat den Kantischen Einwand gegen die Introspektion als wissenschaftliche Methode übernommen. Ziel der psychologischen Forschung musste es daher sein, ihre Rolle auf ein eben nicht zu vermeidendes Minimum zu beschränken. Gewährleistet werden sollte dies durch den Versuch, innere psychische Vorgänge im Experiment zu externalisieren, Privates sozusagen zu „veröffentlichen“, um es beobachtbar zu machen. Z. B. wurde in Leipzig viel über Willensvorgänge experimentiert. Ein experimentell erzeugter Willensvorgang – wie man einen Willensvorgang experimentell erzeugt, braucht uns hier nicht zu interessieren – bleibt natürlich ein innerer, das heißt im Subjekt, und daher nicht öffentlich ablaufender Vorgang. Aber – und das ist wichtig – er hat sozusagen auch eine Außenseite. Er zeigt sich „öffentlich“, indem er einen zeitlichen Verlauf hat. Und dieser zeitliche Verlauf kann natürlich gemessen und seine Veränderung aufgrund verschiedener Außeneinflüsse systematisch untersucht werden.
-Die Psychologen-Generation nach Wundt hat dann begonnen, Psychisches in seiner Beziehung zu physischen Vorgängen zu betrachten. Wenn also privates subjektives Erleben nicht objektiv, d. h. intersubjektiv verbindlich beobachtet und kontrolliert werden kann, so können doch die körperlichen Vorgänge, die alle psychischen Vorgänge begleiten, erfasst werden. Ich werde diese Lösung des Selbstbeobachtungsproblems, weil sie für die Wissenschaftsauffassung der heutigen Psychologie einen bestimmenden Einfluss hat, in der nächsten Vorlesung ausführlich diskutieren.
+.pull-left[
+* Wundt gilt als **Begründer der Psychologie** als eigenständige Wissenschaft
 
-Die wichtigste Methode in der Anfangsphase war, wie in der Psychophysik, die geschulte, unter experimentell kontrollierten Bedingungen durchgeführte Selbstbeobachtung, die Wundt nachdrücklich von der ungeschulten („naiven“) Introspektion und der persönlichen Alltagserfahrung unterschied. Wundt sah nur in dieser experimentell kontrollierten Selbstbeobachtung sowie in der Aufzeichnung von objektiven Reaktionen und physiologischen Veränderungen geeignete Methoden der experimentellen Psychologie.
+* gründet 1879 weltweit erstes **experimentalpsychologisches Laboratorium** (Leipzig)
+
+* Methode: unter **experimentell kontrollierte** Selbstbeobachtung
+
+* Experiment `\(\neq\)` ungeschulte („naiven“) Introspektion der persönlichen Alltagserfahrung
+
+* **Lösung Introspektionsproblem:** innere psychische Vorgänge im Experiment zu externalisieren (veröffentlichen)
+]
+.pull-right[
+.center[
+&lt;img src="bilder/Wundt.jpg" width="300px" /&gt;
+]
+]
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
 
 #### Willhelm Wundt (Experimentelle Psychologie und Strukturalismus)
 
-##### Wundts Definition: Das typische psychologische Experiment
+##### Von Wundt genutzte Methoden:
+
+.pull-left[
+Reaktionsmethoden zur Chronometrie (Reaktionszeitmessung):
+
+* Bestimmung des Zeitaufwands elementarer geistiger Prozesse
+
+* Beispiele
+
+  * z.B. Suche nach Zielreiz in Menge von Distraktoren
+
+  * z.B. Wahl einer reizadäquaten Reaktion
+
+* Methoden: Chronoskop, Noematachograph (wörtl. Gedankengeschwindigkeitsschreiber)
+]
+.pull-right[
+.center[
+&lt;img src="bilder/chronoskop.png" width="250px" /&gt;
+
+&lt;img src="bilder/noema.jpg" width="220px" /&gt;
+]
+]
+---
+### Wie ist Psychologie als Wissenschaft möglich?
+
+#### Willhelm Wundt (Experimentelle Psychologie und Strukturalismus)
+
+##### Von Wundt genutzte Methoden:
+
+Quantifizierung von Bewusstseinsphänomenen:
+
+* Apperzeption: Eintreten eines Bewusstseinsinhaltes in das "innere Blickfeld"
+
+* würde man heute ggf. mit Aufmerksamkeit übersetzen
+
+* z.B. Anzahl an Vorstellungen, die im perzeptiven Fokus gehalten werden können (Methode: Tachistoskop)
+
+.center[
+&lt;img src="bilder/tachi.png" width="450px" /&gt;
+]
+
+---
+### Wie ist Psychologie als Wissenschaft möglich?
+
+#### Willhelm Wundt (Experimentelle Psychologie und Strukturalismus)
+
+##### Von Wundt genutzte Methoden:
+
+.pull-left[
+Quantifizierung von Bewusstseinsphänomenen:
+
+* Emotion: Provokation bestimmter Affekte
+
+* Registrierung Puls und Atmung 
+
+* Methode: Kymograph
+
+  * rotierende Walze mit aufgespanntem Papier
+  
+  * Schreiber zeichnet Kurven auf (Bewegung, Blutdruck, etc.)
+]
+
+.pull-right[
+.center[
+&lt;img src="bilder/kymo.jpg" width="320px" /&gt;
+]
+]
+
+---
+### Wie ist Psychologie als Wissenschaft möglich?
+
+#### Willhelm Wundt (Experimentelle Psychologie und Strukturalismus)
+
+##### Wundts Definition: Das psychologische Experiment
 
 1. Der Beobachter muss womöglich in der Lage sein, den Eintritt des zu beobachtenden Vorganges selbst bestimmen zu können.
 
@@ -679,6 +855,21 @@ Die wichtigste Methode in der Anfangsphase war, wie in der Psychophysik, die ges
 4. Die Bedingungen, unter denen die Erscheinung eintritt, müssen durch Variation der begleitenden Umstände ermittelt und, wenn sie ermittelt sind, in den verschiedenen zusammengehörigen Versuchen planmäßig verändert werden, indem man sie teils in einzelnen Versuchen ganz ausschaltet, teils in ihrer Stärke oder Qualität abstuft.“
 
 Neuere Lehrbücher geben Definitionen, die an Wundt anschließen, jedoch weitere Definitionsmerkmale und Unterscheidungen enthalten (vgl. Psychologisches Experiment).
+
+---
+### Wie ist Psychologie als Wissenschaft möglich?
+
+#### Willhelm Wundt (Experimentelle Psychologie und Strukturalismus)
+
+##### Implikationen des Experimentellen Ansatzes
+
+*  Psychologen-Generation nach Wundt gegann, Psychisches in seiner Beziehung zu physischen Vorgängen zu betrachten. 
+
+* privates subjektives Erleben nicht objektiv, d. h. intersubjektiv verbindlich beobachtbar 
+
+* ABER: körperlichen Vorgänge (begleiten viele psychischen Vorgänge)
+
+* Diskussion: Wie sehr ist dieser Ansatz haltbar?
 
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
@@ -701,13 +892,6 @@ Wundts Vorlesungen und sein Labor wurden von Studenten und Gästen aus aller Wel
 ---
 ### Wie ist Psychologie als Wissenschaft möglich?
 
-#### Introspektion - Zwischenzusammenfassung
-
-Sie sehen: Psychologie definiert als Wissenschaft vom inneren Erleben wirft eine Fülle von Problemen auf und ebenso viele verschiedene Ansätze zur Lösung dieser Probleme. Den einen richtigen Lösungsweg, den haben wir bislang noch nicht gefunden. Gegen alle Versuche, die Selbstbeobachtung entweder weitgehend zu eliminieren oder über den Umweg der Normierung der Sprache zu kontrollieren und dennoch am Gegenstand der psychologischen Forschung, dem inneren Erleben, festzuhalten, lassen sich gewichtige Einwände formulieren. Und überhaupt werden Sie sich vielleicht mittlerweile fragen: Wozu soll das eigentlich gut sein, eine Wissenschaft vom inneren Erleben? Was soll eine solche Wissenschaft nützen? Wie soll sie praktisch verwertbar sein? Ich habe Ihnen das letzte Mal sehr ausführlich dargestellt, wie die Psychologie im deutschen Sprachraum im Kontext der Philosophie entstanden ist. Und die Philosophie war – auch das ist heute im Zuge der Debatten um die Gentechnik anders geworden – alles andere als eine praktische, also eine rein theoretische Disziplin.
-
----
-### Wie ist Psychologie als Wissenschaft möglich?
-
 #### Behaviorismus - Der amerikanische Weg
 
 In den Vereinigten Staaten hat die Psychologie eine ganz andere Entwicklung genommen. Hier musste sich die Disziplin nicht innerhalb eines bereits festgefügten Universitätssystems entwickeln. Die amerikanische Universitäten entstanden eben erst zu jener Zeit, als die Psychologie in Europa ihre ersten eigenständigen Schritte tat. Auch waren diese Universitäten von Anfang an anders organisiert als ihre deutschen Vorbilder. Die Kontrolle über Stellenbesetzungen, Finanzierung etc. lag nicht in der Verantwortung staatlicher Einrichtungen, sondern in den Händen wirtschaftlicher Interessensgruppen und der sie repräsentierenden Politiker. Von der Förderung der Wissenschaft versprach man sich vor allem eines: einen praktischen Nutzen. Von den Humanwissenschaften – so auch von der Psychologie – wurde ein Beitrag zu Lösung der vielen sozialen Probleme erwartet, die der rasche Übergang von einem Agrar- zu einem Industriestaat mit sich brachte.
@@ -724,8 +908,6 @@ Bei der geisteswissenschaftlichen Psychologie handelt es sich um alles andere al
 „Es ist tatsächlich kein Mensch das, was er ist, rein aus sich selbst geworden, sondern nur unter dem bestimmenden Einfluss der Gesellschaft, in der er lebt.“ Diesen Satz – er stammt aus einer frühen programmatischen Schrift über Völkerpsychologie – könnte man getrost der ganzen Bewegung als eine Art Motto voranstellen. Nach Ansicht der Vertreter der geisteswissenschaftlichen Psychologie erhält jedes individuelle menschliche Handeln seinen Sinn und seine Bedeutung erst durch den kulturellen Kontext, in dem es sich vollzieht. D. h., dass mir als Beobachter Sinn und Zweck von jedem individuellen Handeln nur zugänglich ist, wenn ich die kulturellen Lebensäußerungen der Gemeinschaft, dem dieses Individuum angehört, verstehe. Solche kulturellen Lebensäußerungen – nach Dilthey hat sich dafür der aus der Philosophie Hegels entlehnte Begriff des „objektiven Geistes“ durchgesetzt – sind z. B. die Sprache, soziale Normen und Gebräuche, Handlungsgewohnheiten, kulturelle, staatliche, rechtliche, wirtschaftliche Einrichtungen, aber auch Dichtungen, Gemälde, Musikstücke oder philosophische Abhandlungen etc.
 In methodischer Hinsicht – und das ist für unseren Zusammenhang entscheidend - geht die geisteswissenschaftliche Psychologie davon aus, dass das innere psychische Erleben einer wissenschaftlichen Untersuchung nicht direkt zugänglich ist. Der wissenschaftlichen Untersuchung zugänglich ist allerdings der Ausdruck dieses Erlebens, seine Objektivationen (wie man damals sagte) in individuellen Handlungen. Über den Erlebnisausdruck ist schließlich ein Verstehen dieses Erlebens selbst möglich. Das Verstehen fremder Lebensäußerungen setzt aber ein verwandtes eigenes Erleben voraus; Verstehen von Fremderleben gründet sich also in einem Nacherleben.
 Das klingt jetzt vielleicht ein bisschen nach der vielzitierten Empathie in der Gesprächspsychotherapie, und Sie werden sich fragen, wie man auf „Einfühlen“ und „Nacherleben“ eine wissenschaftliche Psychologie bauen soll. Die Sache stellt sich jedoch gleich anders dar, wenn wir statt Verstehen „Interpretation“ und statt Objektivationen in individuellen Handlungen konkrete „Produkte“ einsetzen: also, dass wir in der Psychologie die Aussagen von interviewten Personen interpretieren, werden Sie sich leicht vorstellen können, und ebenso, dass wir gelegentlich auch die geistigen Produktionen von Menschen – Gedichte, Zeichnungen oder, vor allem für die Entwicklungspsychologie von Bedeutung, z. B. die Tagebuchaufzeichnungen von Jugendlichen als Material für unsere psychologischen Analysen verwenden. Die Kunst der wissenschaftlichen Interpretation solcher kulturellen Erzeugnisse bezeichnet man als Hermeneutik. Hermeneutik ist also die Methode des Deutens, Auslegens, Verstehen von schriftlichen Texten (darauf war der Begriff zunächst ausschließlich bezogen!), gesprochenen Worten, allgemein (und dann lässt sich auch das individuelle Handeln leicht subsumieren) von allen irgendwie symbolisch artikulierten Bedeutungen, d.h. von allem was sinnvoll ist, von allem, was einen Sinn hat oder auch nur Sinn haben könnte. Grundlage dieser Methode ist der sogenannte „hermeneutische Zirkel“: Einzelnes kann nur in seiner Beziehung zum Ganzen, das Ganze aber wiederum nur durch eine angemessene Interpretation des Einzelnen verstanden werden.
-
-
 
 
 ---
@@ -848,7 +1030,7 @@ class: top, left
 
 * Welche 4 Komponenten umfasst die Definition des Begriffs "Psychologie"?
 * Welche 4 Ziele sind für Psychologen in der Forschungsarbeit relevant?
-* Warum besteht oft ein enger Zusammenhand zwischen den Zielen, der Erklärung und denen der Vorhersage?
+* Warum besteht oft ein enger Zusammenhang zwischen den Zielen, der Erklärung und denen der Vorhersage?
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
