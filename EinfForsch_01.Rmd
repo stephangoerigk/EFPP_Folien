@@ -155,6 +155,11 @@ Arno Penzias
 * Wissenschaftliche Methoden unterscheiden Psychologie und **Alltagspsychologie**
 
 * Wissenschaftliche Systematik ermöglicht **vergleichbare** Erfassung individueller psychologischer Eigenschaften
+
+<br>
+
+**[Note-Pad](https://docs.google.com/document/d/1dnTL3c64X8Z9hgiLzWk-SrjS0QJodd1TMauePhHf7dk/edit):** Welche „Methoden der Psychologie“ fallen Ihnen bereits jetzt ein? 
+
 ---
 class: top, left
 ### Was macht Psychologie einzigartig?
@@ -327,6 +332,8 @@ class: top, left
 ```{r eval = TRUE, echo = F, out.width = "500px"}
 knitr::include_graphics("bilder/KVT.png")
 ```
+
+**Übung**: Füllen Sie für sich ein SORK-Schema aus.
 ]
 .pull-right[
 
@@ -385,8 +392,9 @@ class: top, left
 
 * **Prädiktoren** = bedingende Faktoren
 
-* Vorhersagen müssen **exakt** formuliert werden.
+* Vorhersagen müssen **exakt** formuliert werden
 
+**Beispiel:** [PRONIA](https://docs.google.com/document/d/1dnTL3c64X8Z9hgiLzWk-SrjS0QJodd1TMauePhHf7dk/edit) -  Studie zur Vorhersage von Psychose-Onset im Prodrom (Krise oder Erkrankungsbeginn)
 ---
 class: top, left
 ### Was macht Psychologie einzigartig?
@@ -407,7 +415,8 @@ class: top, left
   
 * Verhaltenskontrolle durch **Interventionen** (z.B. Psychotherapie)
 
-* **Aufgabe:** Was fallen Ihnen für psychologische Möglichkeiten der **Kontrolle** ein?
+<br>
+**[Note-Pad](https://docs.google.com/document/d/1dnTL3c64X8Z9hgiLzWk-SrjS0QJodd1TMauePhHf7dk/edit):** Was fallen Ihnen für psychologische Möglichkeiten der **Kontrolle** ein?
 ---
 class: top, left
 ### Entwicklung der modernen Psychologie
@@ -452,7 +461,7 @@ class: top, left
 
 * Dichter und Denker
 * Philosophie
-* Religionen und ihre Vertreter
+* Religionen und ihre Vertreter (Spiritismus)
 
 **Erkenntnisgewinn** durch: 
 
