@@ -1,70 +1,28 @@
----
-title: "Einheit"
-subtitle: "⚔<br/>with xaringan"
-author: "Dr. Stephan Goerigk"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
-output:
-  xaringan::moon_reader:
-    css: [xaringan-themer.css, "hygge"]
-    lib_dir: libs
-    nature:
-      slideNumberFormat: "%current%"
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
-    seal: false
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Einheit</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Stephan Goerigk" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/fabric/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#EE0071"],"pen_size":4,"eraser_size":40,"palette":[]}) })</script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
 
-setwd("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Einführung in die Forschungsmethoden der Psychologie und Psychotherapie/EFPP_Folien/")
 
-library(tidyverse)
-library(kableExtra)
-library(ggplot2)
-library(plotly)
-library(htmlwidgets)
-library(MASS)
-library(ggpubr)
-library(xaringanthemer)
-library(xaringanExtra)
-
-style_duo_accent(
-  primary_color = "#621C37",
-  secondary_color = "#EE0071",
-  background_image = "blank.png"
-)
-
-xaringanExtra::use_xaringan_extra(c("tile_view"))
-
-use_scribble(
-  pen_color = "#EE0071",
-  pen_size = 4
-  )
-
-knitr::opts_chunk$set(
-  fig.retina = TRUE,
-  warning = FALSE,
-  message = FALSE
-)
-
-# library(RefManageR)
-# BibOptions(
-# check.entries = FALSE, 
-# bib.style = "authoryear", 
-# cite.style = "authoryear", 
-# style = "markdown",
-# hyperlink = FALSE, 
-# dashed = FALSE)
-# myBib = ReadBib("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Einführung in die Forschungsmethoden der Psychologie und Psychotherapie/EFPP_Folien/myBib.bib")
-```
 
 name: Title slide
 class: middle, left
-<br><br><br><br><br><br><br>
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 # Einführung in die Forschungsmethoden der Psychologie und Psychotherapie
 
 ### Einheit 2: Wissenschafts- und Erkenntnistheorie
@@ -76,9 +34,7 @@ class: top, left
 
 .pull-left[
 .center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/mach.png")
-```
+&lt;img src="bilder/mach.png" width="300px" /&gt;
 
 *Die Analyse der Empfindungen*, Ernst Mach (1900)
 ]
@@ -198,9 +154,7 @@ class: top, left
 ]
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/tank.png")
-```
+&lt;img src="bilder/tank.png" width="300px" /&gt;
 ]
 ]
 ---
@@ -222,9 +176,7 @@ class: top, left
 ]
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "450px"}
-knitr::include_graphics("bilder/kopernikus.jpg")
-```
+&lt;img src="bilder/kopernikus.jpg" width="450px" /&gt;
 
 L’Atmosphère: Météorologie Populaire 
 (die kopernikanische Wende)
@@ -252,9 +204,7 @@ class: top, left
 ]
 
 .center[
-```{r eval = TRUE, echo = F, out.width = "450px"}
-knitr::include_graphics("bilder/antike.jpg")
-```
+&lt;img src="bilder/antike.jpg" width="450px" /&gt;
 ]
 
 ---
@@ -274,21 +224,19 @@ class: top, left
 
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "150px"}
-knitr::include_graphics("bilder/Platon.jpg")
-```
+&lt;img src="bilder/Platon.jpg" width="150px" /&gt;
 ]
 ]
 
 * Unzufriedenheit mit der kulturellen und politischen Situation seiner Heimatstadt Athen
 
-* 387 v. Chr. Gründung einer Schule (Gott namens Akademos geweiht) $\rightarrow$ **Akademie**
+* 387 v. Chr. Gründung einer Schule (Gott namens Akademos geweiht) `\(\rightarrow\)` **Akademie**
 
 * Gegenentwurf zu Wissen und Reden auf der Agora, den Markt- und Versammlungsplatzen der Stadt
 
-* Polemik der Volksredner $\rightarrow$ Verführung, Verhetztung und Verblödung der Menschen vs. **Vernunft, das Schöne und Gute**
+* Polemik der Volksredner `\(\rightarrow\)` Verführung, Verhetztung und Verblödung der Menschen vs. **Vernunft, das Schöne und Gute**
 
-* **Ideal von Wissenschaft** $\rightarrow$ Vernunft über Verführung
+* **Ideal von Wissenschaft** `\(\rightarrow\)` Vernunft über Verführung
 
 ---
 class: top, left
@@ -302,7 +250,7 @@ class: top, left
 
 * Abstand gewinnen vom **bloßen Meinen**
 
-* Akademisches Wissen $\neq$ Alltagswissen
+* Akademisches Wissen `\(\neq\)` Alltagswissen
 
 * Erstmalig in der Geistesgeschichte: **Entwertung des Situationswissens**
 
@@ -312,8 +260,8 @@ class: top, left
 
 **Ausdifferenzierung des Erkenntnisproblems: **
 
-$\rightarrow$ Erkennen, das auch morgen noch wahr ist  
-$\rightarrow$ Erkennen das für alle wahr ist, nicht nur für den Einzelnen
+`\(\rightarrow\)` Erkennen, das auch morgen noch wahr ist  
+`\(\rightarrow\)` Erkennen das für alle wahr ist, nicht nur für den Einzelnen
 
 ---
 class: top, left
@@ -338,7 +286,7 @@ Inschrift über dem Torbogen zur platonischen Akademie
 * geometrisches Prinzip = **Verstehen**
 * hilft nicht 100 Dreiecke zu beobachten
 * Zugang zum **Reich der Ideen**
-* Idealen Prinzipien $\rightarrow$ gelten **immer und überall**
+* Idealen Prinzipien `\(\rightarrow\)` gelten **immer und überall**
 ]
 
 .pull-left[
@@ -369,9 +317,9 @@ class: top, left
   * Schrift
   * Geld
 
-$\rightarrow$ Materielles wird abstrakt
+`\(\rightarrow\)` Materielles wird abstrakt
 
-$\rightarrow$ Gesprochenes wird dauerhaft
+`\(\rightarrow\)` Gesprochenes wird dauerhaft
 
 ---
 class: top, left
@@ -407,7 +355,7 @@ class: top, left
 
 * **kontemplative**, d.h. nach innen gerichtete Erkenntnishaltung (armchair philosphy)
 
-* Abkehr von der Kontemplation $\rightarrow$ Aristoteles Peripatetische Schule (peripatein = herumgehen) 
+* Abkehr von der Kontemplation `\(\rightarrow\)` Aristoteles Peripatetische Schule (peripatein = herumgehen) 
 
 * wissenschaftlicher Habitus der Weltaneignung und -umgestaltung
 
@@ -434,9 +382,7 @@ class: top, left
 
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "250px"}
-knitr::include_graphics("bilder/aristoteles.jpg")
-```
+&lt;img src="bilder/aristoteles.jpg" width="250px" /&gt;
 ]
 ]
 
@@ -466,9 +412,7 @@ Prinzip der **Induktion**:
 
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "250px"}
-knitr::include_graphics("bilder/syllogism.png")
-```
+&lt;img src="bilder/syllogism.png" width="250px" /&gt;
 ]
 ]
 
@@ -497,9 +441,7 @@ class: top, left
 
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/bacon.jpg")
-```
+&lt;img src="bilder/bacon.jpg" width="200px" /&gt;
 ]
 ]
 ---
@@ -536,7 +478,7 @@ class: top, left
 
 * absichtliche, **bewusst gesteuerte Beobachtung** (kontrolliert und geplant) vs. naive Kenntnisnahme
 
-* **ABER:** Beobachten nicht ausreichend $\rightarrow$ handelnd-manipulativens Eingreifen (**Experiment**)
+* **ABER:** Beobachten nicht ausreichend `\(\rightarrow\)` handelnd-manipulativens Eingreifen (**Experiment**)
 
 * zum Zweck absichtlicher und wiederholter Beobachtungen in die Abläufe der Natur eingreifen
 
@@ -557,14 +499,10 @@ class: top, left
 
 .pull-right[
 .pull-left[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/descartes.jpg")
-```
+&lt;img src="bilder/descartes.jpg" width="200px" /&gt;
 ]
 .pull-right[
-```{r eval = TRUE, echo = F, out.width = "190px"}
-knitr::include_graphics("bilder/kant.jpg")
-```
+&lt;img src="bilder/kant.jpg" width="190px" /&gt;
 ]
 ]
 .pull-left[
@@ -572,7 +510,7 @@ knitr::include_graphics("bilder/kant.jpg")
 
 * *Ich denke, also bin ich.*
 * Tatsache, dass ich denke ist Gewissheit, dass ich existiere
-* **Gewissheit** $\rightarrow$ Unterschied zur pragmatischeren wissenschaftlichen Haltung der Empiristen
+* **Gewissheit** `\(\rightarrow\)` Unterschied zur pragmatischeren wissenschaftlichen Haltung der Empiristen
 ]
 .pull-right[
 **Immanuel Kant:**
@@ -612,7 +550,7 @@ class: top, left
   *  Depressiver 2 erfuhr Kindheitstrauma
   *  Depressiver 3 erfuhr Kindheitstrauma
   
- Induktionsschluss: $\rightarrow$ Alle Depressiven erfahren Kindheistraumata
+ Induktionsschluss: `\(\rightarrow\)` Alle Depressiven erfahren Kindheistraumata
 ]
 
 ---
@@ -631,9 +569,7 @@ class: top, left
 ]
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "150px"}
-knitr::include_graphics("bilder/popper.jpg")
-```
+&lt;img src="bilder/popper.jpg" width="150px" /&gt;
 ]
 ]
 
@@ -704,13 +640,13 @@ class: top, left
 
 * **ABER:** Theorie und Beobachtung nicht sauber voneinander zu trennen 
 
-* „Data are theory-laden“ (Duhem & Quine)
+* „Data are theory-laden“ (Duhem &amp; Quine)
 
 * Theorie bestimmt mit, welche Phänomene sichtbar werden können
 
-$\rightarrow$ Eigene Vorstellung/Überzeugung veranlasst uns erst zur Beobachtung
+`\(\rightarrow\)` Eigene Vorstellung/Überzeugung veranlasst uns erst zur Beobachtung
 
-* Forscher, der alles  beobachtet $\rightarrow$ idealisierte Vorstellung (Forscher = **Ko-Konstrukteur**)
+* Forscher, der alles  beobachtet `\(\rightarrow\)` idealisierte Vorstellung (Forscher = **Ko-Konstrukteur**)
 
 * **Folge:** Wesentlicher Einfluss der aktuell dominanten Forschungsmeinung
 
@@ -722,7 +658,7 @@ class: top, left
 
 ##### Theorien sind gegenüber Falsifikation abgepuffert
 
-* Prognose trifft nicht zu $\rightarrow$ Problem ist nicht zwangsläufig Theorie, sondern ggf. **fehlerhafte Ableitung** aus der Theorie (Operationalisierung/experimentelle Umsetzung)
+* Prognose trifft nicht zu `\(\rightarrow\)` Problem ist nicht zwangsläufig Theorie, sondern ggf. **fehlerhafte Ableitung** aus der Theorie (Operationalisierung/experimentelle Umsetzung)
 
 * Verständnis aller Bedingungen, welche für Eintreten der Hypothese gegeben sein müssen (Problem: Psychologie = hochgradig mulifaktoriell)
 
@@ -736,7 +672,7 @@ class: top, left
 
 ####  Alternative Betrachtung - Wissenschaftsgeschichter Ansatz
 
-##### Denkstile und Denkkollektive (Ludwig Fleck & Robert Merton)
+##### Denkstile und Denkkollektive (Ludwig Fleck &amp; Robert Merton)
 
 * Popper: **wissenschaftsimmanenter Ansatz** (Vorgabe einer Forschungslogik für die Wissenschaft)
 
@@ -799,11 +735,11 @@ class: top, left
 
 * Paradigmatische Machtpolitik dominiert Wissensschaft (nicht nur Forschungslogik oder Argumente)
 
-* Wissenschaftliche Theorien werden nicht widerlegt, sondern **verlassen** $\neq$ Falsifikationsprinzip
+* Wissenschaftliche Theorien werden nicht widerlegt, sondern **verlassen** `\(\neq\)` Falsifikationsprinzip
 
 * **Praxeologische** Sicht auf Wissenschaft (entscheident ist nicht Wahrheitsgehalt von Sätzen, sondern wissenschaftliche/soziale Aktivität)
 
-* Wissenschaftlicher Fortschritt $\neq$ **kontinuierlich bzw. kumulativ** (Entfaltungskonzept vs. Paradigmenwechsel)
+* Wissenschaftlicher Fortschritt `\(\neq\)` **kontinuierlich bzw. kumulativ** (Entfaltungskonzept vs. Paradigmenwechsel)
 
 * Forschungsparadigma (und seine Methoden) entsteht in Abhängigkeit vom Menschenbild (sh. nächste Einheit)
 
@@ -821,18 +757,156 @@ class: top, left
 
 * **Erkenntnistheoretische Grundpositionen:** Idealismus, Realismus, Empirismus, Rationalismus, Skeptizismus
 
-* Platon (**Idealismus**) $\rightarrow$ Identifikation idealer (unwandelbarer und unvergänglicher) Grundprinzipien
+* Platon (**Idealismus**) `\(\rightarrow\)` Identifikation idealer (unwandelbarer und unvergänglicher) Grundprinzipien
 
-* Aristoteles (**Realismus**) $\rightarrow$ Beobachtung der Natur und syllogistische Logik (Induktion + Deduktion)
+* Aristoteles (**Realismus**) `\(\rightarrow\)` Beobachtung der Natur und syllogistische Logik (Induktion + Deduktion)
 
-* Bacon (**Empirismus**) $\rightarrow$ Verstand  täuschbar; Systematische Beobachtung und Eingreifen in Natur
+* Bacon (**Empirismus**) `\(\rightarrow\)` Verstand  täuschbar; Systematische Beobachtung und Eingreifen in Natur
 
-* Descartes und Kant (**Rationalismus**) $\rightarrow$ Logische Gewissheit und mathematische Beweisführung
+* Descartes und Kant (**Rationalismus**) `\(\rightarrow\)` Logische Gewissheit und mathematische Beweisführung
 
-* Popper (**kritischer Rationalismus**) $\rightarrow$ Wissen = Vermutungswissen, Erkenntnisgewinn durch Versuch + Irrtum
+* Popper (**kritischer Rationalismus**) `\(\rightarrow\)` Wissen = Vermutungswissen, Erkenntnisgewinn durch Versuch + Irrtum
 
-* Kuhn: **Paradigmenwechsel** $\rightarrow$ wissenschaftshistorischer Ablauf wissenschaftlicher Revolutionen
+* Kuhn: **Paradigmenwechsel** `\(\rightarrow\)` wissenschaftshistorischer Ablauf wissenschaftlicher Revolutionen
 ]
 
 [**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLSfYowpbKPtvJ8w_c03ZjYdpoaV5jFXAA2zivqCi34bH_VXxuw/viewform?usp=sf_link)
 
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
