@@ -67,708 +67,8 @@ class: middle, left
 <br><br><br><br><br><br><br>
 # Einführung in die Forschungsmethoden der Psychologie und Psychotherapie
 
-### Einheit 2: Wissenschafts- und Erkenntnistheorie
-##### 19.10.2022 | Dr. phil. Stephan Goerigk
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-.pull-left[
-.center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/mach.png")
-```
-
-*Die Analyse der Empfindungen*, Ernst Mach (1900)
-]
-]
-
-.pull-right[
-**Modell von der Welt:**
-
-* Die Welt wie ich sie sehe
-
-* Welche Teile gehören zu „mir“, welche zur „Außenwelt"?
-
-* Mit welcher Interpretation der Wahrnehmungen leiste ich die Zuordnung?
-]
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Was ist der beste Weg zur Erkenntnis?
-
-.center[
-"A paradigm is what you think before you think."
-]
-
-*  Aktuell dominantes methodisches Vorgehen der Psychologie: **empirisch-wissenschaftliches Arbeiten**
-
-  * Experiment als Königsweg zum Kausalschluss
-  * Wissen ist "erfahrungsbasiert"
-  * Objektivierung durch "Beobachtbares" Verhalten
-  * Hypothesenprüfung als Erkenntnisgewinn
-
-* **Paradigma** = Welt- und Wissenschaftssicht
-
-* Studium: Sozialisation in die gängigen Paradigmen des Fachs
-
-* **Erkenntnis- und Wissenschaftstheorie:** historische Entwicklung von Positionen zum Erkenntnisgewinns
-
-**Frage:**
-
-Wie können wir in der Psychologie zu validen, wissenschaftlichen Erkenntnissen kommen? 
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Erkenntnistheoretische Grundpositionen der Psychologie (Stangl, 2022)
-
-##### Realismus vs. Idealismus
-
-.pull-left[
-**Realismus** 
-
-* Wirklichkeit existiert **unabhängig** von uns
-  
-* Wirklichkeit ist durch Wahrnehmung bzw. Denken erfahrbar.
-  
-* Psychologische Theorie als Versuch der Wirklichkeitsabbildung
-]
-.pull-right[
-**Idealismus** 
-
-* nur **geistige Wirklichkeit** ist gegeben
-  
-* Erkennbarkeit einer “äußeren” Wirklichkeit wird geleugnet 
-  
-* Psychologische Theorie beschreibt nichts tatsächlich Existierendes 
-  
-* Wert einer Theorie ergibt sich nur aus ihrem (instrumentellem) Nutzen.
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Erkenntnistheoretische Grundpositionen der Psychologie (Stangl, 2022)
-
-##### Empirismus vs. Rationalismus
-
-.pull-left[
-
-**Empirismus** 
-
-* **Sinneserfahrung** ist die alleinige oder zumindest wichtigste Erkenntnisquelle. 
-  
-* Psychologische Theorie = Zusammenfassung der in psychologischen Beobachtungen und Experimenten gesammelten, möglichst **zuverlässigen Erfahrungen**
-]
-.pull-right[
-**Rationalismus**
-
-* Form und Inhalt allen Wissens liegt primär in **Verstand und Vernunft** begründet
-  
-* Psychologische Theorie ist keine Sammlung voraussetzungsfreier Erfahrungen
-  
-* Primat der **Theorie** über die Erfahrung
-]  
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Erkenntnistheoretische Grundpositionen der Psychologie (Stangl, 2022)
-
-.pull-left[
-##### Skeptizismus:
-
-* generelle oder teilweise **Leugnung** von Erkenntnismöglichkeiten
-
-* Wir können **nichts wissen**
-
-* Beispiel: Skeptizismus Argument **Gehirn-im-Tank**
-
-  1. Wenn ich weiß dass ich Eis esse, dann weiß ich auch, dass ich kein Gehirn im Tank bin.
-
- 2.  Ich kann nicht wissen, ob ich ein Gehirn im Tank bin.
-
- 3.  Daher weiß ich nicht, dass ich Eis esse.
-]
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/tank.png")
-```
-]
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Erkenntnistheoretische Grundpositionen der Psychologie
-
-##### Konstruktivismus (z.B. Jean Piaget und Paul Watzlawick):
-
-* Gegenstand vom Betrachter selbst durch den Vorgang des Erkennens konstruiert 
-
-* zentral nicht Wesen der Dinge, sondern der Prozess und die Entstehung ihrer Erkenntnis
-
-* Orientierung am Beobachter (erkennende Instanz), nicht an der beobachterunabhängigen Realität
-
-* Abschied von der Vorstellung einer absoluten Wahrheit bzw. einer empirischen Objektivität
-
-* Interesse an der Pluralität von Auffassungspositionen
-
-* Erschaffung eigener (verzerrter) Realitäten
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-.pull-left[
-#### Wissenschafts- und erkenntnistheoretische Perioden
-
-1. Vorgaben der Antike
-
-2. Achsenzeit
-
-3. Erstarken des Empirismus
-
-4. Erneuerung des Rationalismus
-
-5. Kritischer Rationalismus
-]
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "450px"}
-knitr::include_graphics("bilder/kopernikus.jpg")
-```
-
-L’Atmosphère: Météorologie Populaire 
-(die kopernikanische Wende)
-]
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Vorgaben der Antike
-
-##### Vorlogische Voraussetzungen europäischer Wissenschaft: 
-
-.pull-left[
-* Abstraktion statt Situation
-
-* Distanz statt Einbettung 
-]
-
-.pull-right[
-* Beobachten statt Teilhaben und Teilnehmen
-
-* immer statt jetzt
-]
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "450px"}
-knitr::include_graphics("bilder/antike.jpg")
-```
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-.pull-left[
-
-#### Vorgaben der Antike
-
-##### Platon (Idealismus)
-
-* Viertes Jahrhundert vor Christus
-
-* Hinrichtung seines Lehrers Sokrates
-]
-
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "150px"}
-knitr::include_graphics("bilder/Platon.jpg")
-```
-]
-]
-
-* Unzufriedenheit mit der kulturellen und politischen Situation seiner Heimatstadt Athen
-
-* 387 v. Chr. Gründung einer Schule (Gott namens Akademos geweiht) $\rightarrow$ **Akademie**
-
-* Gegenentwurf zu Wissen und Reden auf der Agora, den Markt- und Versammlungsplatzen der Stadt
-
-* Polemik der Volksredner $\rightarrow$ Verführung, Verhetztung und Verblödung der Menschen vs. **Vernunft, das Schöne und Gute**
-
-* **Ideal von Wissenschaft** $\rightarrow$ Vernunft über Verführung
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Vorgaben der Antike
-
-##### Platon - Vernunft vs. Verführung
-
-* Menschen lassen sich von unmittelbaren Eindrücken und Situationen affizieren
-
-* Abstand gewinnen vom **bloßen Meinen**
-
-* Akademisches Wissen $\neq$ Alltagswissen
-
-* Erstmalig in der Geistesgeschichte: **Entwertung des Situationswissens**
-
-  * Individuelle Auslegung aktueller Situation ungenügend (*Hypnose durch Einzelerscheinungen*)
-  
-  * es braucht abstraktes Wissen, dekontextualisiertes Wissen, Theorie
-
-**Ausdifferenzierung des Erkenntnisproblems: **
-
-$\rightarrow$ Erkennen, das auch morgen noch wahr ist  
-$\rightarrow$ Erkennen das für alle wahr ist, nicht nur für den Einzelnen
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Vorgaben der Antike
-
-##### Platon - Rolle der Geometrie
-
-.center[
-Ἀγεωμέτρητος μηδεὶς εἰσίτω.
-
-*Hier trete nur ein, wer Geometer ist.*
-
-Inschrift über dem Torbogen zur platonischen Akademie
-]
-
-.pull-left[
-**Geometrie**
-
-* exakte Wissenschaft, hohe Fähigkeit zur Abstraktion
-* geometrisches Prinzip = **Verstehen**
-* hilft nicht 100 Dreiecke zu beobachten
-* Zugang zum **Reich der Ideen**
-* Idealen Prinzipien $\rightarrow$ gelten **immer und überall**
-]
-
-.pull-left[
-**Erkenntnis im Sinne idealer Prinzipien**
-* Grundformen des Seienden = **Ideen**
-* unwandelbar und unvergänglich
-* **Wirklichkeit** hinter der Sinnenwelt
-* Weg zur Erkenntnis: **innere Einsicht** = Anamnesis
-* Zugang durch Weisheitsdialoge und Einsichtsübungen
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Achsenzeit (Begriff nach Jaspers, 1949)
-
-* Zeitspanne von 800 bis 200 v. Chr.
-
-* Zeit technologischer und philophischer Entwicklung in vier voneinander unabhängigen Kulturräumen
-
-  * Hinduismus und Buddhismus in Indien
-  * Daoismus und dem Konfuzianismus in China
-  * Judentum und Zoroastrismus im alten Orient
-  * Philosophie im antiken Griechenland
-  
-* Abstraktionsschub durch neue Medien
-  * Schrift
-  * Geld
-
-$\rightarrow$ Materielles wird abstrakt
-
-$\rightarrow$ Gesprochenes wird dauerhaft
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Achsenzeit (Begriff nach Jaspers, 1949)
-
-Schrift und Abstraktion:
-
-*  Inhaltliche Kontrolle von Argumenten im Detail
-
-* Kommunikation in zeitlicher und räumlicher Ferne (Überzeitlichkeit und Übersituativität)
-
-* Trennung des visuellen Sinnes vom Intellekt (Nah- vs. Fern-Sinn)
-
-* Erkenntnis durch Abstandnahme
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Vorgaben der Antike
-
-##### Aristoteles (Realismus)
-
-**Platon prägte wesentlich die heutige Ausrichtung der Wissenschaft:**
-
-* Naturwissenschaft: Streben nach nomothetischen Wissen (nomos = Gesetz)
-
-* Platonsches "Wissen hinter der Sinnenwelt" = **Theorie**
-
-**Von Platon nicht übernommen:**
-
-* **kontemplative**, d.h. nach innen gerichtete Erkenntnishaltung (armchair philosphy)
-
-* Abkehr von der Kontemplation $\rightarrow$ Aristoteles Peripatetische Schule (peripatein = herumgehen) 
-
-* wissenschaftlicher Habitus der Weltaneignung und -umgestaltung
-
-* realistische, an der Erfahrung orientierte Grundposition
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Vorgaben der Antike
-
-.pull-left[
-
-##### Aristoteles (Realismus)
-
-* Idealismus vs. Realismus seit Antike lange von Idealisten dominiert (heute von Realisten)
-
-* Aristoteles Hauptwerk **Organon**: Beobachtungen und Beschreibungen zur Natur, Biologie und Physiologie des Menschen
-
-* Platon =  spontane Einsicht; Aristoteles = systematische Entwicklung des Denkens und Argumentierens
-
-* **Syllogismen** (Schlussfolgerungen) = Ausbildung eines Systems der einer formalen Logik
-]
-
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "250px"}
-knitr::include_graphics("bilder/aristoteles.jpg")
-```
-]
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Vorgaben der Antike
-
-.pull-left[
-
-##### Aristoteles (Realismus)
-
-**Form der Syllogistik:**
-
-Prinzip der **Deduktion**:
-
-  * **Prämisse 1:** Alle Menschen sind sterblich.
-  * **Prämisse 2:** Sokrates ist ein Mensch. 
-  * **Schluss:** Sokrates ist sterblich.
-  
-Prinzip der **Induktion**:
-  * **Beobachtung 1:** Sokrates ist sterblich.
-  * **Beobachtung 2:** Sokrates ist ein Mensch.
-  * **Schluss:** Alle Menschen sind sterblich.
-]
-
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "250px"}
-knitr::include_graphics("bilder/syllogism.png")
-```
-]
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Erstarken des Empirismus: Beobachtung und Experiment (Francis Bacon)
-
-* Im 15. Jhd. **Renaissance** und **beginnende Neuzeit** (Renaissance = Wiedererstarken von Idealen der Antike)
-
-* Moderne Wissenschaft: Neubewertung der Wichtigkeit von **Beobachtung**
-
-* Ziel: verlässlichen Kontakt der Wissenschaft mit der Wirklichkeit (Blüte 17. Jhd in England)
-
-.pull-left[
-
-* Francis Bacon (1561-1626): Wegbereiter des **Empirismus**
-
-  * Hauptwerk *Novum Organum* (Referenz an Aristoteles)
-  
-  * Verstand ist täuschbar, **systematische Beobachtung** der Natur
-  
-  * **neue methodischen Überlegungen** zur Beobachtung
-]
-
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/bacon.jpg")
-```
-]
-]
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Erstarken des Empirismus: Beobachtung und Experiment (Francis Bacon)
-
-**Bacons Idolenlehre** (4 Arten von menschlichen Erkenntnisirrtümern)
-
-1. **Idole des Stammes (idola tribus)**
-
-  * gattungsspezifische Mängel des menschlichen Erkenntnisapparates
-
-2. **Idole der Höhle (idola specus)**
-
-  * individuell erworbene, Verhaltens- und Erlebensweisen des jeweils einzelnen Menschen (z.B. Erziehung, Verdrängung, etc.)
-  
-3. **Idole des Marktes (idola fori)**
-
-  * infolge des engen Beieinanderseins des menschlichen Geschlechtes (z.B. Irrtümer im Sprachgebrauch)
-
-4. **Idole des Theaters (idola theatri)**
-
-  * dogmatischen Behauptungen philosophischer Lehrmeinungen und verkehrte Gesetze der Beweisführung
-  
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Erstarken des Empirismus: Beobachtung und Experiment (Francis Bacon)
-
-* Angesichts Fehlerquellen der Idolenlehre braucht irrtumsanfälliger Verstand *instrumenta und experimenta*
-
-* absichtliche, **bewusst gesteuerte Beobachtung** (kontrolliert und geplant) vs. naive Kenntnisnahme
-
-* **ABER:** Beobachten nicht ausreichend $\rightarrow$ handelnd-manipulativens Eingreifen (**Experiment**)
-
-* zum Zweck absichtlicher und wiederholter Beobachtungen in die Abläufe der Natur eingreifen
-
-* Determination der kontrollierten Bedingungen unter denen sich ein Verhalten zeigt
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-.pull-left[
-
-#### Erneuerung des Rationalismus: Descartes und Kant
-
-* Parallel zum Empirismus erstarkt mit Beginn der Neuzeit der Rationalismus
-* Erkenntnis nicht aus Erfahrungen, sondern vom Verstand (lat. ratio)
-* Rationalistische Abkehr vom religiösen Dogma des Mittelalters
-]
-
-.pull-right[
-.pull-left[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/descartes.jpg")
-```
-]
-.pull-right[
-```{r eval = TRUE, echo = F, out.width = "190px"}
-knitr::include_graphics("bilder/kant.jpg")
-```
-]
-]
-.pull-left[
-**Rene Descartes:**
-
-* *Ich denke, also bin ich.*
-* Tatsache, dass ich denke ist Gewissheit, dass ich existiere
-* **Gewissheit** $\rightarrow$ Unterschied zur pragmatischeren wissenschaftlichen Haltung der Empiristen
-]
-.pull-right[
-**Immanuel Kant:**
-* psychologische Zustände lassen sich zwar zeitlich, aber nicht räumlich verorten
-* Introspektion = Veränderung des Gegenstands
-* rational ist was **mathematisch beweisbar** ist
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-#### Induktionsproblem – der erkenntnislogische Übergang zum Kritischen Rationalismus
-
-* Empirismus: vom Verstand darf nicht ausgegangen werden (sondern nur von Erfahrungen)
-
-* **Frage:** Wie kommt man von Einzelbeobachtungen zur wissenschaftlichen Erkenntnis (Theorie/ Naturgesetz)?
-
-.pull-left[
-**Induktion** (John Locke):
-
-* bereits in der aristotelischen Logik vorhanden
-
-* Komplementärverfahren zur Deduktion
-
-* inducere = (hin)einführen
-
-* abstrahierenden Schluss aus einzelnen Beobachtungen auf eine allgemeinere Erkenntnis
-]
-
-.pull-right[
-**Induktionsproblem** (David Hume):
-
-* aus beobachteten Einzelereignissen kann nicht mit Sicherheit auf allgemeines Prinzip geschlosse werden
-* Beispiel Psychologie: 
-  *  Depressiver 1 erfuhr Kindheitstrauma
-  *  Depressiver 2 erfuhr Kindheitstrauma
-  *  Depressiver 3 erfuhr Kindheitstrauma
-  
- Induktionsschluss: $\rightarrow$ Alle Depressiven erfahren Kindheistraumata
-]
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-.pull-left[
-
-####  Kritischer Rationalismus (Sir Karl Popper)
-
-* Erkenntnisposition moderner Psychologie
-
-**Ansatz zur Lösung des Induktionsproblems:**
-
-* Primat der **Erfahrung beibehalten**
-]
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "150px"}
-knitr::include_graphics("bilder/popper.jpg")
-```
-]
-]
-
-* Durch Induktion gewonnenen Aussagen haben **vorläufigen** Charakter
-
-* Umkehrung der induktiven Vorgehensweise
-
-  * nicht von den Erfahrungen auf wissenschaftlichen Theorien schließen
-  
-  * umgekehrt: Theorien **empirische Bewährungsproben** aussetzen
-  
-* Erfahrung nicht Baustein, sondern **Prüfstein** der Theorie
-
-* Am Anfang soll Entwurf stehen (**Prognose**), den der Verstand (ratio) liefert 
-
-* kreativer Einfall = Voraussetzung zur **Hypothesenbildung**
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-####  Kritischer Rationalismus (Sir Karl Popper)
-
-**Erkenntnisfortschritt nach Popper:**
-
-* Suche nach **Falsifikationen** einer Theorie
-
-* Falsifikation = Verfahren zur Beurteilung bestehender Theorien (Entdeckungs- und Begründungszusammenhang getrennt)
-
-* Methode von **Versuch und Irrtum**
-
-* Wenn-Dann Prämisse (Deduktion) gepaart mit **modus tollens** (Verwerfen einer Hypothese)
-
-* Wenn Hypothese eine empirische Prüfung überlebt, rückt sie ein Stück in Richtung Wahrheit (**Wahrheitsnähe**)
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-####  Kritischer Rationalismus (Sir Karl Popper)
-
-**Erkenntnisfortschritt nach Popper:**
-
-.center[*„Auch durch ihre verifizierten Folgerungen können Theorien niemals als "wahr" oder auch nur als "wahrscheinlich" betrachtet werden“*]
-
-* selbst wenn die Erfahrungswelt die Prognose stützt Prognose gibt ist Theorie nicht zwischen wahr
-
-* Beispiel des **schwarzen Schwans**:
-
-  * selbst wenn meine Prognose 1000x eingetroffen ist, dass Schwäne weiß sind kann endlich doch ein schwarzer Schwan beobachtet werden (Entdeckung des "Trauerschwans" in Australien)
-
-**Poppers Leitgedanken:**
-
-1.  Alles Wissen ist Vermutungswissen (aber besser Mutmaßung als Anmaßung).
-2.  Wir wissen nicht, wir raten.
-3.  Kritik statt Dogma.
-4.  Wir lernen nicht durch Beobachtung, sondern durch Versuch und Irrtum.
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-####  Kritik an Popper (innerhalb Empirismus)
-
-##### Beobachtungen sind "theoriegeladen"
-
-* Popper zu prüfende Theorie entspringt der Ratio (Daten und Theorie **getrennte Instanzen**)
-
-* **ABER:** Theorie und Beobachtung nicht sauber voneinander zu trennen 
-
-* „Data are theory-laden“ (Duhem & Quine)
-
-* Theorie bestimmt mit, welche Phänomene sichtbar werden können
-
-$\rightarrow$ Eigene Vorstellung/Überzeugung veranlasst uns erst zur Beobachtung
-
-* Forscher, der alles  beobachtet $\rightarrow$ idealisierte Vorstellung (Forscher = **Ko-Konstrukteur**)
-
-* **Folge:** Wesentlicher Einfluss der aktuell dominanten Forschungsmeinung
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-####  Kritik an Popper (innerhalb Empirismus)
-
-##### Theorien sind gegenüber Falsifikation abgepuffert
-
-* Prognose trifft nicht zu $\rightarrow$ Problem ist nicht zwangsläufig Theorie, sondern ggf. **fehlerhafte Ableitung** aus der Theorie (Operationalisierung/experimentelle Umsetzung)
-
-* Verständnis aller Bedingungen, welche für Eintreten der Hypothese gegeben sein müssen (Problem: Psychologie = hochgradig mulifaktoriell)
-
-* es bedarf genaue Formulierung/Ausdifferenzierung der Bestandteile einer Theorie (sehr komplexes "wenn" in "wenn ... dann")
-
-* Popper wird für mangelnde Berücksichtigung von Operationalisierung kritisiert
-
----
-class: top, left
-### Erkenntnisgewinn in der Psychologie
-
-####  Alternative Betrachtung - Wissenschaftsgeschichter Ansatz
-
-##### Denkstile und Denkkollektive (Ludwig Fleck & Robert Merton)
-
-* Popper: **wissenschaftsimmanenter Ansatz** (Vorgabe einer Forschungslogik für die Wissenschaft)
-
-Alternative Betrachtung:
-
-* Wandlung von Forschungsinteressen in Relation zu **gesamtgesellschaftlichen Entwicklungen**
-
-* **Denkstil:** gemeinsame Fragestellungen, Urteile und Methoden
-
-* **Denkkollektiv:** Menschen, die im Gedankenaustausch oder in gedanklicher Wechselwirkung stehen (Spekulationsgemeinschaft)
-
-* **Folge:** es setzt sich für bestimmte Zeiträume eine dominierende Forschungshaltung durch
+### Einheit 3: Paradigmengeschichte - Menschenbild bestimmt Methode
+##### 26.11.2022 | Dr. phil. Stephan Goerigk
 
 ---
 class: top, left
@@ -786,73 +86,857 @@ class: top, left
 
 * Theorie = Inhalt der Wissenschaft, Paradigma = Inhalt + Praktiken der Wissenschaft (Methoden, Institutionen, Wissensweitergabe)
 
-* **Machtwirkung:** Weclhe Formate des Erkenntnisgewinns haben Gewicht (Spielregeln der Wissenschaft)
+* **Machtwirkung:** Welche Formate des Erkenntnisgewinns haben Gewicht (Spielregeln der Wissenschaft)
 
 ---
 class: top, left
-### Erkenntnisgewinn in der Psychologie
+### Paradigmen und Perspektiven in der Psychologie
 
-####  Alternative Betrachtung - Wissenschaftsgeschichter Ansatz
+.center[
+*Wer als Werkzeug nur einen Hammer hat, sieht in jedem Problem einen Nagel.*
 
-##### Der Begriff des Paradigmas - Struktur wissenschaftlicher Revolutionen (Thomas Kuhn)
+Mark Twain (Law of the instrument)
+]
 
-**Phasen des Paradigmenwechsels:**
+* Perspektive bestimmt über Sichtweise auf ein Problem
 
-1. **Prä-paradigmatische Periode**
- * Theorienpluralismus, Wettkampf divergenter Ansichten (alle mit verfügbaren Beobachtungen vereinbar)
-2. **Dominierendes Paradigma**
-  * plausibler Rahmen für meiste verfügbaren Beobachtungen, bietet Leitfaden für weitere Forschung
-3. **Periode der normalen Wissenschaft**
-  * keine Grundsatzprobleme, Wissenschaft in theoretischen und methodologischen Grenzen des Paradigmas (theoretische Ausdehnung)
-4. **Anomalie**
-  * Stolperstein, Problem mit aktuellem Annahmen- und Methodenkomplex nicht lösbar
-5. **Stadium der außerordentlichen Wissenschaft**
-  * vermehrte Angriffe, Verunsicherung der Disziplin, Versagen alter Regeln, Suche nach neuen Lösungen
-6. **Wissenschaftliche Revolution**
-  * Kapitulation vor neuem Denkstil, standespolitische Übernahme
-  
+* Paradigma bestimmt Auswahl der Forschungsmethoden und Forschungsgegenstände
+
+* Beispiel Fußballspiel: Fans 2er unterschiedlicher Teams verfolgen das selbe Spiel
+
+**VORSICHT:**
+
+* Klar abgegrenzte Ansätze: Gefahr eines "Tunnelblicks"
+
+* Jede Perspektive erweitert holistisches Verständnis menschlicher Erfahrung 
+
+* die meisten Psychologen entlehnen heutzutage Konzepte verschiedener Perspektiven und verschmelzen diese (**integrativer Ansatz**)
+
 ---
 class: top, left
-### Erkenntnisgewinn in der Psychologie
+### Paradigmen und Perspektiven in der Psychologie
 
-####  Kritik am kritischen Rationalismus - Zusammenfassung
+#### Aktuelle Perspektiven psychologischer Forschung
 
-* Paradigmatische Machtpolitik dominiert Wissensschaft (nicht nur Forschungslogik oder Argumente)
+1. Psychodynamische Perspektive
 
-* Wissenschaftliche Theorien werden nicht widerlegt, sondern **verlassen** $\neq$ Falsifikationsprinzip
+2. Behavioristische Perspektive 
 
-* **Praxeologische** Sicht auf Wissenschaft (entscheident ist nicht Wahrheitsgehalt von Sätzen, sondern wissenschaftliche/soziale Aktivität)
+3. Humanistische Perspektive
 
-* Wissenschaftlicher Fortschritt $\neq$ **kontinuierlich bzw. kumulativ** (Entfaltungskonzept vs. Paradigmenwechsel)
+4. Kognitive Perspektive
 
-* Forschungsparadigma (und seine Methoden) entsteht in Abhängigkeit vom Menschenbild (sh. nächste Einheit)
+5. Biologische Perspektive
 
-  * Behaviorismus
-  * Humanistische Psychologie
-  * Tiefenpsychologie
-  * Kognitionspsychologie
-  * Psychobiologie
+6. Evolutionäre Perspektive
+
+7. Kulturvergleichende Perspektive
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+.pull-left[
+**Psychodynamische Perspektive**
+
+Annahmen:
+
+* Verhalten durch starke innere Kräfte motiviert
+
+* ererbte Instinkte + biologische **Triebe** $\rightarrow$ psychische Deprivation (Lustprinzip)
+
+* Innere **Konflikte** zwischen gegenläufigen Bedürfnissen
+
+* Deprivation + psych. Erregung + Konflikte $\rightarrow$ **Energie für Verhalten** (Dampfkesselmodell)
+
+* Trieb/Bedürfnis befriedigt $\rightarrow$ Ende des Verhaltens
+]
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "250px"}
+knitr::include_graphics("bilder/freud.jpg")
+```
+
+Siegmund Freud (1856-1939)
+]
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+.pull-left[
+**Psychodynamische Perspektive**
+
+Eisbergmodell des Bewusstseins (Freud):
+
+* Ableitung aus Strukturmodell der Psyche (Ich, Es, Über-Ich)
+
+* Laut Freud 80–90% psychischer Prozesse unbewusst
+
+* Im Unterbewusstsein liegen Ängste, verdrängten Konflikte, traumatischen Erlebnisse, Triebe und Instinkte
+
+* Nur Bewusstes (über der Wasseroberfläche beobachtbar)
+]
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "550px"}
+knitr::include_graphics("bilder/eisberg.png")
+```
+]
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+.pull-left[
+**Psychodynamische Perspektive**
+
+Beispiel **Drei-Instanzen-Modell** (aka topisches Modell):
+
+* Modell der Psyche des Menschen
+
+* Besteht aus 3 Instanzen unterschiedlicher Funktionen: 
+  * Es
+  * Ich 
+  * Über-Ich
+
+* ES und wesentliche Teile des ÜBER-ICH sind **unbewusst**
+]
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "500px"}
+knitr::include_graphics("bilder/topischesmodell.png")
+```
+]
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+Beispiel Konfliktmodell:
+
+* Immer wieder gibt es **Konfliktsituationen** im Leben
+
+* in der Regel aus finden wir aber Konfliktsituationen heraus
+
+* in manchen Konflikten lassen wir jedoch kein „Sowohl-als-auch“ zu (Freud: **Grundkonflikt**)
+
+* Operationalisierten Psychodynamischen Diagnostik (OPD) unterscheidet 8 **Konflikttypen** (in abgeschwächter Form bei fast jedem vorhanden)
+
+* Diese Konflikte laufen i.d.R. **unbewusst** ab
+
+* Konfliktverhalten: passiv-selbstbezogener vs. aktiv-objektbezogener Modus
+
+* **Annahme der psychodynamischen Therapie:** Konfliktlösung führt zu Symptombewältigung
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+Beispiel: 8 Konflikttypen nach OPD:
+
+1. Abhängigkeit versus Autonomie 
+
+2. Unterwerfung versus Kontrolle
+
+3. Versorgung versus Autarkie
+
+4. Selbstwert versus Objektwert
+
+5. Egoistische versus prosoziale Tendenzen
+
+6. Ödipal-sexueller Konflikt
+
+7. Identität versus Dissonanz
+
+8. eingeschränkte Konflikt- und Gefühlswahrnehmung
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+Beispiel Abwehrmechanismen (Anna Freud, Auswahl):
+
+.pull-left[
+* Verdrängung
+  * Triebregungen ins Unbewusste verdrängen
+* Reaktionsbildung
+  * auf Trieb durch das Gegenteil reagieren
+* Regression
+  * Rückzug auf eine frühere Entwicklungsstufe
+* Verleugnung
+  * Realität in Bedeutung nicht anerkennen
+* Vermeidung
+  * Triebregungen werden umgangen
+* Verschiebung
+  * Triebregungen auf andere Objekte übertragen
+]
+.pull-right[
+* Spaltung
+  * Inkompatibles auf mehrere Objekte verteilen
+* Verneinung
+  * Negierung eines Sachverhalts
+* Projektion
+  * Selbstanteile anderen Personen zuschreiben
+* Intellektualisierung
+  * Entfernung durch Abstraktionsbildung und theoretisches Analysieren
+* Sublimierung
+  * Triebwünsche durch gesellschaftlich höher bewertete Ersatzhandlungen ersetzen
+]
+
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+* Beobachtungsgegenstand ist **unbewusst** $\rightarrow$ Zugang zum Unbewussten herstellen
+
+* **Herausforderung:** Umgehung der **Zensur** des psychischen Apperats
+
+* **Ziel:** Aufdeckung unbewußt gebliebener / gewordener Prozesse
+
+Methoden der psychodynamischen Perspektive:
+
+* Freie Assoziation
+* Hypnose
+* Traumanalyse
+* Widerstandsanalyse
+* Theorieorientierte Deutung
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+**Freie Assoziation** (Methode der freien Einfälle):
+
+* Methode der psychoanalytischen Selbsterfahrung
+
+* Analysand soll Einfällen zu Personen, Ereignissen, Träumen oder Symbolen völlig freien Lauf lassen
+
+* Äußerungen **nicht zensieren**, auch wenn sie unpassend, unangenehm, sittenwidrig, unsinnig oder unwichtig erscheinen
+
+* **Grundregel** der Freud'schen Behandlungstechnik
+
+* Psychoanalytiker begegnet Assoziationen mit **frei schwebender Aufmerksamkeit**
+
+[**Beispiel-Video**](https://www.youtube.com/watch?v=uTYHuXzkUCE)
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+**Freie Assoziation** (Methode der freien Einfälle):
+
+Setting: 
+
+* Assoziation im Liegen (Förderung der Regression, Verringerung der Zensur)
+
+* ohne Blickkontakt
+
+* Schlafen nachempfundene Position zur Reduktion der Spannung im Körper
+
+* Analytiker:in sitzt hinter Patient:in (Gefühl unbeobachtet zu sein)
+
+* Zu Beginn: „Arbeitsvertrag“ in Form der Grundregel $\rightarrow$ Assoziationen vorbehaltlos und ohne bewusste Zensur zur Sprache bringen
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+**Hypnose:**
+
+* **Ziel:** Erreichen einer hypnotischen **Trance**
+
+* vorübergehend geänderte Aufmerksamkeit und tiefe Entspannung $\rightarrow$ **Reduktion der Zensur**
+
+* Auto- oder Selbsthypnose vs. Fremd- oder Heterohypnose
+
+* während Hypnose erhält Proband:in ggf. verbale Anweisungen (**Suggestionen**), die direkt auf das Unbewusste wirken sollen
+
+* **Posthypnotische Suggestionen**: Suggestionen, die nach Auflösung der Hypnose (Exduktion) noch wirksam 
+
+* Vermeintlicher neurowiss. Beleg für reduzierte Zensur: bildgebenden Verfahren $\rightarrow$ Aktivität bestimmter Gehirnareale selektiv reduziert
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+**Traumanalyse:**
+
+* Traumgeschehen als wichtige Informationsquelle über unbewusste Erlebensweisen
+
+* Freud: "Die Traumdeutung" - (Via regia lat.: der Königsweg) zur Kenntnis des Unbewussten
+
+* Im Traum: Manifestation verdrängter **aktueller/infantiler Wünsche**
+
+* Wünsche werden durch Trauminhalte in **entstellter Form** als erfüllt dargestellt
+
+* **Entstellung:** direkte Erfüllung wäre für Träumer unangenehm und würde Schlaf stören
+
+* Trauminhalt: **Kompromiss** zwischen den zu erfüllenden Wünschen und der Zensur
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Psychodynamische Perspektive**
+
+Wissenschaftliche Methode:
+
+* Theoriebildung durch Vergleich von Einzelfallstudien (Kasuistiken)
+
+[**Freud Beispiel-Text: Der kleine Hans**](https://www.projekt-gutenberg.org/freud/5jaehrig/5jaehrig.html)
+
+* Sprachliche Metaphorik für unbewusste Phänomene (Freud Literaturnobelpreis)
+
+* Hermeneutik: Verstehender Ansatz
+
+* Experimenteller Ansatz: z.B. Assoziationsstudien von C. G. Jung
+
+* Forschung im Sinne qualitativer Interviewmethoden (z.B. qualitative Inhaltsanalyse nach Mayring)
+
+* Übertragung psychodynamischer Konzepte auf empirische Wissenschaft (z.B. experimenteller Vergleich von psychoanalytischen Therapievarianten)
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+.pull-left[
+**Behavioristische Perspektive**
+
+* Verhalten ohne Introspektion oder Einfühlung untersuchen
+
+* Entschiedene Gegner der gleichzeitig aufkommenden psychoanalytischen Richtungen (v.a. USA)
+
+Annahmen:
+
+* „objektive Methode“: alles Verhalten in **Reiz $\rightarrow$ Reaktion** zerlegen
+
+* **Gehirn = Black Box** (antwortet auf Reiz automatisch mit Reaktion)
+
+* Verhalten entsteht durch Erlernen von Reiz-Reaktions-Mustern
+]
+.pull-right[
+.pull-left[
+```{r eval = TRUE, echo = F, out.width = "160px"}
+knitr::include_graphics("bilder/watson.jpg")
+```
+]
+.pull-right[
+```{r eval = TRUE, echo = F, out.width = "200px"}
+knitr::include_graphics("bilder/skinner.jpg")
+```
+
+]
+John Watson (1878-1958) und B. F. Skinner (1904-1990)
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Behavioristische Perspektive**
+
+Paradigmen der behavioristischen Lernpsychologie:
+
+.pull-left[
+**klassische Konditionierung**
+
+```{r echo = F}
+df = data.frame(Phase = c("Kontrollphase", "Kontrollphase", "Lernphase", "Lernergebnis"),
+                Reiz = c("Neutraler Reiz (NS)", "Unbedingter Reiz (UCS)", "Neutraler Reiz (NS) + Unbedingter Reiz (UCS)", "Bedingter Reiz (CS)"),
+                Reaktion = c("Keine spezifische Reaktion", "Unbedingte Reaktion", "Unbedingte Reaktion", "Bedingte Reaktion"))
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 18) %>%
+  kable_classic(full_width = T)
+```
+
+* Der lernende Organismus hat keine Kontrolle über den Reiz oder seine Reaktion
+]
+.pull-right[
+**operante Konditionierung**
+```{r echo = F}
+df = data.frame(v1 = c("", "Angenehme Konsequenz", "Unangenehme Konsequenz"),
+                v2 = c("Konsequenz dargeboten", "positive Verstärkung", "positive Bestrafung"),
+                v3 = c("Konsequenz fällt weg", "negative Bestrafung", "negative Verstärkung"))
+names(df) = c("Valenz", "Darbietung", "Keine Darbietung")
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 18) %>%
+  kable_classic(full_width = T)
+```
+
+* Häufigkeit eines Verhaltens wird durch seine Konsequenzen nachhaltig verändert
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Behavioristische Perspektive**
+
+Methoden des Behaviorismus: Experimentelle Verhaltensanalyse
+
+* Streng wissenschaftliche **Laborexperimente**
+
+* Selbstbeobachtung wird **abgelehnt**
+
+* untersucht funktionalen Zusammenhänge zwischen dem Verhalten und der Umwelt (**Reiz-Reaktions-Muster**)
+
+* **Ziel:** Verhalten zu beschreiben, zu erklären, vorherzusagen und zu kontrollieren
+
+* datenbasierter **induktiver Ansatz**
+
+* **Topografie** des Verhaltens = von außen beobachtbares Verhalten
+
+* **Funktion** des Verhaltens = Zusammenhang zwischen Verhalten und Umweltereignis
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Behavioristische Perspektive**
+
+Methoden des Behaviorismus: Experimentelle Verhaltensanalyse
+
+* Funktionsanalyse (**ABC-Modell**): Modell zur Beschreibung von operanten Abläufen
+
+**A (antecedent): **
+* vorausgehenden (antezedenten) Funktionen des Verhaltens
+
+ **B (behavior):  **
+* das Verhalten (behavior) und damit alles was ein Organismus tut (latent und manifest)
+
+ **C (consequence):  **
+* alle (verstärkenden oder bestrafenden) Konsequenzen des Verhaltens
+
+**WICHTIG:**
+Kontrolle äußerer Störeinflüsse auf den ABC-Mechanismus
+
+---
+class: top, left
+### Überblick: Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+.pull-left[
+**Behavioristische Perspektive**
+
+Methoden des Behaviorismus: Beispiel **Skinner-Box**
+
+* reizarmer Käfig für ein Testtier zum Erlernen neuartigen Verhaltens
+
+* standardisiert und weitgehend automatisiert
+
+* keine unnatürliche Einschränkung, keine Versuchsleitereffekte
+]
+
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "400px"}
+knitr::include_graphics("bilder/skinnerbox.png")
+```
+]
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+.pull-left[
+**Humanistische Perspektive**
+
+* Menschen sind
+  * aktive Geschöpfe
+  * von Grund auf gut
+  * verfügen über Freiheit der Wahl
   
+* **Self-actualization** (Selbstverwirklichung - Drang das eigene Potential umfassend zu verwiklichen)
+
+* Relevanz eigener **Wertevorstellungen**
+
+* Ansatz: tiefes **Verstehenwollen** des Individuums
+
+* Mensch als empfindendes soziales Wesen (Wilhelm Dilthey)
+]
+.pull-right[
+.pull-left[
+```{r eval = TRUE, echo = F, out.width = "200px"}
+knitr::include_graphics("bilder/rogers.jpg")
+```
+]
+.pull-right[
+```{r eval = TRUE, echo = F, out.width = "160px"}
+knitr::include_graphics("bilder/maslow.jpg")
+```
+]
+Carl Rogers (1902-1987) und Abraham Maslow (1908-1970)
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Humanistische Perspektive**
+
+Methoden:
+
+* **Holistische** Herangehensweise und Betonung **qualitativer Forschungsmethoden** (siehe Folgevorlesung)
+
+* Wissen über Geist, Körper und Verhalten vor dem Hintergrund sozialer und kultureller Faktoren (Literatur, Geschichte, Künste)
+
+* **Hermeneutischer Zirkel** (Auslegekunst, Interpretationskunst)
+  * beginnend mit Grundverständnis (häufig Texte, Bilder etc.) als Hintergrund für Feinanalysen
+  * an Teilen erzieltes Verständnis wird auf Grundverständnis rückbezogen
+  * schrittweise Wiederholung des Verfahrens für ein verbessertes Gesamtverständnis
+
+**Ziel hermeneutischen Schließens:**
+* Verringerung hermeneutischer Differenz
+* "Horizontverschmelzung"
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+.pull-left[
+**Kognitive Perspektive**
+
+* Entstand aus Limitationen des Behaviorismus (Kognitive Wende)
+
+* Fokus: menschliches Denken und wissensbasierte Prozess
+  * Aufmerksamkeit
+  * Erinnern
+  * Verstehen...
+
+* Personen reagieren nicht auf objektive Realität sondern wegen **subjektiver Realität**
+
+* Verhalten nur zum Teil durch Reize bestimmt, sondern auch durch deren **Verarbeitung** und **Bewertung**
+]
+.pull-right[
+.pull-left[
+```{r eval = TRUE, echo = F, out.width = "230px"}
+knitr::include_graphics("bilder/bandura.jpg")
+```
+]
+.pull-right[
+```{r eval = TRUE, echo = F, out.width = "200px"}
+knitr::include_graphics("bilder/chomsky.jpg")
+```
+]
+Albert Bandura (1925-2021) und Noam Chomsky (geb.1928)
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Kognitive Perspektive**
+
+Zentrale Annahmen:
+
+* Gedanken sind **Ergebnis und Ursache** offen gezeigten Verhaltens
+
+* Alles Erleben und Verhalten des Menschen basiert auf **Informationsverarbeitung**
+
+* Prozess zwischen Wahrnehmen, Denken und Handeln steht im Mittelpunkt
+
+* Jedes Verhalten ist **aktiv, zielgerichtet und plangesteuert** (kybernetisch regulierter Prozess)
+
+* Verhalten entsteht aus der Wahrnehmung von Diskrepanzen und zielt auf Reduktion dieser Diskrepanzen (wie bewertet der Mensch eine wahrgenommene Situation?)
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+
+.pull-left[
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Kognitive Perspektive**
+
+Methoden:
+
+* Versuch der Anwendung möglichst objektiver, quantitativer empirischer Modelle (Experimente)
+
+* Objektive Tests zur Erforschung kognitiver Fähigkeiten
+
+* Labor- und Feldexperimente
+]
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "370px"}
+knitr::include_graphics("bilder/moca.jpg")
+```
+]
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Kognitive Perspektive**
+
+Methoden:
+
+* Versuch der Anwendung möglichst objektiver, quantitativer empirischer Modelle (Experimente)
+
+* Objektive Tests zur Erforschung kognitiver Fähigkeiten
+
+z.B. **Problemlösen (Türme-von-Hanoi):**
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "350px"}
+knitr::include_graphics("bilder/hanoi.gif")
+```
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Kognitive Perspektive**
+
+Methoden:
+
+* Versuch der Anwendung möglichst objektiver, quantitativer empirischer Modelle (Experimente)
+
+* Objektive Tests zur Erforschung kognitiver Fähigkeiten
+
+z.B. **Gedächtnis**:
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "300px"}
+knitr::include_graphics("bilder/memory.gif")
+```
+]
+
+---
+class: top, left
+### Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Kognitive Perspektive**
+
+Methoden:
+
+* Versuch der Anwendung möglichst objektiver, quantitativer empirischer Modelle (Experimente)
+
+* Objektive Tests zur Erforschung kognitiver Fähigkeiten
+
+z.B. **Aufmerksamkeit**:
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "300px"}
+knitr::include_graphics("bilder/monkey.gif")
+```
+]
+
+---
+class: top, left
+### Überblick: Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+.pull-left[
+**Biologische Perspektive**
+
+* Menschliches Verhalten resultiert aus **biologischen Prozessen** (Gene, Hormone, Nervensystem, Gehirn)
+
+* Psyche und Körper stehen in **Wechselwirkung**
+
+* Erfahrungen und Verhalten sind Ergebnisse chemischer/elektrischer synaptischer Übertragungen
+
+* **Zergliederung** komplexer Prozesse in kleinere, spezifische Einheiten
+
+* Zentrale Rolle **genetischer** und **epigenetischer** Grundlagen
+]
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "150px"}
+knitr::include_graphics("bilder/damasio.jpg")
+```
+
+António R. Damásio (geb. 1944)
+]
+]
+
+---
+class: top, left
+### Überblick: Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Biologische Perspektive**
+
+Methoden:
+
+* Messung biologischer Marker von Verhalten
+* zentral und periphere Messungen (siehe Folgevorlesung)
+
+Einteilung von Messmethoden in:
+
+.pull-left[
+**Messungen von Indikatoren außerhalb des ZNS**
+  * Elektrodermale Aktivität
+  * Elektromyogramm
+  * Elektrookulogramm und Eyetracker
+  * Elektrokardiogramm (EKG)
+  * Hormonspiegel im Blut
+  * ...
+]
+.pull-right[
+**Messungen von Indikatoren der Aktivität des ZNS**
+  * Elektroenzephalogramm
+  * Magnetenzephalogramm
+  * Computertomografie (CT)
+  * Positronenemissionstomografie (PET)
+  * funktionelle Magnetresonanztomografie (fMRT)
+  * ...
+]
+
+---
+class: top, left
+### Überblick: Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+**Biologische Perspektive**
+
+Methoden: Beispiel EEG
+
+* fängt die elektrischen Potenziale von Neuronen auf
+* Messung per Elektroden auf der Schädeloberfläche
+* Aktivität von Neuronenverbänden kann zeitlich simultan gemessen werden
+
+.pull-left[
+.center[
+```{r eval = TRUE, echo = F, out.width = "230px"}
+knitr::include_graphics("bilder/eeg.jpg")
+```
+]
+]
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "350px"}
+knitr::include_graphics("bilder/eeg.gif")
+```
+]
+]
+
+---
+class: top, left
+### Überblick: Paradigmen und Perspektiven in der Psychologie
+
+#### Aktuelle Perspektiven psychologischer Forschung
+
+```{r echo = F}
+df = data.frame(Perspektive = rep(NA,5),
+                Untersuchungsschwerpunkt = rep(NA,5),
+                Forschungsthemen = rep(NA,5))
+df$Perspektive = c("Psychodynamisch",
+                   "Behavioristisch",
+                   "Humanistisch",
+                   "Kognitiv",
+                   "Biologisch")
+df$Untersuchungsschwerpunkt = c("Unbewusste Triebe, Konflikte",
+                                "Spezifische Verhaltensreaktionen",
+                                "Menschliche Potentiale und Erleben",
+                                "Mentale Prozesse",
+                                "Prozesse im Nervensystem, Gehirn")
+df$Forschungsthemen = c("Sichtbarer Ausdruck unbewusster Prozesse",
+                                "Verhalten und seine Abhängigkeit von Reizen und Konsequenzen",
+                                "Werte, Ziele",
+                                "Geistige Prozesse durch Verhalten messbar machen",
+                                "Biochemische Grundlagen von mentalen Prozessen und Verhalten")
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 18) %>%
+  kable_classic(full_width = T)
+```
+
 ---
 class: top, left
 ### Take-Aways
 .content-box-gray[
-* Moderne Psychologie entwickelt sich im Kontext **erkenntnistheoretischer** Überlegungen
+* **Paradigma** und dahinterstehendes **Menschenbild** bestimmen Auswahl der Forschungsmethoden
 
-* **Erkenntnistheoretische Grundpositionen:** Idealismus, Realismus, Empirismus, Rationalismus, Skeptizismus
+* **Psychodynamische Perspektive** muss Zugang zu unbewussten Inhalten und Prozessen herstellen
 
-* Platon (**Idealismus**) $\rightarrow$ Identifikation idealer (unwandelbarer und unvergänglicher) Grundprinzipien
+* **Behaviorismus** untersucht Reinz-Reaktionsketten in streng kontrollierten Verhaltensbeobachtungen
 
-* Aristoteles (**Realismus**) $\rightarrow$ Beobachtung der Natur und syllogistische Logik (Induktion + Deduktion)
+* **Humanistische Psychologie** versucht mittels qualitativen Methoden und hermeneutischem Schließen den Mensch als "Ganzes" zu verstehen
 
-* Bacon (**Empirismus**) $\rightarrow$ Verstand  täuschbar; Systematische Beobachtung und Eingreifen in Natur
+* **Kognitionspsychologie** untersucht kognitive Prozesse in objektiven Tests im Labor oder Feld
 
-* Descartes und Kant (**Rationalismus**) $\rightarrow$ Logische Gewissheit und mathematische Beweisführung
+* **Biologische Psychologie** nutzt Messverfahren zum Verständnis biochemischer Prozesse im Organismus, die mit Verhalten einhergehen 
 
-* Popper (**kritischer Rationalismus**) $\rightarrow$ Wissen = Vermutungswissen, Erkenntnisgewinn durch Versuch + Irrtum
-
-* Kuhn: **Paradigmenwechsel** $\rightarrow$ wissenschaftshistorischer Ablauf wissenschaftlicher Revolutionen
+* Psychologen **integrieren** heutzutage Konzepte (und Methoden) verschiedener Perspektiven in ihrer Forschung
 ]
 
-[**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLSfYowpbKPtvJ8w_c03ZjYdpoaV5jFXAA2zivqCi34bH_VXxuw/viewform?usp=sf_link)
+[**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLSfLqVNr1XUNk-b-cNoFcBMoy6iLSrOfkEMDdh2LUw4mAW9BdA/viewform?usp=sf_link)
 
