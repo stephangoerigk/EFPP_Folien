@@ -786,7 +786,7 @@ class: top, left
 
 * Theorie = Inhalt der Wissenschaft, Paradigma = Inhalt + Praktiken der Wissenschaft (Methoden, Institutionen, Wissensweitergabe)
 
-* **Machtwirkung:** Weclhe Formate des Erkenntnisgewinns haben Gewicht (Spielregeln der Wissenschaft)
+* **Machtwirkung:** Welche Formate des Erkenntnisgewinns haben Gewicht (Spielregeln der Wissenschaft)
 
 ---
 class: top, left
