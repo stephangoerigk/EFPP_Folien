@@ -67,876 +67,908 @@ class: middle, left
 <br><br><br><br><br><br><br>
 # Einführung in die Forschungsmethoden der Psychologie und Psychotherapie
 
-### Einheit 3: Paradigmengeschichte - Menschenbild bestimmt Methode
-##### 26.11.2022 | Dr. phil. Stephan Goerigk
+### Einheit 4: Messen in der Psychologie - manifest
+##### 02.11.2022 | Dr. phil. Stephan Goerigk
 
 ---
 class: top, left
-### Erkenntnisgewinn in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-####  Alternative Betrachtung - Wissenschaftsgeschichter Ansatz
+####  Unterteilung von Erhebungsmethoden
 
-##### Der Begriff des Paradigmas - Struktur wissenschaftlicher Revolutionen (Thomas Kuhn)
+* Verfahren des Beobachtens, Zählens und Messens
 
-* Kuhn: Forschungslogik für Entwicklung von Wissenschaften **nicht entscheidend**
+* Verfahren des Selbstberichts 
 
-* Schicksal wissenschaftlicher Theorien entscheidet sich **nicht** daran, ob sie falsifiziert werden oder nicht
+* Psychologische Tests 
 
-* **Paradigma:** Überzeugungen, Wertvorstellungen und Techniken, die von Mehrheit der Wissenschaftler akzeptiert sind
+* Biopsychologische bzw. neurowissenschaftliche Messungen 
 
-* Theorie = Inhalt der Wissenschaft, Paradigma = Inhalt + Praktiken der Wissenschaft (Methoden, Institutionen, Wissensweitergabe)
-
-* **Machtwirkung:** Welche Formate des Erkenntnisgewinns haben Gewicht (Spielregeln der Wissenschaft)
+$\rightarrow$ Verfahren sind nicht völlig distinkt, sondern weisen Überschneidungen auf
 
 ---
 class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-.center[
-*Wer als Werkzeug nur einen Hammer hat, sieht in jedem Problem einen Nagel.*
+####  Auswahl und Einsatz von Erhebungsmethoden
 
-Mark Twain (Law of the instrument)
-]
+##### Übergeordnete Perspektive
 
-* Perspektive bestimmt über Sichtweise auf ein Problem
+* **Ziel:** wissenschaftliche Fragestellungen in der Psychologie in Breite und Tiefe beantworten
 
-* Paradigma bestimmt Auswahl der Forschungsmethoden und Forschungsgegenstände
+* **Lösung:** Prinzipiell anstreben, Fragestellungen mit mehreren Datenerhebungsverfahren bzw. basierend auf unterschiedlichen Datenquellen zu untersuchen
 
-* Beispiel Fußballspiel: Fans 2er unterschiedlicher Teams verfolgen das selbe Spiel
+##### Perspektive der Einzelstudie
 
-**VORSICHT:**
+* häufig nicht möglich oder sinnvoll (ökonomischen oder versuchsplanerische Gründe), innerhalb einer einzigen Studie verschiedene Methoden einzusetzen
 
-* Klar abgegrenzte Ansätze: Gefahr eines "Tunnelblicks"
-
-* Jede Perspektive erweitert holistisches Verständnis menschlicher Erfahrung 
-
-* die meisten Psychologen entlehnen heutzutage Konzepte verschiedener Perspektiven und verschmelzen diese (**integrativer Ansatz**)
+* konkrete einzelne Untersuchung $\rightarrow$ gezielte Auswahl weniger Methoden
 
 ---
 class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-#### Aktuelle Perspektiven psychologischer Forschung
+####  Qualitätskriterien von Erhebungsmethoden
 
-1. Psychodynamische Perspektive
-
-2. Behavioristische Perspektive 
-
-3. Humanistische Perspektive
-
-4. Kognitive Perspektive
-
-5. Biologische Perspektive
-
-6. Evolutionäre Perspektive
-
-7. Kulturvergleichende Perspektive
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
+Zur Auswahl und Bewertung psychologischer Erhebungsmethoden müssen Kriterien berücksichtigt werden:
 
 .pull-left[
-**Psychodynamische Perspektive**
+**Hauptgütekriterien: **
 
-Annahmen:
+* Objektivität
 
-* Verhalten durch starke innere Kräfte motiviert
+* Reliabilität
 
-* ererbte Instinkte + biologische **Triebe** $\rightarrow$ psychische Deprivation (Lustprinzip)
-
-* Innere **Konflikte** zwischen gegenläufigen Bedürfnissen
-
-* Deprivation + psych. Erregung + Konflikte $\rightarrow$ **Energie für Verhalten** (Dampfkesselmodell)
-
-* Trieb/Bedürfnis befriedigt $\rightarrow$ Ende des Verhaltens
+* Validität
 ]
+
 .pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "250px"}
-knitr::include_graphics("bilder/freud.jpg")
-```
+**Nebengütekriterien: **
 
-Siegmund Freud (1856-1939)
-]
-]
+* Skalierung
 
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+* Normierung
 
-#### Aktuelle Perspektiven psychologischer Forschung
+* Ökonomie
 
-.pull-left[
-**Psychodynamische Perspektive**
+* Nützlichkeit
 
-Eisbergmodell des Bewusstseins (Freud):
+* Zumutbarkeit
 
-* Ableitung aus Strukturmodell der Psyche (Ich, Es, Über-Ich)
+* Unverfälschbarkeit 
 
-* Laut Freud 80–90% psychischer Prozesse unbewusst
-
-* Im Unterbewusstsein liegen Ängste, verdrängten Konflikte, traumatischen Erlebnisse, Triebe und Instinkte
-
-* Nur Bewusstes (über der Wasseroberfläche beobachtbar)
-]
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "550px"}
-knitr::include_graphics("bilder/eisberg.png")
-```
-]
+* Fairness
 ]
 
 ---
 class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-#### Aktuelle Perspektiven psychologischer Forschung
+####  Qualitätskriterien von Erhebungsmethoden
 
-.pull-left[
-**Psychodynamische Perspektive**
+##### Objektivität
 
-Beispiel **Drei-Instanzen-Modell** (aka topisches Modell):
+**Definition:**
+Eine Erhebungsmethode ist objektiv, wenn sie das Merkmal unabhängig von Testleiter:in, Testauswerter:in und von Ergebnisinterpretation misst.
 
-* Modell der Psyche des Menschen
+3 Bereiche lassen sich unterscheiden:
 
-* Besteht aus 3 Instanzen unterschiedlicher Funktionen: 
-  * Es
-  * Ich 
-  * Über-Ich
+1. Durchführungsobjektivität (Testleiterunabhängigkeit) 
 
-* ES und wesentliche Teile des ÜBER-ICH sind **unbewusst**
-]
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "500px"}
-knitr::include_graphics("bilder/topischesmodell.png")
-```
-]
-]
+2. Auswertungsobjektivität (Verrechnungssicherheit)
+
+3. Interpretationsobjektivität (Interpretationseindeutigkeit)
 
 ---
 class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-#### Aktuelle Perspektiven psychologischer Forschung
+####  Qualitätskriterien von Erhebungsmethoden
 
-**Psychodynamische Perspektive**
+##### Objektivität
 
-Beispiel Konfliktmodell:
+**Durchführungsobjektivität:**
 
-* Immer wieder gibt es **Konfliktsituationen** im Leben
+Definition: 
 
-* in der Regel aus finden wir aber Konfliktsituationen heraus
+Testergebnis soll nicht davon abhängen, welche Testleiter:in Test durchführt 
 
-* in manchen Konflikten lassen wir jedoch kein „Sowohl-als-auch“ zu (Freud: **Grundkonflikt**)
+$\rightarrow$ Erhebung sollte unter möglichst standardisierten Bedingungen stattfinden
 
-* Operationalisierten Psychodynamischen Diagnostik (OPD) unterscheidet 8 **Konflikttypen** (in abgeschwächter Form bei fast jedem vorhanden)
+Standardisierung wird optimiert durch:
 
-* Diese Konflikte laufen i.d.R. **unbewusst** ab
-
-* Konfliktverhalten: passiv-selbstbezogener vs. aktiv-objektbezogener Modus
-
-* **Annahme der psychodynamischen Therapie:** Konfliktlösung führt zu Symptombewältigung
+* Instruktionen der Testleiter schriftlich festgehalten
+* soziale Interaktion zwischen Versuchsleiter und Testperson gering halten 
+* für möglichst ähnliche Untersuchungssituation sorgen
 
 ---
 class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-#### Aktuelle Perspektiven psychologischer Forschung
+####  Qualitätskriterien von Erhebungsmethoden
 
-**Psychodynamische Perspektive**
+##### Objektivität
 
-Beispiel: 8 Konflikttypen nach OPD:
+**Auswertungsobjektivität:**
 
-1. Abhängigkeit versus Autonomie 
+Definition: 
 
-2. Unterwerfung versus Kontrolle
+Beim Vorliegen der Antworten/Beobachtungen einer Person soll jede Auswerter:in zum selben Ergebnis kommen
 
-3. Versorgung versus Autarkie
+Kann durch statistische Kennzahlen zur Beurteilerübereinstimmung erfasst werden: 
+* Cohens Kappa
+* Fleiss Kappa
+* Konkordanzkoeffizienten nach Kendall
 
-4. Selbstwert versus Objektwert
+Auswertungsobjektivität wird optimiert durch:
 
-5. Egoistische versus prosoziale Tendenzen
-
-6. Ödipal-sexueller Konflikt
-
-7. Identität versus Dissonanz
-
-8. eingeschränkte Konflikt- und Gefühlswahrnehmung
+* Vermeiden freier Antwortformate
+* klare Auswertungsregeln
 
 ---
 class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-#### Aktuelle Perspektiven psychologischer Forschung
+####  Qualitätskriterien von Erhebungsmethoden
 
-**Psychodynamische Perspektive**
+##### Objektivität
 
-Beispiel Abwehrmechanismen (Anna Freud, Auswahl):
+**Interpretationsobjektivität:**
 
-.pull-left[
-* Verdrängung
-  * Triebregungen ins Unbewusste verdrängen
-* Reaktionsbildung
-  * auf Trieb durch das Gegenteil reagieren
-* Regression
-  * Rückzug auf eine frühere Entwicklungsstufe
-* Verleugnung
-  * Realität in Bedeutung nicht anerkennen
-* Vermeidung
-  * Triebregungen werden umgangen
-* Verschiebung
-  * Triebregungen auf andere Objekte übertragen
-]
-.pull-right[
-* Spaltung
-  * Inkompatibles auf mehrere Objekte verteilen
-* Verneinung
-  * Negierung eines Sachverhalts
-* Projektion
-  * Selbstanteile anderen Personen zuschreiben
-* Intellektualisierung
-  * Entfernung durch Abstraktionsbildung und theoretisches Analysieren
-* Sublimierung
-  * Triebwünsche durch gesellschaftlich höher bewertete Ersatzhandlungen ersetzen
-]
+Definition: 
+
+Unterschiedliche Erheber:innen sollen beim Vorliegen der Ergebnisse zum selben Schluss kommen.
+
+Interpretationsobjektivität kann erhöht werden durch:
+
+* klare Regeln für die Interpretation
+* Vorhandensein von Normen/Normwerten
+* Verwendung von Prozenträngen
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+####  Qualitätskriterien von Erhebungsmethoden
+
+##### Reliatbilität
+
+**Definition:**
+
+* Eine Erhebungsmethode ist (vollständig) reliabel, wenn sie das Merkmal ohne Messfehler misst.
+
+* Reliabilität gibt Grad der Genauigkeit an, mit der eine Erhebungsmethode misst
+
+Es lassen sich 3-4 Arten der Reliabilität unterscheiden: 
+
+* **Retest-Reliabilität** $\rightarrow$ Erhebungsmethode kommt bei Wiederholung zum selben Ergebnis
+
+* **Paralleltest-Reliabilität** $\rightarrow$ Erhebungsmethode kommt unter vergleichbaren Bedingungen zum selben Ergebnis
+
+* **Innere Konsistenz** $\rightarrow$ Einzelteile der Erhebungsmethode kommen zu ähnlichen Ergebnissen wie andere Erhebungsmethode
+
+* (**Testhalbierungs- (Split Half-)Reliabilität**) $\rightarrow$ analog zur innreren Konsistenz (nur Trennung in 2 Teile)
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+####  Qualitätskriterien von Erhebungsmethoden
+
+##### Validität
+
+**Definition:**
+
+Eine Erhebungsmethode ist valide, wenn sie das Merkmal, das sie messen soll, auch wirklich misst.
+
+3 Validitäten lassen sich unterscheiden:
+* **Inhaltsvalidität**
+  * Erhebungsmethode entspricht allen relevanten Bestandteilen des erhobenen Konstrukts (z.B. Depressionsfragebogen sollte alle relevanten Depressionssymptome und keine nicht für Depression relevanten Symptome enthalten)
+* **Konstruktvalidität**
+  * Erhebungsmethode erzeugt Daten, die von einer empirisch bewährten oder überzeugenden Theorie vorhergesagt werden (z.B. Testergebnis Diagnoseinstrument Autismus bildet erwartete Erblichkeit ab)
+* **Kriteriumsvalidität**
+  * Erhebungsmethode erzeugt Daten, die mit Kriterien des Merkmals korrelieren (z.B. Intelligenztest und Schulnoten)
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+####  Reaktivität
+
+* Von Beginn an ist die Reaktivität der Erhebungsmethoden zu beachten.
+
+* Definition: Veränderung/Verzerrung der erhobener Daten aufgrund der Kenntnis der untersuchten Person darüber, dass sie Gegenstand einer Untersuchung ist
+
+$\rightarrow$ Datenerhebungen in Psychologie verändern oft bereits den Gegenstand
+
+**Beispiel: Hawthorne-Effekt**
+
+* klassische Studie in den Hawthorne-Werken der Western Electric Company (Roethlisberger und Dickson, 1939)
+
+* bloße wissenschaftliche Untersuchung der Arbeiter:innen führte zu Steigerung der Produktivität 
+
+* Produktivitätssteigerung war **unabhängig** von den durch die Forscher implementierten Veränderungen der Arbeitsbedingungen
+
+* **Bewertungserwartung** der untersuchten Personen aka. **Aufforderungscharakteristika** der Untersuchung
 
 
 ---
 class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Psychodynamische Perspektive**
-
-* Beobachtungsgegenstand ist **unbewusst** $\rightarrow$ Zugang zum Unbewussten herstellen
-
-* **Herausforderung:** Umgehung der **Zensur** des psychischen Apperats
-
-* **Ziel:** Aufdeckung unbewußt gebliebener / gewordener Prozesse
-
-Methoden der psychodynamischen Perspektive:
-
-* Freie Assoziation
-* Hypnose
-* Traumanalyse
-* Widerstandsanalyse
-* Theorieorientierte Deutung
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Psychodynamische Perspektive**
-
-**Freie Assoziation** (Methode der freien Einfälle):
-
-* Methode der psychoanalytischen Selbsterfahrung
-
-* Analysand soll Einfällen zu Personen, Ereignissen, Träumen oder Symbolen völlig freien Lauf lassen
-
-* Äußerungen **nicht zensieren**, auch wenn sie unpassend, unangenehm, sittenwidrig, unsinnig oder unwichtig erscheinen
-
-* **Grundregel** der Freud'schen Behandlungstechnik
-
-* Psychoanalytiker begegnet Assoziationen mit **frei schwebender Aufmerksamkeit**
-
-[**Beispiel-Video**](https://www.youtube.com/watch?v=uTYHuXzkUCE)
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Psychodynamische Perspektive**
-
-**Freie Assoziation** (Methode der freien Einfälle):
-
-Setting: 
-
-* Assoziation im Liegen (Förderung der Regression, Verringerung der Zensur)
-
-* ohne Blickkontakt
-
-* Schlafen nachempfundene Position zur Reduktion der Spannung im Körper
-
-* Analytiker:in sitzt hinter Patient:in (Gefühl unbeobachtet zu sein)
-
-* Zu Beginn: „Arbeitsvertrag“ in Form der Grundregel $\rightarrow$ Assoziationen vorbehaltlos und ohne bewusste Zensur zur Sprache bringen
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Psychodynamische Perspektive**
-
-**Hypnose:**
-
-* **Ziel:** Erreichen einer hypnotischen **Trance**
-
-* vorübergehend geänderte Aufmerksamkeit und tiefe Entspannung $\rightarrow$ **Reduktion der Zensur**
-
-* Auto- oder Selbsthypnose vs. Fremd- oder Heterohypnose
-
-* während Hypnose erhält Proband:in ggf. verbale Anweisungen (**Suggestionen**), die direkt auf das Unbewusste wirken sollen
-
-* **Posthypnotische Suggestionen**: Suggestionen, die nach Auflösung der Hypnose (Exduktion) noch wirksam 
-
-* Vermeintlicher neurowiss. Beleg für reduzierte Zensur: bildgebenden Verfahren $\rightarrow$ Aktivität bestimmter Gehirnareale selektiv reduziert
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Psychodynamische Perspektive**
-
-**Traumanalyse:**
-
-* Traumgeschehen als wichtige Informationsquelle über unbewusste Erlebensweisen
-
-* Freud: "Die Traumdeutung" - (Via regia lat.: der Königsweg) zur Kenntnis des Unbewussten
-
-* Im Traum: Manifestation verdrängter **aktueller/infantiler Wünsche**
-
-* Wünsche werden durch Trauminhalte in **entstellter Form** als erfüllt dargestellt
-
-* **Entstellung:** direkte Erfüllung wäre für Träumer unangenehm und würde Schlaf stören
-
-* Trauminhalt: **Kompromiss** zwischen den zu erfüllenden Wünschen und der Zensur
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Psychodynamische Perspektive**
-
-Wissenschaftliche Methode:
-
-* Theoriebildung durch Vergleich von Einzelfallstudien (Kasuistiken)
-
-[**Freud Beispiel-Text: Der kleine Hans**](https://www.projekt-gutenberg.org/freud/5jaehrig/5jaehrig.html)
-
-* Sprachliche Metaphorik für unbewusste Phänomene (Freud Literaturnobelpreis)
-
-* Hermeneutik: Verstehender Ansatz
-
-* Experimenteller Ansatz: z.B. Assoziationsstudien von C. G. Jung
-
-* Forschung im Sinne qualitativer Interviewmethoden (z.B. qualitative Inhaltsanalyse nach Mayring)
-
-* Übertragung psychodynamischer Konzepte auf empirische Wissenschaft (z.B. experimenteller Vergleich von psychoanalytischen Therapievarianten)
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-.pull-left[
-**Behavioristische Perspektive**
-
-* Verhalten ohne Introspektion oder Einfühlung untersuchen
-
-* Entschiedene Gegner der gleichzeitig aufkommenden psychoanalytischen Richtungen (v.a. USA)
-
-Annahmen:
-
-* „objektive Methode“: alles Verhalten in **Reiz $\rightarrow$ Reaktion** zerlegen
-
-* **Gehirn = Black Box** (antwortet auf Reiz automatisch mit Reaktion)
-
-* Verhalten entsteht durch Erlernen von Reiz-Reaktions-Mustern
-]
-.pull-right[
-.pull-left[
-```{r eval = TRUE, echo = F, out.width = "160px"}
-knitr::include_graphics("bilder/watson.jpg")
-```
-]
-.pull-right[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/skinner.jpg")
-```
-
-]
-John Watson (1878-1958) und B. F. Skinner (1904-1990)
-]
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Behavioristische Perspektive**
-
-Paradigmen der behavioristischen Lernpsychologie:
-
-.pull-left[
-**klassische Konditionierung**
+####  Maßnahmen zur Reduktion von Reaktivität
 
 ```{r echo = F}
-df = data.frame(Phase = c("Kontrollphase", "Kontrollphase", "Lernphase", "Lernergebnis"),
-                Reiz = c("Neutraler Reiz (NS)", "Unbedingter Reiz (UCS)", "Neutraler Reiz (NS) + Unbedingter Reiz (UCS)", "Bedingter Reiz (CS)"),
-                Reaktion = c("Keine spezifische Reaktion", "Unbedingte Reaktion", "Unbedingte Reaktion", "Bedingte Reaktion"))
+
+df = data.frame(Maßnahme = c("Versuchspersonen in Unkenntnis darüber lassen, dass sie untersucht werden",
+                             "Versuchspersonen Anonymität zusichern",
+                             "Coverstory über den Untersuchungszweck entwickeln",
+                             "Maße einsetzen, die von Versuchspersonen nicht kontrolliert oder beeinflusst werden können (nicht-reaktive Messverfahren)",
+                             "Indirekte/implizite Messverfahren einsetzen"),
+                Bewertung = c("Nur in Feld-, Archiv- oder Internetstudien praktikabel, nicht in Laborstudien; kann ethisch problematisch sein",
+                             "Besonders wichtig bei der Erhebung von persönlichen/sensiblen Daten; reduziert sozial-erwünschtes Antworten",
+                             "Wichtig in hypothesenprüfenden Studien, in denen die Versuchspersonen erforschtes Verhalten kontrollieren können; Täuschung ethisch zu reflektieren",
+                             "Angenommen für biopsychologische Maße, die kaum kontrollierbare physiologische Vorgänge erfassen (z.B. Messung von Hormonspiegeln oder  Verfahren zur Messung der Gehirnaktivität",
+                             "Versuchspersonen können aus gemessenen Verhaltensweisen (oft Reaktionszeiten) nur schwer auf das untersuchte Konstrukt schließen"))
+
 df %>%
   kbl() %>%
   kable_styling(font_size = 18) %>%
   kable_classic(full_width = T)
 ```
 
-* Der lernende Organismus hat keine Kontrolle über den Reiz oder seine Reaktion
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+* Jede Datenerhebung beinhaltet den Vorgang der visuellen Wahrnehmung, also Beobachtung (visuelle  Wahrnehmung $\neq$ wissenschaftliche Beobachtung)
+
+**Definition wissenschaftliche Beobachtung:** Systematische und regelgeleitete Registrierung des Auftretens bzw. der Ausprägung von ausgewählten, psychologisch relevanten Merkmalen oder Ereignissen
+
+Herausforderungen für Beobachtungen:
+* **Selektivität**
+  * Informationen müssen aus komplexem, sich ständig veränderndem Strom von ständig eintreffenden visuellen Daten auswählen 
+* **Konstruktivität**
+  * Selektierte Informationen zu bedeutungsvollen, stabilen Einheiten zusammenfügen
+  * Konstruktion abhängig von  Einstellungen, Erwartungen und Vorerfahrungen der Beobachter:in
+
+**Lösung:** $\rightarrow$ Wissenschaftliche Beobachtung nach a priori festgelegtem Beobachtungsplan
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Wissenschaftliche Beobachtung nach a priori festgelegtem Beobachtungsplan:
+
+1. Was soll beobachtet werden?  (Kategorien für das/die interessierende/n Ereignis/se oder Merkmal/e)
+
+2. Wer beobachtet?  (teilnehmend vs. nicht-teilnehmend)
+
+3. Wo wird beobachtet?  (Feld vs. Labor)
+
+4. Wie wird beobachtet? (Grad der Strukturierung)
+
+5. Wann wird beobachtet?  (Zeitpunkte, Zeiträume, Situationen, gleichzeitige vs. zeitversetzte Registrierung)
+
+6. Auf welche Weise wird das Beobachtete registriert, protokolliert, interpretiert?
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Annahmen der (Verhaltens-)beobachtung:
+
+1. Typisches Verhalten einer Person wird durch Eigenschaften der Person bewirkt. 
+
+2. Eine höhere Ausprägung einer bestimmten Eigenschaft macht das Auftreten des von ihr bewirkten Verhaltens wahrscheinlicher.
+
+3. Es gibt Interindividuelle Unterschiede im Verhalten.
+
+4. Beobachtungsraum = „Bildausschnitt“ (Verhaltensstichprobe)
+
+5.  Interindividuelle Unterschiede sind über die Zeit hinweg stabil.
+
+6.  Interindividuelle Unterschiede sind über verschiedene Situationen hinweg konsistent.
+
+$\rightarrow$ Gewohnheiten sind auf die Wirkung von einer oder mehreren Eigenschaften zurückzuführen
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Annahmen der (Verhaltens-)beobachtung:
+
+**Was wird beobachtet? -  Definition von Beobachtungseinheiten:**
+
+* Abgrenzung des Beobachtungsobjekts: z.B. einzelne Personen vs. Famile vs. Paare...
+
+* Abgrenzung der Variablen / Verhaltensmerkmale: umfassendes Bild vs. einzelnes Merkmal
+
+* Abgrenzung der Dauer der Beobachtung: kurz/einmalig vs. lang/wiederholt
+
+* Definition von Anfang, Ende und Inhalt einer Beobachtungseinheit:
+  – Wann beginnt / endet ein Verhalten, das einen Hinweis auf das Verhaltensmerkmal gibt?
+  – Welches Verhalten gibt Hinweis auf Verhaltensmerkmal?
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Annahmen der (Verhaltens-)beobachtung:
+
+**Was wird beobachtet? -  Kriterien für gute Beobachtungseinheiten:**
+
+* Jede Beobachter:in kann Beobachtungseinheit **zuverlässig identifizieren**.
+
+* Das beschriebene Verhalten **kommt** in der Beobachtungssituation **vor**.
+
+* Zu beobachtendes Merkmal wird von Beobachtungseinheiten in **allen Facetten** erfasst.
+
+* Liste der Verhaltensweisen kann von Beobachter:innen während der Beobachtung **überblickt** werden.
+
+* **Grenzwerte** für Beobachter:innen: max. 3 Eigenschaften oder max. 10  Einzelverhaltensweisen pro Beobachtung (abhängig von Erfahrung der Beobachter:in)
+
+* Beobachtungseinheiten können klar voneinander **abgegrenzt** werden („unterbricht andere“ vs. „redet dazwischen“)
+
+**Tipp:** Beobachtungsplan in einem „Probedurchgang“ testen
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Formen und Rahmenbedingungen für Beobachtungen
+
+**Wer beobachtet? -  Teilnehmende vs. nicht-teilnehmende Beobachtung:**
+
+Aktiv-teilnehmende Beobachtung vs. passiv-teilnehmende Beobachtung
++ keine Geräte für Beobachtung notwendig
++ bei aktiv-teilnehmender Beobachtung: „natürliche” Situation möglich
+
+Nicht-teilnehmende Beobachtung: 
++ Beobachter sind in der Situation nicht anwesend bzw. werden von Beobachtetem nicht gesehen
++ Situation wird nicht verändert
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Formen und Rahmenbedingungen für Beobachtungen
+
+**Wo wird beobachtet? - Feld- vs. Laborbeobachtung:**
+
+Bei Beobachtung im Feld wird in der „natürlichen” Situation beobachtet
++ Situation ist „echt”
++ höhere ökologische Validität
+
+Bei Beobachtung im Labor wird in einer „künstlich erzeugten” Situation beobachtet. Rahmenbedingungen und Aufgaben sind genau geplant
++ Kontrolle von Störfaktoren
++ gezielte Planung der Bedingungen
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Formen und Rahmenbedingungen für Beobachtungen
+
+**Wann wird beobachtet? - Direkte (gleichzeitige) vs. indirekte (zeitversetzte) Beobachtung:**
+
+Direkte Beobachtung: Verhalten wird direkt zum Zeitpunkt des Auftretens beobachtet (setzt verhaltensnahe Beobachtung voraus)
++ keine Verzerrung durch Erinnerungseffekte 
++ wenig Interpretationsspielraum
+
+indirekte Beobachtung:zeitversetzte „Beobachtung”
++ Datenaggregation vor Beurteilung 
++ längere Verhaltensausschnitte
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Formen und Rahmenbedingungen für Beobachtungen
+
+**Wie wird beobachtet? - Strukturierte vs. unstrukturierte Beobachtung:**
+
+Strukturierte Beobachtung wird anhand eines vorher festgelegten Beobachtungsplans durchgeführt
++ höhere Objektivität und Reliabilität
++ Quantifizierung des beobachteten Verhaltens möglich
+
+Unstrukturierte Beobachtung findet ohne genauen Beobachtungsplan statt
++ exploratives Vorgehen wenn zu wenig Informationen zur Erstellung eines Beobachtungsplans vorliegen
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Formen und Rahmenbedingungen für Beobachtungen
+
+**Wie wird Beobachtung registriert? - Vermittelte vs. unvermittelte Beobachtung:**
+
+Vermittelte Beobachtung: Verhalten wird aufgezeichnet und später ausgewertet
++ Fehlerminimierung durch wiederholtes Abspielen
+
+Unvermittelte Beobachtung: eine Person beobachtet direkt oder indirekt
++ unaufwändiger weil keine Geräte notwendig 
++ in allen Situationen möglich
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Formen und Rahmenbedingungen für Beobachtungen
+
+**Wie wird Beobachtung registriert? - Verhaltensnahe Beobachtung vs. Verhaltensbeurteilung:**
+
+Verhaltensnahe Beobachtung: Verhaltensmerkmale oder Situationsmerkmale werden hinsichtlich Intensität, Häufigkeit oder Dauer registriert
++ Keine Interpretationsfehler
++ Können später von mehreren Ratern beurteilt werden (Objektivität)
+
+Verhaltensbeurteilung: Beobachtungsziel wird direkt eingeschätzt
++ ökonomischer
+- höherer Grad an subjektiver Interpretierbarkeit
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Formen und Rahmenbedingungen für Beobachtungen
+
+**Wie wird Beobachtung registriert? - Time vs. Event Sampling**
+
+**Event Sampling:**
+
+Registrierung von Häufigkeit und/oder Dauer des Verhaltens- oder Situationsmerkmals über den gesamten Beobachtungszeitraum hinweg
+* es können auch seltene Ereignisse erfasst werden
+* erlaubt Überprüfung von Hypothesen zum Zusammenhang aufeinander folgender Ereignissen(Kontingenz)
+
+**Time Sampling** (Spezialfall des event sampling):
+
+* Unterteilung des Beobachtungszeitraums in gleich lange Zeitintervalle
+* Registrierung ob Verhaltensmerkmal im Zeitintervall gezeigt wird
+* Möglichkeit, Pausen einzubauen (z.B. nur in jedem 2. Zeitintervall beobachten)
+* Beobachterrotation möglich (z.B. Beobachter 1 im 1. Zeitintervall,  Beobachter 2 im 2. Zeitintervall)
+* oft akustischer oder vibrierender Signalgeber notwendig
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Formen und Rahmenbedingungen für Beobachtungen
+
+**Wie wird Beobachtung registriert? - Konstruktion von Ratingskalen**
+
+* unipolare vs. bipolare Skala
+* Anzahl der Abstufungen: abhängig von Differenzierungsfähigkeit der Beobachter und Variation des Merkmals
+* Je mehr Merkmale zu beurteilen sind, desto geringer sollte die Anzahl an Stufen sein
+* Markierung und verbale Verankerung der Skalen: um Abstufungen der Skalen deutlich zu machen, werden diese numerisch/grafisch markiert oder verbal verankert.
+
+.pull-left[
+
+**unipolar:** 
+
+|-------------| feindseelig
+
+**bipolar:**  
+
+freundlich |-------------| feindseelig
+
 ]
+
 .pull-right[
-**operante Konditionierung**
+**numerisch verankert:** 
+
+ 0 - 1 - 2 - 3
+
+**verbal verankert:**  
+ 
+ sehr niedrig - eher niedrig - eher hoch - sehr hoch
+]
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Beobachtungsfehler und -verzerrungen (Beispiele)
+
 ```{r echo = F}
-df = data.frame(v1 = c("", "Angenehme Konsequenz", "Unangenehme Konsequenz"),
-                v2 = c("Konsequenz dargeboten", "positive Verstärkung", "positive Bestrafung"),
-                v3 = c("Konsequenz fällt weg", "negative Bestrafung", "negative Verstärkung"))
-names(df) = c("Valenz", "Darbietung", "Keine Darbietung")
+
+df = data.frame(Beobachtungsfehler = c("Beobachterdrift",
+                                       "Erinnerungseffekte",
+                                       "Haloeffekt",
+                                       "Logischer Fehler",
+                                       "Primacy Effekt",
+                                       "Recency Effekt",
+                                       "Mildeeffekt",
+                                       "Strengeeffekt",
+                                       "Zentrale Tendenz",
+                                       "Tendenz zu Extremurteilen",
+                                       "Kontrasteffekt"),
+                Beschreibung = c("Im Verlauf zunehmend weniger/mehr Auftreten registrieren sich am Verhalten nichts verändert hat (oft wegen Ermüdung, mangelnder Übung)",
+                                 "Verzerrungen wenn nicht unmittelbar protokolliert wird",
+                                 "Eine Eigenschaft einer Person wird durch eine andere Eigenschaft „überstrahlt“",
+                                 "Von einem Hinweisreiz wird auf eine Eigenschaft geschlossen (obwohl kein Zusammenhang besteht)",
+                                 "Überbetonung der esten Information",
+                                 "Überbetonung der letzten Information",
+                                 "Verzerrung zum Positiven",
+                                 "Verzerrung zum Negativen",
+                                 "Bevorzugung der Skalenmitte (häufig wegen Unsicherheit beim Beurteilen)",
+                                 "Bevorzugung der Skalenpole",
+                                 "Einschätzung einer Person hängt von jener der zuvor eingeschätzten Person ab"))
+
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 17) %>%
+  kable_classic(full_width = T)
+```
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Verringern von Beobachtungsfehlern und -verzerrungen 
+
+```{r echo = F}
+
+df = data.frame(Beobachtungsfehler = c("Grenzwerte",
+                                       "Verhaltensnahe Beobachtung",
+                                       "konkreter/eindeutiger Beobachtungsplan",
+                                       "Beobachterschulung",
+                                       "Beobachterrotation"
+                               ),
+                Beschreibung = c("Limit an zu beobachtenden Verhaltensmerkmalen und Beobachtungsdauer für BeobachterInnen",
+                                 "Beobachtbare Einheiten, Vermeidung von Interpretation",
+                                 "Missverständniss vermeiden, klare Kategorien",
+                                 "Vertrautmachen mit Protokollbogen, Definieren der Verhaltensmerkmale, Probedurchgänge",
+                                 "verschiedene Beobachter:innen eingesetzen; Versuchsperson in verschiedenen Situationen durch unterschiedliche Beobachter:innen beobachten"
+                                ))
+
 df %>%
   kbl() %>%
   kable_styling(font_size = 18) %>%
   kable_classic(full_width = T)
 ```
 
-* Häufigkeit eines Verhaltens wird durch seine Konsequenzen nachhaltig verändert
-]
+* auch bei Berücksichtigung sind Beobachtungsfehler nicht auszuschließen.
+* bei jeder Verhaltensbeobachtung Beobachterübereinstimmung empirisch prüfen! 
+
+$\rightarrow$ auch Beobachterübereinstimmung garantiert noch nicht dass keine Beobachtungsfehler aufgetreten sind
 
 ---
 class: top, left
-### Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-#### Aktuelle Perspektiven psychologischer Forschung
+#### (Verhaltens-)beobachtung
 
-**Behavioristische Perspektive**
+##### Beispiel: Aggressives Verhalten von Kindergartenkindern
 
-Methoden des Behaviorismus: Experimentelle Verhaltensanalyse
+Kategoriessystem:
 
-* Streng wissenschaftliche **Laborexperimente**
+1. schlägt, tritt
+2. schlägt zurück
+3. wirft mit Gegenstand
+4. wirft mit Gegenstand zurück
+5. droht, beschimpft
+6. droht, schimpft zurück
+7. zerstört beim Partner
+8. zerstört Eigenes
+9. zerstört beim Partner als Reaktion
+10. zerstört Eigenes als Reaktion
 
-* Selbstbeobachtung wird **abgelehnt**
-
-* untersucht funktionalen Zusammenhänge zwischen dem Verhalten und der Umwelt (**Reiz-Reaktions-Muster**)
-
-* **Ziel:** Verhalten zu beschreiben, zu erklären, vorherzusagen und zu kontrollieren
-
-* datenbasierter **induktiver Ansatz**
-
-* **Topografie** des Verhaltens = von außen beobachtbares Verhalten
-
-* **Funktion** des Verhaltens = Zusammenhang zwischen Verhalten und Umweltereignis
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Behavioristische Perspektive**
-
-Methoden des Behaviorismus: Experimentelle Verhaltensanalyse
-
-* Funktionsanalyse (**ABC-Modell**): Modell zur Beschreibung von operanten Abläufen
-
-**A (antecedent): **
-* vorausgehenden (antezedenten) Funktionen des Verhaltens
-
- **B (behavior):  **
-* das Verhalten (behavior) und damit alles was ein Organismus tut (latent und manifest)
-
- **C (consequence):  **
-* alle (verstärkenden oder bestrafenden) Konsequenzen des Verhaltens
-
-**WICHTIG:**
-Kontrolle äußerer Störeinflüsse auf den ABC-Mechanismus
+* Jedes Kategoriensystem besteht aus mindestens zwei Kategorien
+* Die optimale Zahl von Kategorien liegt zwischen 3 und 10 Kategorien.
 
 ---
 class: top, left
-### Überblick: Paradigmen und Perspektiven in der Psychologie
+### Erhebungsmethoden der psychologischen Forschung
 
-#### Aktuelle Perspektiven psychologischer Forschung
+#### (Verhaltens-)beobachtung
 
-.pull-left[
-**Behavioristische Perspektive**
-
-Methoden des Behaviorismus: Beispiel **Skinner-Box**
-
-* reizarmer Käfig für ein Testtier zum Erlernen neuartigen Verhaltens
-
-* standardisiert und weitgehend automatisiert
-
-* keine unnatürliche Einschränkung, keine Versuchsleitereffekte
-]
-
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "400px"}
-knitr::include_graphics("bilder/skinnerbox.png")
-```
-]
-]
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-.pull-left[
-**Humanistische Perspektive**
-
-* Menschen sind
-  * aktive Geschöpfe
-  * von Grund auf gut
-  * verfügen über Freiheit der Wahl
-  
-* **Self-actualization** (Selbstverwirklichung - Drang das eigene Potential umfassend zu verwiklichen)
-
-* Relevanz eigener **Wertevorstellungen**
-
-* Ansatz: tiefes **Verstehenwollen** des Individuums
-
-* Mensch als empfindendes soziales Wesen (Wilhelm Dilthey)
-]
-.pull-right[
-.pull-left[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/rogers.jpg")
-```
-]
-.pull-right[
-```{r eval = TRUE, echo = F, out.width = "160px"}
-knitr::include_graphics("bilder/maslow.jpg")
-```
-]
-Carl Rogers (1902-1987) und Abraham Maslow (1908-1970)
-]
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Humanistische Perspektive**
-
-Methoden:
-
-* **Holistische** Herangehensweise und Betonung **qualitativer Forschungsmethoden** (siehe Folgevorlesung)
-
-* Wissen über Geist, Körper und Verhalten vor dem Hintergrund sozialer und kultureller Faktoren (Literatur, Geschichte, Künste)
-
-* **Hermeneutischer Zirkel** (Auslegekunst, Interpretationskunst)
-  * beginnend mit Grundverständnis (häufig Texte, Bilder etc.) als Hintergrund für Feinanalysen
-  * an Teilen erzieltes Verständnis wird auf Grundverständnis rückbezogen
-  * schrittweise Wiederholung des Verfahrens für ein verbessertes Gesamtverständnis
-
-**Ziel hermeneutischen Schließens:**
-* Verringerung hermeneutischer Differenz
-* "Horizontverschmelzung"
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-.pull-left[
-**Kognitive Perspektive**
-
-* Entstand aus Limitationen des Behaviorismus (Kognitive Wende)
-
-* Fokus: menschliches Denken und wissensbasierte Prozess
-  * Aufmerksamkeit
-  * Erinnern
-  * Verstehen...
-
-* Personen reagieren nicht auf objektive Realität sondern wegen **subjektiver Realität**
-
-* Verhalten nur zum Teil durch Reize bestimmt, sondern auch durch deren **Verarbeitung** und **Bewertung**
-]
-.pull-right[
-.pull-left[
-```{r eval = TRUE, echo = F, out.width = "230px"}
-knitr::include_graphics("bilder/bandura.jpg")
-```
-]
-.pull-right[
-```{r eval = TRUE, echo = F, out.width = "200px"}
-knitr::include_graphics("bilder/chomsky.jpg")
-```
-]
-Albert Bandura (1925-2021) und Noam Chomsky (geb.1928)
-]
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Kognitive Perspektive**
-
-Zentrale Annahmen:
-
-* Gedanken sind **Ergebnis und Ursache** offen gezeigten Verhaltens
-
-* Alles Erleben und Verhalten des Menschen basiert auf **Informationsverarbeitung**
-
-* Prozess zwischen Wahrnehmen, Denken und Handeln steht im Mittelpunkt
-
-* Jedes Verhalten ist **aktiv, zielgerichtet und plangesteuert** (kybernetisch regulierter Prozess)
-
-* Verhalten entsteht aus der Wahrnehmung von Diskrepanzen und zielt auf Reduktion dieser Diskrepanzen (wie bewertet der Mensch eine wahrgenommene Situation?)
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-
-.pull-left[
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Kognitive Perspektive**
-
-Methoden:
-
-* Versuch der Anwendung möglichst objektiver, quantitativer empirischer Modelle (Experimente)
-
-* Objektive Tests zur Erforschung kognitiver Fähigkeiten
-
-* Labor- und Feldexperimente
-]
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "370px"}
-knitr::include_graphics("bilder/moca.jpg")
-```
-]
-]
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Kognitive Perspektive**
-
-Methoden:
-
-* Versuch der Anwendung möglichst objektiver, quantitativer empirischer Modelle (Experimente)
-
-* Objektive Tests zur Erforschung kognitiver Fähigkeiten
-
-z.B. **Problemlösen (Türme-von-Hanoi):**
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "350px"}
-knitr::include_graphics("bilder/hanoi.gif")
-```
-]
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Kognitive Perspektive**
-
-Methoden:
-
-* Versuch der Anwendung möglichst objektiver, quantitativer empirischer Modelle (Experimente)
-
-* Objektive Tests zur Erforschung kognitiver Fähigkeiten
-
-z.B. **Gedächtnis**:
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/memory.gif")
-```
-]
-
----
-class: top, left
-### Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Kognitive Perspektive**
-
-Methoden:
-
-* Versuch der Anwendung möglichst objektiver, quantitativer empirischer Modelle (Experimente)
-
-* Objektive Tests zur Erforschung kognitiver Fähigkeiten
-
-z.B. **Aufmerksamkeit**:
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/monkey.gif")
-```
-]
-
----
-class: top, left
-### Überblick: Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-.pull-left[
-**Biologische Perspektive**
-
-* Menschliches Verhalten resultiert aus **biologischen Prozessen** (Gene, Hormone, Nervensystem, Gehirn)
-
-* Psyche und Körper stehen in **Wechselwirkung**
-
-* Erfahrungen und Verhalten sind Ergebnisse chemischer/elektrischer synaptischer Übertragungen
-
-* **Zergliederung** komplexer Prozesse in kleinere, spezifische Einheiten
-
-* Zentrale Rolle **genetischer** und **epigenetischer** Grundlagen
-]
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "150px"}
-knitr::include_graphics("bilder/damasio.jpg")
-```
-
-António R. Damásio (geb. 1944)
-]
-]
-
----
-class: top, left
-### Überblick: Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Biologische Perspektive**
-
-Methoden:
-
-* Messung biologischer Marker von Verhalten
-* zentral und periphere Messungen (siehe Folgevorlesung)
-
-Einteilung von Messmethoden in:
-
-.pull-left[
-**Messungen von Indikatoren außerhalb des ZNS**
-  * Elektrodermale Aktivität
-  * Elektromyogramm
-  * Elektrookulogramm und Eyetracker
-  * Elektrokardiogramm (EKG)
-  * Hormonspiegel im Blut
-  * ...
-]
-.pull-right[
-**Messungen von Indikatoren der Aktivität des ZNS**
-  * Elektroenzephalogramm
-  * Magnetenzephalogramm
-  * Computertomografie (CT)
-  * Positronenemissionstomografie (PET)
-  * funktionelle Magnetresonanztomografie (fMRT)
-  * ...
-]
-
----
-class: top, left
-### Überblick: Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
-
-**Biologische Perspektive**
-
-Methoden: Beispiel EEG
-
-* fängt die elektrischen Potenziale von Neuronen auf
-* Messung per Elektroden auf der Schädeloberfläche
-* Aktivität von Neuronenverbänden kann zeitlich simultan gemessen werden
-
-.pull-left[
-.center[
-```{r eval = TRUE, echo = F, out.width = "230px"}
-knitr::include_graphics("bilder/eeg.jpg")
-```
-]
-]
-.pull-right[
-.center[
-```{r eval = TRUE, echo = F, out.width = "350px"}
-knitr::include_graphics("bilder/eeg.gif")
-```
-]
-]
-
----
-class: top, left
-### Überblick: Paradigmen und Perspektiven in der Psychologie
-
-#### Aktuelle Perspektiven psychologischer Forschung
+##### Beispiel: Aggressives Verhalten von Kindergartenkindern (Time Sampling und Rating Skala)
 
 ```{r echo = F}
-df = data.frame(Perspektive = rep(NA,5),
-                Untersuchungsschwerpunkt = rep(NA,5),
-                Forschungsthemen = rep(NA,5))
-df$Perspektive = c("Psychodynamisch",
-                   "Behavioristisch",
-                   "Humanistisch",
-                   "Kognitiv",
-                   "Biologisch")
-df$Untersuchungsschwerpunkt = c("Unbewusste Triebe, Konflikte",
-                                "Spezifische Verhaltensreaktionen",
-                                "Menschliche Potentiale und Erleben",
-                                "Mentale Prozesse",
-                                "Prozesse im Nervensystem, Gehirn")
-df$Forschungsthemen = c("Sichtbarer Ausdruck unbewusster Prozesse",
-                                "Verhalten und seine Abhängigkeit von Reizen und Konsequenzen",
-                                "Werte, Ziele",
-                                "Geistige Prozesse durch Verhalten messbar machen",
-                                "Biochemische Grundlagen von mentalen Prozessen und Verhalten")
+df = data.frame(Vehalten = c("1. schlägt, tritt",
+"2. schlägt zurück",
+"3. wirft mit Gegenstand",
+"4. wirft mit Gegenstand zurück",
+"5. droht, beschimpft",
+"6. droht, schimpft zurück",
+"7. zerstört beim Partner",
+"8. zerstört Eigenes",
+"9. zerstört beim Partner als Reaktion",
+"10. zerstört Eigenes als Reaktion")
+)
+sol = c("--", "-", "0", "+", "++")
+
+df[["Min. 1-5"]] = sample(sol, 10, replace = T)
+df[["Min. 6-10"]] = sample(sol, 10, replace = T)
+df[["Min. 11-15"]] = sample(sol, 10, replace = T)
+df[["Min. 16-20"]] = sample(sol, 10, replace = T)
+
 df %>%
   kbl() %>%
   kable_styling(font_size = 18) %>%
   kable_classic(full_width = T)
 ```
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Maße für die Beobachterübereinstimmung
+
+* Um Beobachterübereinstimmung und Reliabilität einer Verhaltensbeobachtung zu bestimmen gibt es eine Vielzahl von Maßen
+
+* Wahl des angemessenen Übereinstimmungs- bzw. Zuverlässigkeitsmaßes abhängig vom Skalenniveau der Daten
+
+* Nachfolgend werden nur die wichtigsten kurz vorgestellt:
+
+  * prozentualen Übereinstimmung
+  * Cohen‘s Kappa (mindestens nominal)
+  * Kendalls Konkordanzkoeffizient (mindestens ordinal)
+  * Intra-Class-Korrelation (ICC) (metrisch)
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Maße für die Beobachterübereinstimmung
+
+Beispiel: nominales Urteil (ja/nein)
+
+```{r echo = F}
+df = data.frame(Vehalten = c("1. schlägt, tritt",
+"2. schlägt zurück",
+"3. wirft mit Gegenstand",
+"4. wirft mit Gegenstand zurück",
+"5. droht, beschimpft",
+"6. droht, schimpft zurück",
+"7. zerstört beim Partner",
+"8. zerstört Eigenes",
+"9. zerstört beim Partner als Reaktion",
+"10. zerstört Eigenes als Reaktion"))
+
+df$Rater1 = c("Ja", "Ja", "Nein", "Ja", "Ja", "Ja", "Nein", "Ja", "Nein", "Nein")
+df$Rater2 = c("Nein", "Ja", "Nein", "Ja", "Ja", "Ja", "Ja", "Ja", "Nein", "Nein")
+
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 18) %>%
+  kable_classic(full_width = T)
+```
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Maße für die Beobachterübereinstimmung
+
+Beispiel: metrisches Urteil (Skala 1-6)
+
+```{r echo = F}
+df = data.frame(Vehalten = c("1. schlägt, tritt",
+"2. schlägt zurück",
+"3. wirft mit Gegenstand",
+"4. wirft mit Gegenstand zurück",
+"5. droht, beschimpft",
+"6. droht, schimpft zurück",
+"7. zerstört beim Partner",
+"8. zerstört Eigenes",
+"9. zerstört beim Partner als Reaktion",
+"10. zerstört Eigenes als Reaktion"))
+
+df$Rater1 = c(3, 3, 5, 1, 4, 1, 6, 5, 2, 1)
+df$Rater2 = c(4, 2, 5, 2, 5, 1, 6, 3, 2, 1)
+
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 18) %>%
+  kable_classic(full_width = T)
+```
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Maße für die Beobachterübereinstimmung
+
+**Prozentuale Übereinstimmung**
+
+* Anzahl der von allen Ratern gleich beurteilten Personen/Anzahl der insgesamt beurteilten Personen x 100
+
+* Problem: hohe a-priori Ratewahrscheinlichkeit
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Maße für die Beobachterübereinstimmung
+
+**Prozentuale Übereinstimmung**
+
+.pull-left[
+```{r echo = F}
+df = data.frame(Vehalten = c("1. schlägt, tritt",
+"2. schlägt zurück",
+"3. wirft mit Gegenstand",
+"4. wirft mit Gegenstand zurück",
+"5. droht, beschimpft",
+"6. droht, schimpft zurück",
+"7. zerstört beim Partner",
+"8. zerstört Eigenes",
+"9. zerstört beim Partner als Reaktion",
+"10. zerstört Eigenes als Reaktion"))
+
+df$Rater1 = c("Ja", "Ja", "Nein", "Ja", "Ja", "Ja", "Nein", "Ja", "Nein", "Nein")
+df$Rater2 = c("Nein", "Ja", "Nein", "Ja", "Ja", "Ja", "Ja", "Ja", "Nein", "Nein")
+
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 18) %>%
+  kable_classic(full_width = T)
+```
+]
+.pull-right[
+* Anzahl Kategorien: 10
+
+* Gleich beantwortete Kategorien: 8
+
+* Prozentuale Übereinstimmung = 8 / 10 x 100 = 80%
+]
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Maße für die Beobachterübereinstimmung
+
+**zufallskorrigiertes Maß: Cohen‘s Kappa**
+
+* Maß für die Beobachterübereinstimmung bei kategorialen Daten
+* liegt zwischen -1 und +1 (prüfen auf Signifikanz für ƙ möglich)
+* es lässt sich kein allgemeiner Wert bestimmen, ab welchem ƙ als hohe Übereinstimmung zu klassifizieren ist
+* abhängig von untersuchtem Gegenstand, von Anzahl der Kategorien etc.
+
+Für die Praxis (Landis & Koch, 1977; jedoch kritisch zu hinterfragen): 
+* ƙ < 0 schlechte Übereinstimmung
+* 0 < ƙ < .20 etwas Übereinstimmung
+* 0.21–0.40 ausreichende Übereinstimmung
+* 0.41–0.60 mittelmäßige Übereinstimmung
+* 0.61–0.80  beachtliche Übereinstimmung
+* 0.81–1.00 (fast) vollkommene Übereinstimmung
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+.pull-left[
+
+##### Maße für die Beobachterübereinstimmung
+
+**Beispiel: Cohen‘s Kappa**
+
+```{r echo = F}
+df = data.frame(Vehalten = c("1. schlägt, tritt",
+"2. schlägt zurück",
+"3. wirft mit Gegenstand",
+"4. wirft mit Gegenstand zurück",
+"5. droht, beschimpft",
+"6. droht, schimpft zurück",
+"7. zerstört beim Partner",
+"8. zerstört Eigenes",
+"9. zerstört beim Partner als Reaktion",
+"10. zerstört Eigenes als Reaktion"))
+
+df$Rater1 = c("Ja", "Ja", "Nein", "Ja", "Ja", "Ja", "Nein", "Ja", "Nein", "Nein")
+df$Rater2 = c("Nein", "Ja", "Nein", "Ja", "Ja", "Ja", "Ja", "Ja", "Nein", "Nein")
+
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 16) %>%
+  kable_classic(full_width = T)
+```
+]
+.pull-right[
+
+$$\kappa = \frac{P_{0} - P_{e}}{1 - P_{e}}$$
+$P_{0}$: relativer Anteil übereinstimmender Urteile
+$P_{e}$: relativer Anteil Zufallsübereinstimmungen
+
+* $P_{0}$: = 8 / 10 x 100 = 80%
+* Rater 1: 8/10 Personen mit Ja bewertet = 80%
+* Rater 2: 8/10 Personen mit Ja bewertet  =  80%
+* Rater 1: 2/10 Personen mit Nein bewertet  =  20%
+* Rater 2: 2/10 Personen mit Nein bewertet  =  20%
+
+$P_{e} = \frac{8}{10} \cdot \frac{2}{10} + \frac{8}{10} \cdot \frac{2}{10} = 0.32$
+
+$\kappa = \frac{0.8 - 0.32}{1 - 0.32} = 0.71$
+]
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Übungsaufgabe:
+
+* Überlegen Sie sich einen geeigeneten Beobachtungsplan für **Merkmale guter Dozent:innen**
+
+1. Ableitung geeigneter Kagorien (max. 10)
+
+2. teilnehmend vs. nicht-teilnehmend?
+
+3. Feld vs. Labor?
+
+4. Time vs. Event Sampling?
+
+5. Ratingskala?
+
+* Überlegen Sie sich inwiefern Sie die Hauptgütekritierien erfüllt sehen.
 
 ---
 class: top, left
 ### Take-Aways
 .content-box-gray[
-* **Paradigma** und dahinterstehendes **Menschenbild** bestimmen Auswahl der Forschungsmethoden
 
-* **Psychodynamische Perspektive** muss Zugang zu unbewussten Inhalten und Prozessen herstellen
+* **Hauptgütekriterien** für psychologische Erhebungen sind Objektivität, Reliabilität und Validität
 
-* **Behaviorismus** untersucht Reinz-Reaktionsketten in streng kontrollierten Verhaltensbeobachtungen
+* **Objektivität:** Erhebung unabhängig von Testleiter:in, Testauswerter:in und Ergebnisinterpretation
 
-* **Humanistische Psychologie** versucht mittels qualitativen Methoden und hermeneutischem Schließen den Mensch als "Ganzes" zu verstehen
+* **Reliabilität:** Fehlerfreie und zuverlässige Erhebung des Merkmals
 
-* **Kognitionspsychologie** untersucht kognitive Prozesse in objektiven Tests im Labor oder Feld
+* **Validität:** Methode erhebt wirklich das interessierende Merkmal und nicht etwas anderes
 
-* **Biologische Psychologie** nutzt Messverfahren zum Verständnis biochemischer Prozesse im Organismus, die mit Verhalten einhergehen 
+* Wissenschaftliche Beobachtung erfolgt nach a priori festgelegtem **Beobachtungsplan**
 
-* Psychologen **integrieren** heutzutage Konzepte (und Methoden) verschiedener Perspektiven in ihrer Forschung
+* Häufig nutzt man zur Bewertung von Beobachtung die Konstruktion von **Ratingskalen**
+
+* **Beobachtungsfehler und -verzerrungen** sollten möglichst bewusst vermieden werden
+
+* Zur Eindeutigkeit von Beobachtungen können **Maße der Beobachterübereinstimmung** berechnet werden
 ]
 
-[**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLSfLqVNr1XUNk-b-cNoFcBMoy6iLSrOfkEMDdh2LUw4mAW9BdA/viewform?usp=sf_link)
+[**Link zur Wissensüberprüfung**]()
 
