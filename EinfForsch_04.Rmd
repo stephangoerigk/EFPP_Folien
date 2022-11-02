@@ -381,9 +381,8 @@ class: top, left
 
   * Andere Person kommt hinzu, die „Rocky“ für sein Verhalten lobt und ihn mit Süßigkeiten belohnt.
   * Andere Person kommt hinzu, tadelt jedoch „Rocky“ und bestraft ihn mit Schlägen und Drohungen.
-  *  Geschehen bleibt unkommentiert, keine weitere Person tritt auf.
+  * Geschehen bleibt unkommentiert, keine weitere Person tritt auf.
   
-
 ---
 class: top, left
 ### Erhebungsmethoden der psychologischen Forschung
@@ -998,5 +997,5 @@ class: top, left
 * Zur Eindeutigkeit von Beobachtungen können **Maße der Beobachterübereinstimmung** berechnet werden
 ]
 
-[**Link zur Wissensüberprüfung**]()
+[**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLSf0DCHHkray1WaZT20krsxR7Y8HH3bkZswy9Ehwpcb725jIbQ/viewform?usp=sf_link)
 
