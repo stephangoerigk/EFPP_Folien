@@ -231,7 +231,7 @@ class: top, left
 
 ####  Qualitätskriterien von Erhebungsmethoden
 
-##### Reliatbilität
+##### Reliabilität
 
 **Definition:**
 
