@@ -356,6 +356,34 @@ class: top, left
 
 6. Auf welche Weise wird das Beobachtete registriert, protokolliert, interpretiert?
 
+
+---
+class: top, left
+### Erhebungsmethoden der psychologischen Forschung
+
+#### (Verhaltens-)beobachtung
+
+##### Beispiele für (Verhaltens-)beobachtung in der Psychologie:
+
+**Das Marshmellow Experiment (Mischel, 1989)** ([**Link**](https://www.youtube.com/watch?v=QX_oy9614HQ))
+
+* Experiment zum Belohnungsaufschub und zur Impulskontrolle
+
+* Fähigkeit kurzfristig auf etwas Verlockendes für die Erreichung langfristiger Ziele zu verzichten 
+
+**Bandura's Bobo Doll** ([**Link**](https://www.youtube.com/watch?v=dmBqwWlJg8U&t=11s))
+
+* Eine der wichtigsten Studien zum Beobachtungslernens aka Modell-Lernen
+
+* Kinder sehen Film (Person "Rocky schlägt Bobo Puppe")
+
+* 3 Varianten für Ende des Films:
+
+  * Andere Person kommt hinzu, die „Rocky“ für sein Verhalten lobt und ihn mit Süßigkeiten belohnt.
+  * Andere Person kommt hinzu, tadelt jedoch „Rocky“ und bestraft ihn mit Schlägen und Drohungen.
+  *  Geschehen bleibt unkommentiert, keine weitere Person tritt auf.
+  
+
 ---
 class: top, left
 ### Erhebungsmethoden der psychologischen Forschung

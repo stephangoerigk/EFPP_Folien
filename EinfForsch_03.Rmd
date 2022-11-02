@@ -451,15 +451,16 @@ class: top, left
 
 * Verhalten ohne Introspektion oder Einfühlung untersuchen
 
-* Entschiedene Gegner der gleichzeitig aufkommenden psychoanalytischen Richtungen (v.a. USA)
-
-Annahmen:
+* Gegner der psychoanalytischen Richtung (v.a. USA)
 
 * „objektive Methode“: alles Verhalten in **Reiz $\rightarrow$ Reaktion** zerlegen
 
 * **Gehirn = Black Box** (antwortet auf Reiz automatisch mit Reaktion)
 
 * Verhalten entsteht durch Erlernen von Reiz-Reaktions-Mustern
+
+* [**Link zum Erklärungsvideo**](https://www.youtube.com/watch?v=V09FuazW8bc)
+
 ]
 .pull-right[
 .pull-left[
@@ -499,7 +500,7 @@ df %>%
   kable_classic(full_width = T)
 ```
 
-* Der lernende Organismus hat keine Kontrolle über den Reiz oder seine Reaktion
+* [**Link zum Erklärungsvideo**](https://www.youtube.com/watch?v=jd7Jdug5SRc)
 ]
 .pull-right[
 **operante Konditionierung**
@@ -514,7 +515,8 @@ df %>%
   kable_classic(full_width = T)
 ```
 
-* Häufigkeit eines Verhaltens wird durch seine Konsequenzen nachhaltig verändert
+* [**Link zum Erklärungsvideo**](https://www.youtube.com/watch?v=ne6o-uPJarA)
+
 ]
 
 ---
@@ -605,13 +607,16 @@ class: top, left
   * von Grund auf gut
   * verfügen über Freiheit der Wahl
   
-* **Self-actualization** (Selbstverwirklichung - Drang das eigene Potential umfassend zu verwiklichen)
+* **Self-actualization** (Selbstverwirklichung - Drang das eigene Potential umfassend zu verwirklichen)
 
 * Relevanz eigener **Wertevorstellungen**
 
 * Ansatz: tiefes **Verstehenwollen** des Individuums
 
-* Mensch als empfindendes soziales Wesen (Wilhelm Dilthey)
+* Mensch als empfindendes soziales Wesen 
+
+* [**Link zum Erklärungsvideo**](https://www.youtube.com/watch?v=O-4ithG_07Q)
+
 ]
 .pull-right[
 .pull-left[
