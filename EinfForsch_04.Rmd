@@ -615,6 +615,7 @@ freundlich |-------------| feindseelig
  
  sehr niedrig - eher niedrig - eher hoch - sehr hoch
 ]
+
 ---
 class: top, left
 ### Erhebungsmethoden der psychologischen Forschung
