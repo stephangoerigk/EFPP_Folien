@@ -1,70 +1,30 @@
----
-title: "Einheit"
-subtitle: "⚔<br/>with xaringan"
-author: "Dr. Stephan Goerigk"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
-output:
-  xaringan::moon_reader:
-    css: [xaringan-themer.css, "hygge"]
-    lib_dir: libs
-    nature:
-      slideNumberFormat: "%current%"
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: '16:9'
-    seal: false
----
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Einheit</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Stephan Goerigk" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/fabric/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#EE0071"],"pen_size":4,"eraser_size":40,"palette":[]}) })</script>
+    <script src="libs/kePrint/kePrint.js"></script>
+    <link href="libs/lightable/lightable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
 
-setwd("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Einführung in die Forschungsmethoden der Psychologie und Psychotherapie/EFPP_Folien/")
 
-library(tidyverse)
-library(kableExtra)
-library(ggplot2)
-library(plotly)
-library(htmlwidgets)
-library(MASS)
-library(ggpubr)
-library(xaringanthemer)
-library(xaringanExtra)
-
-style_duo_accent(
-  primary_color = "#621C37",
-  secondary_color = "#EE0071",
-  background_image = "blank.png"
-)
-
-xaringanExtra::use_xaringan_extra(c("tile_view"))
-
-use_scribble(
-  pen_color = "#EE0071",
-  pen_size = 4
-  )
-
-knitr::opts_chunk$set(
-  fig.retina = TRUE,
-  warning = FALSE,
-  message = FALSE
-)
-
-# library(RefManageR)
-# BibOptions(
-# check.entries = FALSE, 
-# bib.style = "authoryear", 
-# cite.style = "authoryear", 
-# style = "markdown",
-# hyperlink = FALSE, 
-# dashed = FALSE)
-# myBib = ReadBib("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Einführung in die Forschungsmethoden der Psychologie und Psychotherapie/EFPP_Folien/myBib.bib")
-```
 
 name: Title slide
 class: middle, left
-<br><br><br><br><br><br><br>
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 # Einführung in die Forschungsmethoden der Psychologie und Psychotherapie
 
 ### Einheit 7: Qualitative Methoden: Verstehen des Einzelfalls
@@ -151,7 +111,7 @@ class: top, left
 
 * Subjektive Information geht in quantitativen Durchschnittsbetrachtungen verloren
 
-$\rightarrow$ Forschung sollte sich bemühen auch subjektive Lebensrealität abzubilden
+`\(\rightarrow\)` Forschung sollte sich bemühen auch subjektive Lebensrealität abzubilden
 
 ---
 class: top, left
@@ -416,9 +376,7 @@ class: top, left
 **Grad der Strukturierung von Interviews:**
 
 .center[
-```{r eval = TRUE, echo = F, out.width = "700px"}
-knitr::include_graphics("bilder/struktur.png")
-```
+&lt;img src="bilder/struktur.png" width="700px" /&gt;
 ]
 
 ---
@@ -491,19 +449,19 @@ class: top, left
 
 1. Was kennzeichnet für Sie eine dauerhafte, funktionierende Beziehung?
 
-   <input type="checkbox" unchecked> Offenheit</input> 
-   <input type="checkbox" unchecked> Freiräume</input> 
-   <input type="checkbox" unchecked> Verlässlichkeit</input> 
-   <input type="checkbox" unchecked> gemeinsame Interessen</input> 
-    <input type="checkbox" unchecked> Kompromissbereitschaft</input> 
+   &lt;input type="checkbox" unchecked&gt; Offenheit&lt;/input&gt; 
+   &lt;input type="checkbox" unchecked&gt; Freiräume&lt;/input&gt; 
+   &lt;input type="checkbox" unchecked&gt; Verlässlichkeit&lt;/input&gt; 
+   &lt;input type="checkbox" unchecked&gt; gemeinsame Interessen&lt;/input&gt; 
+    &lt;input type="checkbox" unchecked&gt; Kompromissbereitschaft&lt;/input&gt; 
 
 2. Woran scheitern Ihrer Meinung nach viele Beziehungen?
 
-  <input type="checkbox" unchecked> Untreue</input> 
-   <input type="checkbox" unchecked> zu wenig Kommunikation</input> 
-   <input type="checkbox" unchecked> Monotonie</input> 
-   <input type="checkbox" unchecked> Erwartungsverletzungen</input> 
-    <input type="checkbox" unchecked> Verwandtschaft</input> 
+  &lt;input type="checkbox" unchecked&gt; Untreue&lt;/input&gt; 
+   &lt;input type="checkbox" unchecked&gt; zu wenig Kommunikation&lt;/input&gt; 
+   &lt;input type="checkbox" unchecked&gt; Monotonie&lt;/input&gt; 
+   &lt;input type="checkbox" unchecked&gt; Erwartungsverletzungen&lt;/input&gt; 
+    &lt;input type="checkbox" unchecked&gt; Verwandtschaft&lt;/input&gt; 
 
 3. ...
 
@@ -535,30 +493,44 @@ class: top, left
 
 ##### Arbeitsschritte bei qualitativen Interviews
 
-```{r echo = F}
-
-df = data.frame(
-  Phase = c("Inhaltliche Vorbereitung",
-            "Organisatorische Vorbereitung",
-            "Prolog",
-            "Durchführung",
-            "Epilog",
-            "Protokoll",
-            "Dokumentation"),
-  Aufgaben = c("Festlegung des Befragungsthemas, theoretische Überlegungen zur Auswahl der Personen, Wahl der Befragungstechnik, Formulierung der Fragen",
-               "Kontaktaufnahme mit Bp, Zusammenstellung des Materials, Schulung der Interviewer",
-               "Vorstellung, Herstellen einer angenehmen Gesprächsatmosphäre, Überprüfung der Aufzeichnungsgeräte (Tonband, Video,...), Datenschutz",
-               "Überwachung und Steuerung des Gesprächsablaufs",
-               "Abschluss der Aufzeichnung, Feedback beachten, Verabschiedung, ggf. Infomaterial hinterlassen",
-               "Unmittelbar nach Interview Gedächtnisprotokoll anfertigen",
-               "Transkription, Materialzusammenstellung")
-)
-
-df %>%
-  kbl() %>%
-  kable_styling(font_size = 18) %>%
-  kable_classic(full_width = T)
-```
+&lt;table class="table lightable-classic" style='font-size: 18px; margin-left: auto; margin-right: auto; font-family: "Arial Narrow", "Source Sans Pro", sans-serif; margin-left: auto; margin-right: auto;'&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Phase &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Aufgaben &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Inhaltliche Vorbereitung &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Festlegung des Befragungsthemas, theoretische Überlegungen zur Auswahl der Personen, Wahl der Befragungstechnik, Formulierung der Fragen &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Organisatorische Vorbereitung &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Kontaktaufnahme mit Bp, Zusammenstellung des Materials, Schulung der Interviewer &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Prolog &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Vorstellung, Herstellen einer angenehmen Gesprächsatmosphäre, Überprüfung der Aufzeichnungsgeräte (Tonband, Video,...), Datenschutz &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Durchführung &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Überwachung und Steuerung des Gesprächsablaufs &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Epilog &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Abschluss der Aufzeichnung, Feedback beachten, Verabschiedung, ggf. Infomaterial hinterlassen &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Protokoll &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Unmittelbar nach Interview Gedächtnisprotokoll anfertigen &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Dokumentation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Transkription, Materialzusammenstellung &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 ---
 class: top, left
@@ -633,7 +605,7 @@ class: top, left
 
 ##### Durchführung - Gesprächstechniken
 
-<small>
+&lt;small&gt;
 
 * eigene Reaktionen beobachten, negative (non-)verbale Reaktionen vermeiden
 
@@ -651,9 +623,9 @@ class: top, left
 
 * wenn Gespräch in unerwünschte Richtunng geht, behutsam zurücklenken
 
-* starke emotionale Reaktionen der Person abgeschwächt spiegeln (z.B. Lachen $\rightarrow$ Lächeln, Weinen $\rightarrow$ ernste Miene)
+* starke emotionale Reaktionen der Person abgeschwächt spiegeln (z.B. Lachen `\(\rightarrow\)` Lächeln, Weinen `\(\rightarrow\)` ernste Miene)
 
-</small>
+&lt;/small&gt;
 
 ---
 class: top, left
@@ -689,13 +661,13 @@ class: top, left
 * unverzeichtbares Mittel der Interviewführung
 
 * gedultiges Schweigen 
-  $\rightarrow$ keine Eile 
-  $\rightarrow$ es geht um ausführliche, detaillierte Schilderung
+  `\(\rightarrow\)` keine Eile 
+  `\(\rightarrow\)` es geht um ausführliche, detaillierte Schilderung
 
 * gemeinsames Schweigen fördert Intimität und Öffnung der Person
 
 * "peinliches Schweigen"
-  $\rightarrow$ es wird noch etwas erwartet
+  `\(\rightarrow\)` es wird noch etwas erwartet
 
 ---
 class: top, left
@@ -707,7 +679,7 @@ class: top, left
 
 **Körpersprache:**
 
-<small>
+&lt;small&gt;
 
 .pull-left[
 
@@ -726,13 +698,11 @@ class: top, left
 * Nicken/Kopfschütteln
   * Zustimmung/Ablehung bzw. Erstaunen
 ]
-</small>
+&lt;/small&gt;
 
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "3000px"}
-knitr::include_graphics("bilder/body.jpg")
-```
+&lt;img src="bilder/body.jpg" width="3000px" /&gt;
 ]
 ]
 
@@ -744,7 +714,7 @@ class: top, left
 
 ##### 10 Gebote für die Interviewer:in (Berg, 2000)
 
-<small>
+&lt;small&gt;
 
 .pull-left[
 1. Nicht mit der Tür ins Haus fallen
@@ -768,13 +738,11 @@ class: top, left
 10. Freundlich und dankbar sein
 ]
 
-</small>
+&lt;/small&gt;
 
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/interview.jpg")
-```
+&lt;img src="bilder/interview.jpg" width="300px" /&gt;
 ]
 ]
 
@@ -790,7 +758,7 @@ class: top, left
 
 * Nachfolgendes Gespräch aufmerksam verfolgen (Protokollieren)
 
-* Bedrohliche oder belastende Inhalte $\rightarrow$ Telefonnummer hinterlassen (Nachbetreuung)
+* Bedrohliche oder belastende Inhalte `\(\rightarrow\)` Telefonnummer hinterlassen (Nachbetreuung)
 
 * Noch einmal auf Anonymität hinweisen
 
@@ -840,7 +808,7 @@ class: top, left
 
 **Archivstrategien:**
 
-<small>
+&lt;small&gt;
 
 Öffentliche Archive: 
 * Archive, die für einen bestimmten Zweck angelegt und einem bestimmten Personenkreis zugänglich sind
@@ -859,7 +827,7 @@ Private Archive:
   * Tagebücher, Protokolle 
   * Fotos
 
-</small>
+&lt;/small&gt;
 
 
 
@@ -873,17 +841,17 @@ class: top, left
 
 Beispiele:
 
-* Untersuchung des Briefwechsels polnischer Einwanderer mit in der Heimat zurückgebliebenen (Thomas & Znaniecki 1927).
+* Untersuchung des Briefwechsels polnischer Einwanderer mit in der Heimat zurückgebliebenen (Thomas &amp; Znaniecki 1927).
 
-  $\rightarrow$ Der Kulturschock für die Einwanderer konnte mit diesem Mittel deutlich gemacht werden.
+  `\(\rightarrow\)` Der Kulturschock für die Einwanderer konnte mit diesem Mittel deutlich gemacht werden.
 
 * Untersuchung von Abschiedsbriefen vor Suizid (Jacobs 1967). 
 
-  $\rightarrow$ Bestimmte Regelmäßigkeiten (z.B. die Bitte um Verzeihung) gefundenwerden.
+  `\(\rightarrow\)` Bestimmte Regelmäßigkeiten (z.B. die Bitte um Verzeihung) gefundenwerden.
 
 * Verwendung von Tagebüchern zur Untersuchung der Zeitverwendung (Jahoda, Lazarsfeld und Zeisel, 1933) bei den Arbeitslosen von Marienthal
 
-  $\rightarrow$ Auswirkungen der Arbeitslosigkeit auf den Alltag und die Stimmung
+  `\(\rightarrow\)` Auswirkungen der Arbeitslosigkeit auf den Alltag und die Stimmung
 
 ---
 class: top, left
@@ -909,9 +877,7 @@ class: top, left
 
 
 .pull-right[.center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/letter.jpg")
-```
+&lt;img src="bilder/letter.jpg" width="300px" /&gt;
 ]]
 
 ---
@@ -922,7 +888,7 @@ class: top, left
 
 **Physische Spuren:**
 
-<small>
+&lt;small&gt;
 
 Nutzungsspuren: 
 * Bei dieser Methode werden Gegenstände, Materialien etc. auf den Grad ihrer Nutzung oder auf Hinweise der Art der Nutzung untersucht
@@ -942,7 +908,7 @@ Empfindens
   * Verwendung bestimmter Symbole (Aufkleber, Abzeichen, etc.)
   * ...
 
-</small>
+&lt;/small&gt;
 ---
 class: top, left
 ### Qualitative Methoden
@@ -951,7 +917,7 @@ class: top, left
 
 **Verhaltensbeobachtung:**
 
-<small>
+&lt;small&gt;
 
 Induziertes Verhalten: 
 * Personen nicht bewusst, dass ihr Verhalten direkt oder indirekt beobachtet wird
@@ -968,7 +934,7 @@ Spontanverhalten:
   * Feldbeobachtung von Kundenverhalten in einer Warteschlange
   * Beobachtung Ausparkens in Abhängigkeit vom Parkplatzbedarf
 
-</small>
+&lt;/small&gt;
 
 ---
 class: top, left
@@ -978,7 +944,7 @@ class: top, left
 
 **Historiographische und biographische Methoden:**
 
-<small>
+&lt;small&gt;
 
 Historiographie:
 * Methode zur Entschlüsselung Historiographische und biographische vergangener Ereignisse auf Basis von Quellen
@@ -995,7 +961,7 @@ Quellen:
   * keine unmittelbaren Augenzeugen
   * Hörensagen oder auf Basis wissenschaftlicher Bechäftigung
   
-</small>
+&lt;/small&gt;
 
 ---
 class: top, left
@@ -1048,13 +1014,13 @@ class: top, left
 * Untersuchung von Straßengangs, Obdachlosen und Ghettobewohnern seit den 20er Jahren
 (z.B. Street Corner Society, Whyte, 1943)
 
-* Die Arbeitslosen von Marienthal (Jahoda. Lazarsfeld & Zeisel, 1933)
+* Die Arbeitslosen von Marienthal (Jahoda. Lazarsfeld &amp; Zeisel, 1933)
 
 * Gruppen von Drogenabhängigen (Agar, 1973)
 
 * Vernachlässigte Jugendliche (Dodge et al. 1982)
 
-* Untersuchung von Eliten (Hertz & Imber, 1993)
+* Untersuchung von Eliten (Hertz &amp; Imber, 1993)
 
 * Gefängnis als soziale Welt (Jones, 1995)
 
@@ -1070,7 +1036,7 @@ class: top, left
 
 **Beispiele: Die Arbeitslosen von Marienthal**
 
-<small>
+&lt;small&gt;
 .pull-left[
 * Studie zeigte die sozio-psychologischen Wirkungen von Arbeitslosigkeit auf
 
@@ -1083,12 +1049,10 @@ class: top, left
   * Kleidersammlungen, ärztliche Sprechstunden, Erziehungsberatungen, Turn- und Zeichenkurse
 ]
 
-</small>
+&lt;/small&gt;
 
 .pull-right[.center[
-```{r eval = TRUE, echo = F, out.width = "300px"}
-knitr::include_graphics("bilder/marienthal.jpeg")
-```
+&lt;img src="bilder/marienthal.jpeg" width="300px" /&gt;
 ]]
 
 
@@ -1121,7 +1085,7 @@ class: top, left
   * wenn man sein Erscheinungsbild an die Umstände anpasst
   
 * Aufbau persönlicher Beziehungen
-  * Sympathie für den Forscher $\rightarrow$ über seinen Status hinweg sehen
+  * Sympathie für den Forscher `\(\rightarrow\)` über seinen Status hinweg sehen
   
 * Täuschung:
   * wahres Forschungsinteresse verschweigen
@@ -1146,7 +1110,7 @@ class: top, left
 
 #### Teilnehmende Feldforschung (Ethnographie)
 
-<small>
+&lt;small&gt;
 
 Teilnehmende Feldforschung - Gefahren des verdeckten Arbeitens
 
@@ -1160,9 +1124,9 @@ Teilnehmende Feldforschung - Gefahren des verdeckten Arbeitens
   * Beispiel Berg et al. (1983): Die Forscher bekommen Infos über geplante Überfälle, Einbrüche etc.
 
 * Vertraulichkeit nicht wahren können:
-  * Beispiel Brajuha & Hollwell (1986): Polizei verlangte Herausgabe des Materials (ging bis obersten Gerichtshof)
+  * Beispiel Brajuha &amp; Hollwell (1986): Polizei verlangte Herausgabe des Materials (ging bis obersten Gerichtshof)
 
-</small>
+&lt;/small&gt;
 
 ---
 class: top, left
@@ -1210,9 +1174,7 @@ class: top, left
 **Beispiel: Transkription nach Jefferson (2004) - nicht prüfungsrelevant**
 
 .center[
-```{r eval = TRUE, echo = F, out.width = "800px"}
-knitr::include_graphics("bilder/jefferson1.png")
-```
+&lt;img src="bilder/jefferson1.png" width="800px" /&gt;
 ]
 
 ---
@@ -1224,16 +1186,14 @@ class: top, left
 **Beispiel: Transkription nach Jefferson (2004) - nicht prüfungsrelevant**
 
 .center[
-```{r eval = TRUE, echo = F, out.width = "800px"}
-knitr::include_graphics("bilder/jefferson2.png")
-```
+&lt;img src="bilder/jefferson2.png" width="800px" /&gt;
 ]
 
 ---
 class: top, left
 ### Take-Aways
 .content-box-gray[
-* Menschliches Verhalten und Empfinden ist nicht nur „rational“ $\rightarrow$ Methodenset für zum Verstehen subjektiven Verhaltens und Erlebens wird benötigt
+* Menschliches Verhalten und Empfinden ist nicht nur „rational“ `\(\rightarrow\)` Methodenset für zum Verstehen subjektiven Verhaltens und Erlebens wird benötigt
 
 * Die Wahl der Methode richtet sich nach dem Problem, dem theoretischen Hintergrund, den vorhandenen Ressourcen und dem eigenen Ausbildungsstand.
 
@@ -1249,3 +1209,141 @@ class: top, left
 
 [**Link zur Wissensüberprüfung**]()
 
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
