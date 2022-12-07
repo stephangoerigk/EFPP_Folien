@@ -176,13 +176,14 @@ class: top, left
 **Quantitative vs. qualitative Methoden**
 
 .pull-left[
-**Qualitative Methoden**
+**Quantitative Methoden**
 
 * nomothetisch 
 * naturwissenschaftlich 
 * Labor
 * explanativ 
 * ahistorisch
+* partikulär
 * erklären
 * messen
 * Stichprobe
@@ -197,6 +198,7 @@ class: top, left
 * Feld
 * explorativ
 * historisch
+* holistisch
 * verstehen
 * beschreiben
 * Einzelfall
@@ -210,7 +212,7 @@ class: top, left
 **Quantitative vs. qualitative Methoden**
 
 .pull-left[
-**Qualitative Methoden**
+**Quantitative Methoden**
 
 Nomothetisch
 * generalisierend
@@ -241,7 +243,7 @@ class: top, left
 **Quantitative vs. qualitative Methoden**
 
 .pull-left[
-**Qualitative Methoden**
+**Quantitative Methoden**
 
 Labor
 
@@ -281,7 +283,7 @@ class: top, left
 **Quantitative vs. qualitative Methoden**
 
 .pull-left[
-**Qualitative Methoden**
+**Quantitative Methoden**
 
 Partikulär
 
@@ -311,7 +313,7 @@ class: top, left
 **Quantitative vs. qualitative Methoden**
 
 .pull-left[
-**Qualitative Methoden**
+**Quantitative Methoden**
 
 Explanativ
 
@@ -339,7 +341,7 @@ class: top, left
 **Quantitative vs. qualitative Methoden**
 
 .pull-left[
-**Qualitative Methoden**
+**Quantitative Methoden**
 
 Erklären
 
@@ -439,7 +441,7 @@ class: top, left
 
 * Problemstellungen oder die Forschungsfragen werden nicht im Erzählanstoß angesprochen.
 
-* Vorteil: Problemstellung wirdnur dann thematisiert wird, wenn sie auch für die Person relevant ist.
+* Vorteil: Problemstellung wird nur dann thematisiert wird, wenn sie auch für die Person relevant ist.
 
 ---
 class: top, left
