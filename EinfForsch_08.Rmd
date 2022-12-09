@@ -297,7 +297,8 @@ class: top, left
 
 Woher rührt die Überzeugung Gehirne seien für psychisches Geschehen und sogar für Bewusstsein verantwortlich?
 
-Beispiele
+**Beispiele für Begründungen aus der Neurowissenschaft:**
+
 * "neuronale Entsprechungen“ illusionärer Seheindrücke
 
 * Veränderung oder Beseitigung visuellen Bewusstseins durch Läsionen (partielle Schädigungen des Gehirns).
@@ -314,16 +315,15 @@ class: top, left
 
 * sind qualitativ vom objektiven Geschehen verschieden
 
-
 * Wahrnehmung muss keine Widerspiegelung der objektiven Außenwelt sein.
 
 * Beleg für konstruktiven Charakter der Wahrnehmung 
 
-Aber: 
+**Aber: **
 
-* Illusionen bestehen unabhängig von inter-individuellen Unterschieden
+* Visuelle Illusionen bestehen unabhängig von inter-individuellen Unterschieden
 
-* Illusionen können durch neuronales Geschehen (zum Teil) erklärt werden
+* Visuelle Illusionen können durch neuronales Geschehen (zum Teil) erklärt werden
 
 
 ---
@@ -347,11 +347,17 @@ class: top, left
 .pull-left[
 #### Neuronale Korrelate
 
-#### Beispiel: Läsionen (Agnosie)
+#### Beispiel: Läsionen (Neglect)
+
+* Läsion: Zerstörung von Gewebe- oder Zellverbänden (im Gehirn) durch Verletzung oder Krankheitsprozesse
+
+* Mögliche Folge einer Läsion: Neglect Syndrom
 
 * Neglect: Ein bestimmter Teil des Gesichtsfeldes wird gesehen, aber nicht wahrgenommen
 
 * Schädigung des Okzipitallappens (z.B. durch Hirntraumata, Gehirntumor, Meningitis, Schlaganfall)
+
+$\rightarrow$ Funktionsveränderung als kausale Folge neurologischer Veränderung
 
 ]
 
@@ -362,7 +368,6 @@ knitr::include_graphics("bilder/neglect.jpg")
 ```
 ]
 ]
-
 
 ---
 class: top, left
@@ -379,7 +384,7 @@ class: top, left
 Beispiel: Warum tut es etwa weh, wenn ich mir mit einer Nadel in den Finger steche?
 
 * Von unserem Finger werden Signale ins Gehirn geleitet, dort finden komplexe Verarbeitungsprozesse statt. 
-* Mit bildgebenden Verfahren können wir sogar herausfinden, welche Prozesse im Gehirn ablaufen, wenn wir Schmerzen erleben.
+* Mit bildgebenden Verfahren können wir messen, welche Prozesse im Gehirn ablaufen, wenn wir Schmerzen erleben.
 
 ABER: Warum tut es dabei weh?
 
@@ -391,7 +396,7 @@ class: top, left
 
 #### Neuronale Korrelate
 
-##### Das schwierige Problem des Bewusstseins (David Chalmers, 1995)
+##### Das schwierige Problem des Bewusstseins - Qualia-Problem (David Chalmers, 1995)
 
 .center[
 ```{r eval = TRUE, echo = F, out.width = "400px"}
@@ -403,12 +408,13 @@ knitr::include_graphics("bilder/Inverted_qualia_of_colour_strawberry.jpg")
 * Es gibt keinen logischen Widerspruch in der Annahme dass das eigene Farbsehen invertiert sein könnte
 * Mechanistische Erklärungen der visuellen Verarbeitung liefern keine Fakten darüber, wie es ist, Farben zu sehen.
 
-
 ---
 class: top, left
 ### Leib-Seele Problematik
 
 #### Neuronale Korrelate
+
+.pull-left[
 
 ##### Erregung und Inhalt
 
@@ -419,20 +425,28 @@ class: top, left
   1. Arousal
   2. Bewusstseinsinhalte 
 
-* Um sich einer Sache bewusst zu sein, muss sich das Gehirn in einem relativ hohen Erregungszustand befinden (Vigilanz) befinden (Wachzustand, REM-Schlaf)
+* Bewusstsein erfordert relativ hohen Erregungszustand (Vigilanz $\rightarrow$ Wachzustand, REM-Schlaf)
 
 * Veränderungen im Arousal sind beobachtbar
   * Schwankungen im zirkadianen Rhythmus
   * Alkohol und andere Drogen
   * körperliche Anstrengung
+  
 * Hohe Erregungszustände umfassen Bewusstseinszustände
   * spezifische Wahrnehmungsinhalte
   * Planung und Erinnerung
   * Fantasie 
 
 </small>
+]
 
-
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "500px"}
+knitr::include_graphics("bilder/waves.jpg")
+```
+]
+]
 ---
 class: top, left
 ### Leib-Seele Problematik
