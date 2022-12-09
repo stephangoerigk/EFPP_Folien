@@ -357,7 +357,7 @@ class: top, left
 
 .pull-right[
 .center[
-```{r eval = TRUE, echo = F, out.width = "400px"}
+```{r eval = TRUE, echo = F, out.width = "380px"}
 knitr::include_graphics("bilder/neglect.jpg")
 ```
 ]
