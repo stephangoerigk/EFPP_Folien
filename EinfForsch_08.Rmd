@@ -459,20 +459,6 @@ class: top, left
 
 .center[
 ```{r eval = TRUE, echo = F, out.width = "600px"}
-knitr::include_graphics("bilder/glasgow Kopie.jpeg")
-```
-]
-
----
-class: top, left
-### Leib-Seele Problematik
-
-#### Neuronale Korrelate
-
-**Extrembeispiel: Koma (Glasgow Coma Scale)**
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "600px"}
 knitr::include_graphics("bilder/glasgow Kopie 2.jpeg")
 ```
 ]
