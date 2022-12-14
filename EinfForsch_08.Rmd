@@ -286,9 +286,6 @@ Annahme:
 
 * Bewusstsein entsteht/ist aktiv wenn Gehirnzellen feuern
 
-
-
-
 ---
 class: top, left
 ### Leib-Seele Problematik
@@ -325,7 +322,6 @@ class: top, left
 
 * Visuelle Illusionen können durch neuronales Geschehen (zum Teil) erklärt werden
 
-
 ---
 class: top, left
 ### Leib-Seele Problematik
@@ -337,6 +333,20 @@ class: top, left
 .center[
 ```{r eval = TRUE, echo = F, out.width = "450px"}
 knitr::include_graphics("bilder/hermanngitter.png")
+```
+]
+
+---
+class: top, left
+### Leib-Seele Problematik
+
+#### Neuronale Korrelate
+
+#### Beispiel: Visuelle Illusionen (Hermann Gitter)
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "750px"}
+knitr::include_graphics("bilder/spectrum.png")
 ```
 ]
 
@@ -536,11 +546,11 @@ class: top, left
 .content-box-gray[
 * **Leib-Seele Problem:** In welchem Verhältnis stehen der physische Körper und Geist zueinander
 
-* **Monismus:** Physische Körper und Geist lasssen sich auf die selbe Substanz zurückführen
+* **Monismus:** Physischer Körper und Geist lasssen sich auf die selbe Substanz zurückführen
 
-* **Dualismus:** Physische Körper und Geist sind getrennte Substanzen
+* **Dualismus:** Physischer Körper und Geist sind getrennte Substanzen
 
-* Dualistische Positionen geben an, in welchem genauen **Verhältnis** Physischer Körper und Geist zueinander stehen
+* Dualistische Positionen geben an, in welchem genauen **Verhältnis** physischer Körper und Geist zueinander stehen
 
 * Naturwissenschaftliche geprägtes Zeitalter: Es wird intuitiv der **Physikalismus** für plausibel gehalten und psychologische Forschung wird v.a. entsprechend dieser Annahme betrieben
 
