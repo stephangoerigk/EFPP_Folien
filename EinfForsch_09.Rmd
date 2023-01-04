@@ -1,0 +1,1157 @@
+---
+title: "Einheit"
+subtitle: "⚔<br/>with xaringan"
+author: "Dr. Stephan Goerigk"
+institute: "RStudio, PBC"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css, "hygge"]
+    lib_dir: libs
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+    seal: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+setwd("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Einführung in die Forschungsmethoden der Psychologie und Psychotherapie/EFPP_Folien/")
+
+library(tidyverse)
+library(kableExtra)
+library(ggplot2)
+library(plotly)
+library(htmlwidgets)
+library(MASS)
+library(ggpubr)
+library(xaringanthemer)
+library(xaringanExtra)
+
+style_duo_accent(
+  primary_color = "#621C37",
+  secondary_color = "#EE0071",
+  background_image = "blank.png"
+)
+
+xaringanExtra::use_xaringan_extra(c("tile_view"))
+
+use_scribble(
+  pen_color = "#EE0071",
+  pen_size = 4
+  )
+
+knitr::opts_chunk$set(
+  fig.retina = TRUE,
+  warning = FALSE,
+  message = FALSE
+)
+
+# library(RefManageR)
+# BibOptions(
+# check.entries = FALSE, 
+# bib.style = "authoryear", 
+# cite.style = "authoryear", 
+# style = "markdown",
+# hyperlink = FALSE, 
+# dashed = FALSE)
+# myBib = ReadBib("/Users/stephangoerigk/Desktop/Universität/CFH/Lehre/Bachelor/Einführung in die Forschungsmethoden der Psychologie und Psychotherapie/EFPP_Folien/myBib.bib")
+```
+
+name: Title slide
+class: middle, left
+<br><br><br><br><br><br><br>
+# Einführung in die Forschungsmethoden der Psychologie und Psychotherapie
+
+### Einheit 9: Biopsychologische Methoden
+##### 04.01.2023 | Dr. phil. Stephan Goerigk
+
+---
+class: top, left
+### Biopsychologische Methoden
+
+#### Biopsychologische und neurowissenschaftliche Messungen
+
+**Lernziele:**
+
+1. Die Ergänzung des Methodeninventars der Psychologie durch biopsychologische Methoden verstehen.
+
+2. Überblick über Verfahren zur Messung von Aktivitätät außerhalb und innerhalb des Zentralen Nervensysstems gewinnen
+
+3. Die Einsatzgebiete biopsychologischer Messungen kennenlernen.
+
+4. Vor- und Nachteile der biopsychologischen Verfahren verstehen.
+
+5. Biopsychologische Methoden methodenkritisch würdigen
+
+6. Typische Fehlerquellen bei biopsychologischen Messungen kennenlernen.
+
+---
+class: top, left
+### Biopsychologische Methoden
+
+#### Biopsychologische und neurowissenschaftliche Messungen
+
+* integraler Bestandteil des Methodeninventars in vielen Bereichen der Psychologie
+
+* ergänzen zunehmend die anderen Datenerhebungsverfahren
+
+* Vorteil biopsychologischer Messungen:
+
+  * versprechen direktere Einblicke in die zugrunde liegenden Prozesse psychischer Phänomene
+  
+  * verleiht psychologischen Forschung den Charakter einer "echten" Naturwissenschaft
+  
+* Wie andere Methoden sind auch biopsychologische Methoden theoriegeleitet und methodenkritisch einzusetzen
+
+---
+class: top, left
+### Biopsychologische Methoden
+
+#### Wechselseitiger Einfluss biologischer Faktoren vs. psychischer, sozialer und kultureller Faktoren
+
+<small>
+
+Zentrale Fragen: 
+
+* Sind biologische Funktionen hinreichende Voraussetzungen für das Auftreten psychischer Phänomene?
+
+* Wird das menschliche Denken, Fühlen, Wollen durch körperliche Faktoren determiniert und festgeschrieben?
+
+Besonders vielversprechend ist die Untersuchung wechselseitiger Einflüsse - 2 Beispiele für beide Wirkungsrichtungen:
+
+**Biologisch $\rightarrow$ Psychisch**
+
+Organische Schäden in der Amygdala $\rightarrow$ Patienten reagieren mit stark verringertem Affekt auf bedrohliche Stimuli (Adolphs, Tranel & Damasio, 1998)
+ 
+**Psychisch $\rightarrow$ Biologisch**
+
+Verhaltenstherapie bei Spinnenphobie $\rightarrow$ Normalisierung von neuronalen Prozessen bei Angst (Brand & Markowitsch, 2006)
+
+Die Berücksichtigung der Interdependenz biologischer und psychischer Prozesse kann ein integratives Bild der erforschten Phänomene liefern (Cacioppo, 2002)
+
+</small>
+
+---
+class: top, left
+### Biopsychologische Methoden
+
+#### Kritischer Einsatz biopsychologischer Methoden
+
+* Interpretation biopsychologischer Messungen erfordert – wie auch andere Datenquellen – eine angemessene psychologische Theorie
+
+* Liefern Daten auf einer Beschreibungs- oder Gegenstandsebene
+
+* Erlauben nicht per se einen direkteren Einblick in die Black Box des psychischen Systems
+
+* Biologische Indikatoren verringern das Risiko der gezielten Einflussnahme oder Verfälschung
+
+* ABER: auch hier zentralen Gütekriterien wie Reliabilität, Validität und Objektivität im Blick behalten
+
+---
+class: top, left
+### Biopsychologische Methoden
+
+#### Kritischer Einsatz biopsychologischer Methoden
+
+##### Biopsychologische Messungen als ergänzende Datenquelle
+
+Beispiel Atmungsfrequenz: 
+
+* biologisches Phänomen - zeigt Zustand des Herz-Kreislauf- Systems im Bereich zwischen Ruhe und Anstrengung an  
+
+* Prüfung vor dem Hintergrund des Forschungsstands: Eignung als Indikator für spezifische psychologische Zustände oder Aktivitäten? 
+
+Beispiel Lüge:
+
+* Biopsychologische Messungen können eine wichtige ergänzende Datenquelle darstellen
+* Eine hohe Atemfrequenz per se verrät noch keine Lüge. 
+* Jedoch kann ein solcher Biomarker in Kombination mit anderen Messungen und einer angemessenen psychologischen Theorie gewinnbringend eingesetzt werden.
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+* Eine fast unüberschaubare Vielzahl von Parametern kann bei der Untersuchung des menschlichen Körpers erfasst werden.
+
+* Wir fokussieren uns auf Methoden, die in der psychologischen Forschung vorwiegend eingesetzt werden
+
+1. Elektrodermale Aktivität
+
+2. Elektromyogramm
+
+3. Elektrookulogramm und Eyetracker
+
+4. Herz-Kreislauf-Messungen
+
+5. Messungen des Hormon- und Immunsystems
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+
+
+
+.pull-left[
+##### Elektrodermale Aktivität
+
+<small>
+
+* Wird über die Tätigkeit der Schweißdrüsen vermittelt
+
+* Meistuntersuchte Parameter: Hautleitfähigkeit
+
+  * zumeist an der nichtdominanten Hand erhoben
+  * wird in μ-Siemens (Mikro-Siemens) angegeben
+  * 2 Elektroden werden am Ballen unterhalb von Daumen und kleinem Finger bzw. an Zeige- und Mittelfinger angebracht
+
+Unterscheidung:
+
+* Tonische Hautleitfähigkeit (skin conductance level)
+  * gibt Niveau der Aktivität an
+* Reaktive Hautleitfähigkeit (skin conductance response)
+  * wird bei Reaktion auf bestimmte Stimuli erhoben]
+
+</small>
+
+.pull-right[
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "200px"}
+knitr::include_graphics("bilder/Elektrodermal.jpg")
+```
+]
+.center[
+```{r eval = TRUE, echo = F, out.width = "420px"}
+knitr::include_graphics("bilder/EDA.png")
+```
+]
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+##### Elektrodermale Aktivität
+
+<small>
+
+Anwendungsfelder in der Forschung:
+
+* Wird klassischerweise mit emotionalen Zuständen wie Angst in Verbindung gebracht (z.B. Erforschung posttraumatischer Belastungsstörung)
+
+* Indikator für Orientierungsreaktionen bzw. die Gewöhnung (Habituation) an wiederholt wahrgenommene Stimuli
+
+* Erforschung komplexerer kognitiver Prozesse wie etwa Entscheidungen unter Unsicherheit
+
+Andere Anwendungsfelder:
+
+* Beispiel: Polygraf (umgangssprachlich auch Lügendetektor)
+
+* In Deutschland als Beweismittel vor Gericht jedoch nicht zulässig
+
+* Rückschluss einer unspezifischen physiologischen Reaktion auf einen spezifischen mentalen Zustand (absichtliche Falschaussage vs. wahrheitsgemäße Aussage) umstritten
+
+</small>
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+##### Elektromyogramm (EMG)
+
+.pull-left[
+
+* Registriert Aktionspotenziale der Muskelzellen
+
+* Indikatoren für Anspannung vs. Entspannung und emotionale Prozesse (positive vs. negative affektive Zustände)
+]
+
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "320px"}
+knitr::include_graphics("bilder/EMG.png")
+```
+]
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+##### Elektromyogramm (EMG)
+
+<small>
+
+Besondere Relevanz der Gesichtsmuskulatur:
+
+* Evaluative Reaktionen auf Stimuli erfassen (Gefallen, Abneigung, Ekel etc.)
+
+* Muskel Corrugator supercilii (Runzeln der Stirn, Zusammenziehen der Augenbrauen) $\rightarrow$ Hinweis auf negative, abgeneigte Bewertung 
+
+* Muskels Zygomaticus major (Anheben der Mundwinkel beim Lächeln) $\rightarrow$ positive, zugeneigte Bewertung 
+
+Therapeutisch-klinische Anwendungen:
+
+Verspannungen der Nackenmuskulatur $\rightarrow$ chronische Kopfschmerzen
+
+</small>
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+##### Elektrookulogramm (EOC) und Eyetracker
+
+* EOG gibt primär Auskunft darüber, wohin Personen wie lange blicken 
+
+* Es lassen sich Rückschlüsse auf Aufmerksamkeit oder die gerichtete Zuwendung kognitiver Ressourcen ziehen
+
+Eyetracker:
+
+* nutzt keine elektrischen Biosignale, sondern hoch auflösende Kameras
+
+* Messung von:
+  * Fixationen
+  * Sakkaden (rasche Bewegungen von einem Fixationspunkt zu einem anderen)
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+##### Elektrookulogramm (EOC) und Eyetracker
+
+.pull-left[
+
+* VORSICHT: Artefakte  durch Kopfbewegungen müssen kontrolliert werden
+
+  * Person trägt Headset, das mit auf die Augen gerichteten Kameras ausgestattet ist
+  
+  *  Kameras machen die Bewegungen des Kopfs mit $\rightarrow$ aufgezeichnete Signale bereits um die Kopfbewegung bereinigt 
+
+]
+
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "420px"}
+knitr::include_graphics("bilder/Eye_tracker.jpg")
+```
+]
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+##### Weitere Messungen der Augenaktivität
+
+Am Auge können neben Parametern wie Blickrichtung und -bewegung noch weitere physiologische Indikatoren erfasst werden
+
+**Lidschlag**
+
+* zeigt Orientierungsreaktionen bzw. den sog. Startle-Reflex (Schreckreflex) an
+
+**Pupillendurchmesser**
+
+* wird vom parasympathischen Teil des autonomen Nervensystems gesteuert
+
+* kann über emotionale Zustände, Aktivierung und die Art sowie das Ausmaß der Informationsverarbeitung Auskunft geben
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+##### Herz-Kreislauf-Messungen
+
+Die Aktivität des Herz-Kreislauf-Systems (kardiovaskuläre Aktivität), kann durch verschiedene Maße wiedergegeben werden
+
+**Elektrokardiogramm (EKG) **
+
+* elektrische Ströme, die durch die Herzmuskulatur erzeugt werden
+* Relevante Parameter sind die Herzrate (HR) bzw. Herzschlagfrequenz oder die Herzratenvariabilität (HRV)
+* werden mit Stress, Emotionen und depressiven Zuständen in Verbindung gebracht
+* VORSICHT: Artefakte durch Bewegungen oder Aktivitäten anderer Muskeln
+
+**Blutdruck / peripheres Blutvolumen**
+
+* z.B. kann Verringerung des Blutdrucks kann auf eine selektive Aufmerksamkeitszuwendung hinweisen
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren außerhalb des zentralen Nervensystems
+
+##### Messungen des Hormon- und Immunsystems
+
+<small>
+
+Indikatoren des Hormonsystems 
+
+* Hormonsystem (auch endokrines System genannt) dient der koordinierten Steuerung der Aktivität verschiedener Organe.
+
+* Spiegel von Hormonen wie etwa Kortisol steht mit Stress in Verbindung.
+
+* Freisetzung von Adrenalin wird als ein Indikator von durch Anstrengung erzeugtem Stress angesehen
+
+* Können in Blut, Urin oder auch im Speichel nachgewiesen werden
+
+Indikatoren des Immunsystems 
+
+* Antikörper bzw. immunaktive Zellen (werden im Blut nachgewiesen) 
+
+* Immunglobulin () im Speichel enthalten) 
+
+* Diese Maße werden mit Zuständen der Entspannung und Anspannung, mit Stressreaktionen sowie mit dem psychosomatischen Gesamtzustand bzw. allgemeiner Erschöpfung in Verbindung gebracht.
+
+</small>
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+* Zentrales Nervensystems = Gehirn + Rückenmark
+
+* Aktivität des zentralen Nervensystems psychologisch von besonderem Interesse
+
+* Gehirn:  Wahrnehmen, Denken und Urteilen über Emotion und Motivation bis zur Handlungsplanung und -kontrolle
+
+Zur Registrierung der Gehirnaktivität lassen sich 3 Methodenklassen unterscheiden:
+
+1. Verfahren zur Aufzeichnung von elektrischen Potenzialen
+  * elektrochemische Aktivität von Gehirnneuronen
+2. Verfahren zur Registrierung von Magnetfeldern
+  * entstehen durch elektrische Potenziale von Gehirnneuronen
+3. Bildgebende Verfahren
+  * Abbildungen für Rückschlüsse auf Struktur und Funktion des Gehirns
+
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+[**Film zum EEG**](https://www.youtube.com/watch?v=tZcKT4l_JZk&t=30s)
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+* Grundlage der Aktivität des Gehirns: elektrochemische Potenziale an den Membranen der Nervenzellen (Neurone)
+
+* Elektroenzephalogramm (EEG): klassische und immer noch weit verbreitete Methode der Biopsychologie
+
+* EEG fängt elektrische Potenziale von Neuronen, hauptsächlich des Kortex, an der Schädeloberfläche per Elektroden auf
+
+* Ermöglicht Rückschlüsse auf die Gehirnaktivität - jedoch nur auf der Ebene ganzer Neuronenverbände (Potenzial eines singulären Neurons zu schwach)
+
+* Erfordert spezielle, standardisierte Messapparatur, bei der Elektroden eng an der Schädeloberfläche befestigt werden (oft mittels Kappe)
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+* Elektroden zur Ableitung des EEG werden mit einer Haftsubstanz an der Schädeloberfläche befestigt
+
+* Positionierung der Elektroden folgt oft einem internatinal anerkannten Standard (dem sog. 10/20-System - umfasst 20 Elektroden)
+
+* Systeme mit einer größeren Anzahl (bis zu über 200) werden für spezielle Forschungszwecke eingesetzt.
+
+* Hauben oder Kappen verwendet, in die die Elektroden eingelassen sind $\rightarrow$ gleichermaßen enger Kontakt der Elektroden mit Schädeloberfläche
+
+* Eine neutrale Referenzelektrode wird an einem Ohrläppchen oder hinter dem Ohr angebracht
+
+* Um die schwachen Potenziale registrieren zu können, müssen die Signale erheblich verstärkt werden
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+An einem EEG interessieren die Schwankungen elektrischer Potenziale (Spannungen) über die Zeit
+
+* Frequenz (Schwingungshäufigkeit pro Sekunde, gemessen in Hertz, Hz) 
+* Amplitude (Ausmaß der Differenz) dieser Schwankungen. 
+
+Dabei wird im Wesentlichen zwischen zwei Arten der Aktivität unterschieden:
+
+1. Spontanaktivität
+2. evozierte (hervorgerufene) Aktivität (Potentiale)
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+**Spontanaktivität**
+
+* Definition: ständig auftretende rhythmische Potenzialänderungen mit einer Frequenz von 0,5 bis maximal 100 Hz und Amplituden von 1 bis 100 μV (Mikrovolt)
+
+* gibt Auskunft über den Zustand von Gehirnfunktionen (z.B. Aufmerksamkeit, Bewusstheit, Aktivierung, Wachheit und Schlafstadien)
+
+* Je nach Frequenz und Amplitude werden 4 verschiedene Wellentypen (auch Frequenzbänder genannt)
+
+```{r echo = F}
+df = data.frame(Wellentyp = c("Delta", "Theta", "Alpha", "Beta"),
+                Frequenzbereich = c("0,5–4 Hz", "5–7 Hz", "8–13 Hz", "14–30 Hz"),
+                Amplitudenbereich = c("20–200 μV", "5–100 μV", "5–100 μV", "2–20 μV"),
+                Zustand = c("Tiefschlaf", "Übergang von Wachheit zum Einschlafen, Dösen", "Entspannter Wachzustand", "Physische oder mentale Anstrengung"))
+
+df %>%
+  kbl() %>%
+  kable_styling(font_size = 18) %>%
+  kable_classic(full_width = T)
+```
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+**Evozierte Potenziale (ERP)**
+
+* Definition: kurzzeitige (d. h. weniger als 1 Sekunde andauernde) Reaktionen auf innere oder äußere Reize, die einen komplexen Verlauf mit interpretierbaren Höhe- und Tiefpunkten aufweisen
+
+* ERP stellt eine hirnelektrische Aktivität dar, die zur Spontanaktivität hinzukommt
+
+* **Sensorisch evozierte Potenziale:** zeigen sich unmittelbar nach der Wahrnehmung eines Sinnesreizes 
+
+* **Motorisch evozierte Potenziale:** zeigen sich unmittelbar vor der Ausführung einer Bewegung 
+
+* **Endogene evozierte Potenziale:** zeigen sich wenn sich eine Person mental mit Inhalten oder Informationen beschäftigt
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+**Evozierte Potenziale (ERP)**
+
+Relevant sind vor allem lokale Maxima (Gipfel, Höhepunkte) und Minima (Täler, Tiefpunkte) der evozierten Aktivität. 
+
+Diese werden im Hinblick auf zwei Parameter analysiert:
+
+1. **Amplitude** (zumeist zwischen Baseline und dem Wert eines Maximums oder Minimums)
+
+2. **Zeitpunkt bzw. Latenz** (d. h. der zeitliche Abstand nach der Verarbeitung eines Reizes)
+
+* Die relativ schwachen ERP Aktivitäten können oft erst durch Summation/Mittelung detektiert werden. 
+
+* ERPs weisen eine hohe zeitliche Auflösung, jedoch eine geringe räumliche Auflösung + Messtiefe auf.
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+**Evozierte Potenziale (ERP)**
+
+.pull-left[
+.center[
+```{r eval = TRUE, echo = F, out.width = "450px"}
+knitr::include_graphics("bilder/erp.png")
+```
+]
+]
+.pull-right[
+* Wellensegmente nennt man Komponenten
+* Benennung nach 
+  * Aussschlag in positive (P) vs. negative (N) Richtung  
+  * zeitlichem Intervall nach Beginn eines Reizes (z. B. 100 oder 300 ms) 
+* werden mit Reizverarbeitung in Verbindung gebracht 
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Aufzeichnung elektrischer Potenziale: Das EEG
+
+**Evozierte Potenziale (ERP)**
+
+.pull-left[
+.center[
+```{r eval = TRUE, echo = F, out.width = "450px"}
+knitr::include_graphics("bilder/erp.png")
+```
+]
+]
+.pull-right[
+* Psychische Korrelate dieser Aktivität sind intensiv erforscht worden:
+
+Beispiele:
+
+* N1: frühestes Anzeichen für die Verarbeitung eines Reizes (wenn Aufmerksamkeit zugewenndet wird)
+
+* P3: wenn Personen Reize wahrnehmen, die ihre Erwartungen verletzen
+
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Registrierung minimaler Magnetfelder: Das MEG
+
+* Elektrische Potenziale, die bei neuronaler Aktivität auftreten, erzeugen schwache Magnetfelder
+
+* können durch Magnetenzephalografie registriert werden
+
+* Das Ergebnis einer Magnetenzephalografie wird Magnetenzephalogramm (MEG) genannt
+
+* Signalerfassung erfordert außerordentlich sensible Detektoren (> 100), auf einer Haube 
+
+* Empfindlichkeit wird durch Einsatz von Supraleitung erreicht (erfordert Kühlung unter dem Gefrierpunkt)
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Registrierung minimaler Magnetfelder: Das MEG
+
+<small>
+
+* Mit dem MEG registrierte Signale stammen (wie beim EEG) vor allem von Kortexneuronen 
+
+* Signale tiefer liegender Neuronen sind mit derzeitigen Techniken kaum messbar
+
+* Vorteil: hohe zeitlichen und räumlichen Auflösung 
+
+* Anders als das EEG kann das MEG Daten liefern, die eine präzise dreidimensionale Verortung von Aktivitäten erlauben
+
+* Ableitung der Aktivität: Sensoren berühren nicht die Schädeloberfläche, sondern werden in eine Position in etwa 1 cm Abstand gebracht (keine Hautleitartefakte)
+
+Anwendung:
+* neurokognitive Prozesse, z. B. im Zusammenhang mit Aufmerksamkeit und Gedächtnis können erfasst werden
+* Klinik: z.B. zur genauen Lokalisierung der Sprachzentren im Gehirn vor einer Operation
+
+</small>
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+* können Struktur und Funktion des Gehirns in seiner Gesamtheit darzustellen
+
+* dringen auch in subkortikale Bereiche vor (können mit EEG oder MEG nicht erreicht werden)
+
+Sichtbarmachen von 
+* Strukturen
+  * Anordnungen des Nervenzellgewebes
+  * Verzweigung der Blutgefäße
+  * Ventrikel (mit Flüssigkeit gefüllte Hohlräume im Gehirn) 
+* Funktionen
+  * zerebraler Blutfluss im ZNS gibt Aufschluss über...
+  * ...Funktionen wie Wahrnehmung, Gedächtnis oder emotionale und affektive Reaktionen
+  
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Radiologische Verfahren**
+
+* basiert auf der Messung von Strahlen (Röntgenstrahlen oder radioaktiver Gammastrahlung)
+
+* Strahlung wird von ringförmig um den Kopf angeordneten Detektoren aufgefangen
+
+Radiologische Verfahren:
+* Computertomografie
+* Positronenemissionstomografie
+* Single-Photon-Emissions-Computertomografie
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+.pull-left[
+##### Bildgebende Verfahren
+
+
+**Computertomografie (CT): Ein Verfahren mit Röntgenstrahlung**
+
+* Resultat: bildhafte Darstellung des Gehirns
+
+* Grundprinzip: Röntgenstrahlen werden bei Durchdringung verschiedener Gewebearten unterschiedlich stark absorbiert
+  * z.B. Absorption durch Blut geringer
+  * z.B. Absorption durch Knochen stärker
+]
+
+.pull-right[
+
+.pull-left[
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "300px"}
+knitr::include_graphics("bilder/ct1.gif")
+```
+]
+]
+.pull-right[
+.center[
+```{r eval = TRUE, echo = F, out.width = "200px"}
+knitr::include_graphics("bilder/ct2.jpg")
+```
+]
+]
+]
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Computertomografie (CT): Ein Verfahren mit Röntgenstrahlung**
+
+<small>
+
+* CT (komplexer als Röntgengerät): viele Schnittbilder mit hoher Auflösung ergeben dreidimensionale Darstellung des Gehirns
+
+* Daten werden von Computer zu einem sog. Scan (ein statisches Abtastbild) zusammenfügt
+
+* Vorteil: vergleichsweise kostengünstig
+
+* Nachteil: Einsatz potenziell schädlicher Strahlung und erfordert bisweilen auch Injektion von Kontrastmitteln
+
+</small>
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Positronenemissionstomografie (PET) und Single-Photon-Emissions-Computertomografie (SPECT)**
+
+.pull-left[
+
+* setzen radioaktive Markierungssubstanzen (Tracer) ein
+
+* Tracer werden in Blutkreislauf der untersuchten Personen injiziert
+]
+.pull-right[
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "350px"}
+knitr::include_graphics("bilder/PET.jpg")
+```
+]
+
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Positronenemissionstomografie (PET) und Single-Photon-Emissions-Computertomografie (SPECT)**
+
+<small>
+
+**PET:**
+
+* Zur Markierung werden die Substanzen (z. B. Wasser) mit Radioisotopen (z. B. $H_{2}^{15}O$) verbunden
+* Radioisotope gehen nach der Halbwertszeit spontan in ihren Grundzustand über, indem ihr Atomkern zerfällt
+* dabei werden Positronen frei, die sofort mit einem Elektron zusammenprallen und mit diesem verschmelzen
+* Beim Verschmelzen entstehen 2 Photonen $\rightarrow$ von Detektoren der Messapparatur (oft über 10.000) aufgefangen 
+* PET liefert vor allem Bilder des regionalen Blutflusses
+* Blutflusses kann mir psychischen Funktionen wie Aufmerksamkeit, Sprache oder Gedächtnis in Beziehung gesetzt werden
+* Tracer können auch Zuckerstoffwechsel und Dichte von Rezeptoren für Botenstoffe im Gehirn sichtbar machen (z.B. Schizophreniediagnostik)
+
+**SPECT:**
+
+* ähnliches Prinzip wie PET (andere radioaktive Markierungssubstanzen, die nur 1 Photon aussenden)
+* technisch weniger aufwändig und daher auch kostengünstiger
+
+</small>
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Magnetresonanzverfahren**
+
+* Alternative zu radiologischen Messmethoden
+
+* Nutzen statt der Röntgenstrahlung starke Magnetfelder (also kein radioaktives Material)
+
+* erzielen eine höhere Auflösung als z.B. das CT
+
+* untersuchte Person wird zumeist auf einer Liege in eine Untersuchungskammer geschoben
+
+* diese hat die Form einer Röhre
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Magnetresonanztomografie (MRT)**
+
+.pull-left[
+
+* nutzt die Eigenschaften von Protonen (dem Kern) von Wasserstoffatomen innerhalb eines starken stabilen Hauptmagnetfelds, in das zusätzlich elektromagnetische Energie eingestrahlt wird
+]
+
+.pull-right[
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "320px"}
+knitr::include_graphics("bilder/mrt.gif")
+```
+]
+
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Magnetresonanztomografie (MRT)**
+
+* Frequenz dieser elektromagnetischen Energie, die mithilfe eines hochfrequenten Radiosenders erzeugt wird, entspricht der Frequenz des sog. Kernspins
+
+* Kernspin = Kreisel- oder Drehbewegung der Protonen um ihre eigene Achse
+
+* Bei Übereinstimmung zwischen der von Außen eingestrahlten Frequenz und der Kernspinfrequenz der Protonen kommt es zur **magnetischen Resonanz** – nach der das Verfahren benannt ist
+
+* Resonanz führt dazu, dass die sich weiterhin drehenden Protonen aus ihrer ursprünglichen parallelen Ausrichtung im stabilen Hauptmagnetfeld sozusagen wegkippen und ins Torkeln geraten (man sagt auch: eine Präzessionsbewegung ausführen)
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Magnetresonanztomografie (MRT)**
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "520px"}
+knitr::include_graphics("bilder/Bloch_Bconst_lab.gif")
+```
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Magnetresonanztomografie (MRT)**
+
+Messung freigesetzter Energie:
+
+* Wird das externe elektromagnetische Feld nun wieder ausgeschaltet, kippen die Protonen wieder in ihre Ausgangsrichtung parallel zum stabilen Hauptmagnetfeld zurück (Relaxation)
+
+* Bei der Relaxation der Protonen wird schrittweise Energie (elektromagnetische Wellen) frei, die von Detektoren aufgefangen wird.
+
+* Relevanter Messparameter: Zeit zwischen Erlöschen des externen Frequenzfeldes und dem Auftreten der Relaxationssignale. 
+
+* U.a. wegen des Zusammenhangs zwischen Wasserstoffgehalt und Flüssigkeitsanteil lässt sich auf die Dichte und damit die Art des Gewebes (Nervenzellen, Gehirnflüssigkeit oder Fett ) schließen
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**Magnetresonanztomografie (MRT)**
+
+Lokalisation:
+
+* Um nun über den Gewebstyp hinaus auch eine Lokalisation des gemessenen Gewebes vornehmen zu können, werden kurzzeitig weitere Magnetfelder in allen drei Raumrichtungen zugeschaltet. 
+
+* Die Stärke dieser Lokalisierungsfelder, die erheblich schwächer sind als das Hauptmagnetfeld, variiert je nach Ort
+
+* Daher lässt ihr Effekt auf die empfangenen Signale Rückschlüsse auf den Ort des gemessenen Gewebes zu. 
+
+* Die Informationen zu Ort und Dichte des Gewebes werden abschließend in Bilder überführt. 
+
+* Wie man sich leicht vorstellen kann, sind viele komplexe Rechenschritte erforderlich, bis letztendlich das beeindruckende Bild des Gehirns vorliegt.
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**funktionelle Magnetresonanztomografie (fMRT)**
+
+.pull-left[
+* Die fMRT geht über die MRT hinaus, indem sie die psychologisch relevanten **Funktionen** abzubilden versucht
+]
+
+.pull-right[
+
+.center[
+```{r eval = TRUE, echo = F, out.width = "350px"}
+knitr::include_graphics("bilder/fmri.gif")
+```
+]
+
+]
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**funktionelle Magnetresonanztomografie (fMRT)**
+
+[**Film zum fMRT**](https://www.youtube.com/watch?v=rJjHjnzmvDI&t=1s)
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**funktionelle Magnetresonanztomografie (fMRT)**
+
+<small>
+
+Grundprinzip:
+
+* Wenn eine Region im ZNS aktiv ist, wird sie mit mehr Blut versorgt, um den Bedarf an Sauerstoff und Glukose zu decken
+
+* In dieser Region entsteht kurzzeitig ein Überangebot an Sauerstoff
+
+* Äußert sich in einem größeren Anteil von sauerstoffreichem Hämoglobin (Oxyhämoglobin) gegenüber sauerstoffarmem Hämoglobin (Deoxyhämoglobin)
+
+* ferromagnetischen Eigenschaften von Hämoglobin (z.B. wegen der vorhandenen Eisenionen)
+
+* Folge: Ungleichgewicht zugunsten des sauerstoffreichen Hämoglobins geht mit einer Magnetfeldverschiebung
+
+</small>
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**funktionelle Magnetresonanztomografie (fMRT)**
+
+Bildgebung:
+
+* Der magnetische Effekt wird bei der fMRT ausgenutzt, um auf den zerebralen Blutfluss und damit die Aktivierung der umgebenden Neurone zu schließen
+
+* In der Bilderstellung werden diejenigen Hirnareale farblich hervorgehoben, die in einem bestimmten Moment überdurchschnittlich aktiviert sind
+
+* Setzt man die Aktivierung zu zeitlich datierbaren Reizen in Beziehung, so kann auf die Verarbeitung dieser Reize geschlossen werden.
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Messungen von Indikatoren der Aktivität des zentralen Nervensystems
+
+##### Bildgebende Verfahren
+
+**funktionelle Magnetresonanztomografie (fMRT)**
+
+<small>
+
+Vorteil gegenüber radioaktiven Verfahren:
+
+* fMRT erfordert keine Injektion von Markierungssubstanzen
+
+* hat hohe räumliche (ca. 1 mm) Auflösung
+
+* untersuchte Person muss sich weniger lange in der Untersuchungskammer aufhalten
+
+Nachteile:
+
+* Schlechte zeitliche Auflösung: Aufzeichnungsintervall von ca. 6 bis 8 s erforderlich, um mit der fMRT ein Schichtbild für einen Aktivierungszustand zu erstellen 
+
+* hoher Geräuschpegel während der Datenerhebung
+
+* Anfälligkeit für Störeffekte durch Bewegungen (auch geringfügige Bewegungen beim Sprechen)
+
+* Personen mit Metallimplantaten (z. B. Herzschrittmacher oder bestimmten Zahnfüllungen) können nicht untersucht werden
+
+</small>
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Artefakte bei biopsychologischen Messungen
+
+* Signale, die nicht durch den interessierenden physiologischen bzw. biopsychologischen Prozess, sondern durch andere Faktoren (z. B. externe Quellen elektrischer Potenziale wie etwa Radiosender oder Mobiltelefone) verursacht werden. 
+
+* Es handelt sich also um Signale, die einen anderen Ursprung haben als das interessierende Biosignal.
+
+Im Wesentlichen lassen sich folgende Arten von Artefakten unterscheiden:
+
+* Artefakte physiologischer Herkunft
+* Bewegungsartefakte
+* Artefakte durch externe Einstreuungen
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Artefakte bei biopsychologischen Messungen
+
+**Artefakte physiologischer Herkunft**
+
+* Signale, die durch physiologische Aktivitäten erzeugt werden
+
+* Beispiele: 
+
+  * Überlagerung elektrischer Biosignale wie Gehirnströme (EEG) durch  elementare Muskelaktivitäten  
+  * Modulierung der  Herzfrequenz durch Atmungsvorgänge (Atmungsarrhythmie). 
+  * Messung von Hormonen wie Kortisol während weiblichen Monatszyklus
+  
+Lösung:
+
+* elektrische Artefakte haben oft bekannte Eigenschaften wie etwa eine bestimmte Frequenz
+* Können kontrolliert werden, indem sie durch geeignete Filter oder Algorithmen herausgerechnet werden. 
+* Hormonspiegel durch entsprechende Auswahl der untersuchten Personen kontrolliieren
+
+
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Artefakte bei biopsychologischen Messungen
+
+**Bewegungsartefakte**
+
+* Auch durch die Bewegung des Körpers der untersuchten Person oder durch unkontrollierte Bewegungen des Messapparats oder der Messfühler können Störsignale entstehen. 
+
+* Schon die Veränderung der Position von Elektroden (Aufnehmer elektrischer Signale) oder Elektrodenkabeln kann zu unerwünschten Signalen führen. 
+
+* Bei der Messung der Gehirnaktivität mit bildgebenden Verfahren wie MRT stellt die Bewegung von Körperteilen (z. B. des Kopfes) eine erhebliche Quelle von Störungen dar.
+
+Lösung:
+
+* Kopfstützen, Schablonen, etc.
+
+---
+class: top, left
+### Bio-psychologische Methoden
+
+#### Artefakte bei biopsychologischen Messungen
+
+**Artefakte durch externe Einstreuungen**
+
+Biosignale können auch durch Signale äußeren Ursprungs wie etwa elektrische oder magnetische Felder aus der Umgebung der Messapparatur (z. B. verursacht durch elektrische Leitungen oder Radiosender) gestört werden. 
+
+Lösung:
+
+* möglichst vollständige Abschirmung des Untersuchungsraums
+* Versorgung der Geräte im Untersuchungsraum mit Gleichspannung
+* Einsatz von Vorverstärkern der interessierenden Biosignale 
+* geeignete Filter bei der Datenverarbeitung
+
+---
+class: top, left
+### Take-Aways
+.content-box-gray[
+
+]
+
+[**Link zur Wissensüberprüfung**]()
+
