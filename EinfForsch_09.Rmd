@@ -1151,6 +1151,19 @@ class: top, left
 ### Take-Aways
 .content-box-gray[
 
+* Messungen von Indikatoren außerhalb des zentralen Nervensystems messen allgemein physiologische Reaktionen
+
+* EEG fängt elektrische Potenziale von Neuronen, hauptsächlich des Kortex, an der Schädeloberfläche per Elektroden auf
+
+* Bildgebende Verfahren können Struktur und Funktion des Gehirns in seiner Gesamtheit darzustellen
+
+* CT erzeugt mit hoher Auflösung dreidimensionale Darstellung des Gehirns
+
+* PET und SPECT setzen radioaktive Markierungssubstanzen (Tracer) ein
+
+* MRT nutzt stat Röntgenstrahlung starke Magnetfelder (also kein radioaktives Material) und hat höhere Auflösung
+
+* fMRT geht über die MRT hinaus, indem sie die psychologisch relevanten **Funktionen** abzubilden versucht
 ]
 
 [**Link zur Wissensüberprüfung**]()
