@@ -557,5 +557,5 @@ class: top, left
 * Aber: Erklärung des subjekten Erlebnisgehalts "wie sich etwas anfühlt" (**Qualia**) stellt Physikalismus vor Probleme
 ]
 
-[**Link zur Wissensüberprüfung**]()
+[**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLSflhW72lPcQksr07xUxEurB_kC-HQlgZpHM9Qbeje1qjNZ8rQ/viewform?usp=sf_link)
 
