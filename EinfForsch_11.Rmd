@@ -458,11 +458,11 @@ class: top, left
 
 **Zur Minimierung von Gedächtnisfehlern**
 
-* Klinischen Forschung: Selbstauskunftsfragebögen, um das Vorhandensein und den Schweregrad von Symptomen in der jüngsten Vergangenheit zu bewerten (z.B. letzte 14 Tage)
+* Klinische Forschung: Selbstauskunftsfragebögen, um das Vorhandensein und den Schweregrad von Symptomen in der jüngsten Vergangenheit zu bewerten (z.B. letzte 14 Tage)
 
-* Retrospektiven Selbstberichte sind zwar nützlich, aber nicht ohne Nachteile
+* Retrospektive Selbstberichte sind zwar nützlich, aber nicht ohne Nachteile
 
-  * greifen auf die Erinnerung der Befragten zurückgreifen
+  * greifen auf die Erinnerung der Befragten zurück
   * Diese kann verzerrt sein  (Moore, Depp, Wetherell, & Lenze, 2016). 
 
 EMA Lösung:
@@ -677,7 +677,64 @@ Dabei lassen sich zwei Klassen von Vorteilen unterscheiden:
 * Erschwerte Überprüfung des Verständnisses wichtiger Informationen
 * Datenschutz
 
+---
+class: top, left
+### Digitale Datenerhebung
 
+#### Informed Consent
+
+##### Definition
+
+* Das Einholen eines informierten Einverständnisses („informed consent“)  für die Teilnahme an einer wissenschaftlichen Studie, gehört zu den Standards guter wissenschaftlicher Praxis. 
+
+* Die Entscheidung, an einer Studie teilzunehmen, soll **freiwillig** und **unter Abwägung aller Risiken** alleinig von den potenziellen Teilnehmer:innen getroffen werden können
+
+* Ethikkommissionen begutachte ICs kritisch auf Vollständigkeit und Verständlichkeit 
+
+IC aus besteht aus zwei Teilen:
+
+* Teilnahmeinformation, d. h. einem Informationsschreiben, um was es in der Studie geht
+
+* Einverständniserklärung, mit der explizit die Einwilligung in die Teilnahme zur Studie gegeben wird
+
+---
+class: top, left
+### Digitale Datenerhebung
+
+#### Informed Consent
+
+##### Zu vermittelnde Informationen (BDP & DGPs, 2016)
+
+1. der Zweck der Forschung
+2. die erwartete Dauer der Untersuchung und das Vorgehen
+3. das Recht darauf, die Teilnahme abzulehnen oder zu beenden, auch wenn die Untersuchung schon begonnen hat
+4. absehbare Konsequenzen der Nichtteilnahme oder der vorzeitigen Beendigung der Teilnahme
+5. absehbare Faktoren, von denen man vernünftigerweise erwarten kann, dass sie die Teilnahmebereitschaft beeinflussen (z. B. potenzielle Risiken, Zufallsbefunde)  
+6. der voraussichtliche Erkenntnisgewinn durch die Forschungsarbeit
+7. die Gewährleistung von Vertraulichkeit und Anonymität sowie ggf. deren Grenzen
+8. Bonus für die Teilnahme 
+9. An wen Proband:innen sich mit Fragen zum Forschungsvorhaben und zu ihren Rechten als Forschungsteilnehmerinnen und Forschungsteilnehmer wenden können.
+
+---
+class: top, left
+### Digitale Datenerhebung
+
+#### Informed Consent
+
+##### Informed Consent bei Onlinestudien
+
+* Gewährleistung einer angemessenen Aufklärung besonders anspruchsvoll
+
+* direktes Beantworten aufkommender Fragen sowie das Wiederauffinden der Studie und der Kontaktinformationen ist erschwert
+
+* IC wird i.d.R. nur auf einer einzelnen Webseite eingeholt, wodurch Umsetzung des IC als andauerndem Prozess mit der Möglichkeit, Fragen zu stellen, nicht gewährleistet ist
+
+* Technisch komplexe Studien (z.B. Datenspeicherung, Verschlüsselung, etc.)
+  * IC-Dokumente werden häufig nicht vollständig gelesen
+  * IC-Dokumente werden nur unzureichend verstanden
+
+$\rightarrow$ Zweifel, ob tatsächlich ein informiertes Einverständnis eingeholt wird
+$\rightarrow$ Besonderes Augenmerk, bei digitaler Datenerhebung notwendig
 
 ---
 class: top, left
