@@ -1166,5 +1166,5 @@ class: top, left
 * fMRT geht über die MRT hinaus, indem sie die psychologisch relevanten **Funktionen** abzubilden versucht
 ]
 
-[**Link zur Wissensüberprüfung**]()
+[**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLScmShaBtgf9koZs3dzm_cgdJ3MenqfHx2HsdsuyVTy9caxAhA/viewform?usp=sf_link)
 
