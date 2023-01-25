@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Einheit</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Stephan Goerigk" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <script src="libs/fabric/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#EE0071"],"pen_size":4,"eraser_size":40,"palette":[]}) })</script>
+    <script src="libs/kePrint/kePrint.js"></script>
+    <link href="libs/lightable/lightable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+name: Title slide
+class: middle, left
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+# Einführung in die Forschungsmethoden der Psychologie und Psychotherapie
+
+### Einheit 12: Big Data und Machine-Learning
+##### 25.01.2023 | Dr. phil. Stephan Goerigk
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Computer und mentale Gesundheit
+
+* Idee Computer einzusetzen, um Diagnostik und Prognostik von  Erkrankungen zu verbessern ist nicht neu  
+
+* Arthur Radbow aus den (60er Jahre): Machine Psychiatry aus „Closer than we think“. 
+
+.center[
+&lt;img src="bilder/QvSElnX.png" width="750px" /&gt;
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Computer und mentale Gesundheit
+
+.center[
+&lt;img src="bilder/QvSElnX.png" width="720px" /&gt;
+]
+
+&lt;small&gt;
+
+*  Idee: einen  Computer zu füttern mit allen Wesensäußerungen des Patienten. 
+* Computer lerntaus den unterschiedlichsten Kombinationen von  emotionalen Ausdrücken, Kognitionen, Verhalten, Entscheidungsregeln abzuleiten
+* Der Kliniker kann diese verwenden um zum  Beispiel seine Therapie danach auszurichten. 
+
+&lt;/small&gt;
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+.pull-left[
+
+#### Big data - Definition
+
+&lt;small&gt;
+
+* große Datenmengen, die zu komplex sind, um sie mit traditionellen Methoden zu verarbeiten.
+
+* umfasst sowohl strukturierte als auch unstrukturierte Daten, wie z.B. Text, Bilder, Audio- und Videodateien.
+
+* Ziel: Muster, Trends und Verbindungen in den Daten zu erkennen und zu nutzen.
+
+* Neue Technologien ermöglichen es, große Datenmengen zu speichern und zu verarbeiten.
+
+* kann in vielen Bereichen wie Finanzen, Gesundheitswesen, Marketing und E-Commerce eingesetzt werden.
+
+&lt;/small&gt;
+]
+
+.pull-right[
+.center[
+&lt;img src="bilder/bigd.jpg" width="650px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Wie kommt heutzutage KI ins Spiel?
+
+* Dichte an Informationen,  die wir über Erkrankungen haben – nicht nur überpsychische Erkrankungen, sondern generell über Erkrankungen – nimmt exponentiell  
+
+* Problem:  menschliche Kapazität mit diesem Wissen umzugehen ist begrenzt (Schere verfügbares vs. kognitiv verarbeitbares Wissen)
+
+.center[
+&lt;img src="bilder/info.png" width="650px" /&gt;
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning
+
+* Computerstrategie definiert, die *automatisch* Methoden und Parameter bestimmt (d.h. lernt), um eine optimale Lösung für ein Problem zu finden
+
+* Wird nicht von vornherein von einem Menschen programmiert zu werden, um eine feste Lösung zu liefern. 
+
+* Wird als Teilgebiet der künstlichen Intelligenz (KI) betrachtet
+
+* Lernprozess simuliert vermeintlich eine Facette der menschlichen Intelligenz  
+
+* Kann für vermeintlich intelligente Zwecke eingesetzt werden kann (z.B. Sprache, Schrift, Gesichtserkennung, selbstfahrende Autos oder medizinische Entscheidungshilfen).
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - grobe Time Line
+
+&lt;small&gt;
+
+* 1940s-1950s: Entstehung der künstlichen Intelligenz (KI) und der Idee von neuronalen Netzen als möglichem Ansatz für KI.
+
+* 1950s-1960s: Entwicklung von einfachen neuronalen Netzen und erste Anwendungen in Bereichen wie Handwriting Recognition und Bilderkennung.
+
+* 1970s-1980s: Rückschlag in der Entwicklung von neuronalen Netzen aufgrund von Problemen mit dem Training und der Generalisierung.
+
+* 1980s-1990s: Wiederaufleben des Interesses an neuronalen Netzen durch den Einsatz von "error backpropagation" und anderen verbesserten Trainingsalgorithmen.
+
+* 1990s: Einführung von Support Vector Machines (SVMs) und anderen "shallow" Machine Learning-Methoden.
+
+* 2000s: Einführung von "Big Data" und "Data Mining" als Schlagworte, sowie die Verfügbarkeit von großen Datenmengen und leistungsfähigen Computern.
+
+* 2010s: Explosion des Interesses an "Deep Learning" und der Verfügbarkeit von großen, gut strukturierten Datensätzen und leistungsfähigen Grafikprozessoren (GPUs) für das Training tiefer Netze.
+
+* 2020s: Deep Learning und Machine Learning werden in vielen Bereichen angewendet, wie zum Beispiel Computer Vision, Natur Sprachverarbeitung, Robotics und Medizin.
+
+&lt;/small&gt;
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - grobe Time Line
+
+.pull-left[
+
+**Das Perzeptron:**
+
+* Ziel: eine Maschine zu bauen, die ihre eigenen Formeln entwickelt, um Probleme durch Erlnen zu lösen (Rosenblatt 1958).
+
+* Aufgabe: Bilder von Dreiecken von Quadraten unterscheiden mittels 400 Lichtsensoren
+
+* Unterscheidung von Dreiecken von Quadraten nicht expliziert programmiert
+
+* Traning über Trial und Error Prozess
+]
+.pull-right[
+.center[
+&lt;img src="bilder/rose.jpg" width="350px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - grobe Time Line
+
+.pull-left[
+
+**Das Perzeptron:**
+
+* Über viele Versuche hinweg änderte die Maschine die statistischen Gewichte, die mit jedem Lichtsensor verbunden waren, anhand einer internen Gleichung 
+
+* Die Antworten einiger Sensoren wurden  sehr stark gewichtet, während andere (z. B. die in einem Viereckmuster) nicht gewichtet wurden
+
+* In den Anfängen des maschinellen Lernens ging es also darum, aus realen Daten zu lernen, begrenzte Vorannahmen darüber zu treffen, wie diese Daten aussehen, und die Leistung der Maschine unter realen Bedingungen zu bewerten.
+]
+
+.pull-right[
+.center[
+&lt;img src="bilder/perceptron-formule.png" width="650px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - grobe Time Line
+
+* Das Perzeptron trug dazu bei, die Betrachtungsweise von Computern zu ändern
+
+* Vorher: Rechenmaschinen, die die von vornherein mit bereits bekannten Formeln und Regeln programmiert werden mussten
+
+* Nachher: Computer, die unscharfe Regeln selbständig erlernen konnten (z. B. Erkennung von Mustern). 
+
+* Dieser frühe Erfolg löste einen großen Hype aus, der größtenteils aus phantasievollen Verallgemeinerungen der zugrundeliegenden Logik auf andere Probleme bestand
+
+* Die Seifenblase platzte jedoch, als sich die Hoffnungen aufgrund der Beschränkungen der frühen Algorithmen und der damals verfügbaren Rechenleistung nicht erfüllten. 
+
+* Einige dieser Beschränkungen können nun aufgrund der gestiegenen Rechenleistung überwunden werden, die es Maschinen ermöglicht, aus manchmal sehr komplexen Daten zu lernen, in Fällen, in denen traditionelle Modelle und Algorithmen nicht optimal funktioniert haben
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - Entwicklung
+
+* Machine Learning Algorithmen sind heute in unser tägliches Leben integriert 
+
+  * Internet-Suchen 
+  
+  * Produktempfehlungen
+  
+  * Spracherkennungsdiensten 
+  
+  * selbstfahrenden Autos 
+  
+  * Bildklassifikation
+  
+  * Sprachmodelle (z.B. Deepl)
+  
+  * Generative Modelle (z.B. ChatGPT)
+
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Entwicklungen im Gesundheitswesen
+
+* Hoffnung klinische Entscheidungsfindung durch Informationsverabeitung zu verbessern
+
+* Präzisionsmedizin (taylored Treatments): Richtige Behandlung für richtige Patient:in zur richtigen Zeit
+
+.center[
+&lt;img src="bilder/klin.png" width="950px" /&gt;
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Entwicklungen im Gesundheitswesen
+
+&lt;small&gt;
+
+* Ansatz des maschinellen Lernens  im Gesundheitswesen funktioniert insbesondere gut  bei Aufgaben, bei denen es um Mustererkennung in Bildern geht:
+
+* Ebenso gut oder besser abgeschnitten als Kliniker, etwa bei 
+  * der Erkennung von Hautkrebs (Esteva et al. 2017)
+  * Lungenkrebs (Yu et al. 2016) 
+  * Augenerkrankungen (Long et al. 2017)
+  * Brustkrebs zu erkennen (z. B. Samsung, RS80A). 
+
+*  Fortschritte treiben das rasche Wachstum kommerzieller Lösungen für maschinelles Lernen im Gesundheitswesen voran
+
+&lt;/small&gt;
+
+.center[
+&lt;img src="bilder/application.png" width="950px" /&gt;
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Klassen von Machine Learning
+
+&lt;small&gt;
+
+Man unterscheidet im Machine Learninng i.d.R. drei unterschiedliche Anwendungsbereiche:
+
+* **Unsupervised Learning:**
+  * Beinhaltet keine vorgegebenen Labels oder Zielvariablen.
+  * Ziel ist es, unbekannte Strukturen oder Muster in den Daten zu entdecken.
+  * Beispiele: Clustering, Dimensionality Reduction.
+  
+* **Supervised Learning:**
+  * Beinhaltet vorgegebene Labels oder Zielvariablen.
+  * Ziel ist es, ein Modell zu entwickeln, das in der Lage ist, neue Datenpunkte richtig vorherzusagen.
+  * Beispiele: Regression, Klassifikation.
+  
+* **Reinforcement Learning:**
+  * Beinhaltet ein Agent-System, das in einer Umgebung agiert und Entscheidungen trifft.
+  * Ziel ist es, das Verhalten des Agenten so anzupassen, dass es möglichst hohe Belohnungen erhält.
+  * Beispiele: Game-playing, Robotics.
+
+`\(\rightarrow\)` Es ist zu beachten, dass diese drei Arten von Machine Learning-Methoden nicht immer klar voneinander abgegrenzt sind und es auch überlappende Anwendungen gibt.
+
+&lt;/small&gt;
+
+---
+class: top, left
+### Big Data und Machine-Learning
+.pull-left[
+#### Klassen von Machine Learning
+
+&lt;small&gt;
+
+**Unsupervised Learning und Supervised Learning**
+
+* Lassen sich noch auf klassische statistische Fragestellungen zurückführen
+
+* Output dieser Algorithmen ist eine Kategorie, bzw. eine Zahl
+
+* Unsupervised Learning: Gruppierungsvorschläge für chaotische Datenstrukturen, ohne Vorkenntnis von Kategorien (Clustering) `\(\rightarrow\)` wichtig für Entdeckung neuer Krankheitsmuster etc.
+
+* Supervised Learning: versucht bereits bekannte Kategorien in Daten wiederzuerkennen `\(\rightarrow\)` wichtig für klinische Prognosen/Diagnosen
+
+&lt;/small&gt;
+]
+.pull-right[
+.center[
+&lt;img src="bilder/supervised-vs-unsupervised-ml.png" width="650px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+.pull-left[
+#### Klassen von Machine Learning
+
+**Reinforcement Learning**
+
+* Beinhaltet das Erlernen von Funktionen und Entscheidungsregeln
+
+* Output dieser Algorithmen kann ein komplexes Verhalten sein
+
+* Kann implizit auch Klassifikationen oder Gruppierungen beinhalten
+
+* Beispiele sind Schach spielen lernen, autonomes Fahren, etc.
+]
+.pull-right[
+.center[
+&lt;img src="bilder/reward.png" width="350px" /&gt;
+]
+.center[
+&lt;img src="bilder/tesla.jpg" width="350px" /&gt;
+]
+* Output: z.B. Lenkrad links/rechts drehen
+* Objective Function: schnell ans Ziel ohne Unfall/Risiko
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Klassen von Machine Learning
+
+**Reinforcement Learning - Gradient Descent**
+
+&lt;small&gt;
+
+* Lernen = Fehlerveringerung (Trial + Error)
+* Standardmethode zur Modelloptimierung im Reinforcement Learning: Gradient Descent
+* Schrittweise (inkrementelle) Modellanpassung veringert den Fehler
+* VORICHT: Lokale Minima müssen vermieden werden
+
+&lt;/small&gt;
+
+.pull-left[
+.center[
+&lt;img src="bilder/gradient1.png" width="350px" /&gt;
+]
+]
+.pull-right[
+.center[
+&lt;img src="bilder/gradient2.png" width="350px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - Arten
+
+Shallow Learning vs. Deep Learning
+
+* Shallow Learning:
+  * Einfachere Modelle, die schneller trainiert und implementiert werden können.
+  * In der Regel benötigen sie weniger Daten, um zu trainieren.
+  * Geeignet für Probleme mit einfachen Strukturen und klaren Mustern.
+
+* Deep Learning:
+  * Komplexere Modelle, die länger trainiert und implementiert werden müssen.
+  * In der Regel benötigen sie mehr Daten, um zu trainieren.
+  * Geeignet für Probleme mit komplexen Strukturen und unsicheren Mustern.
+  * Beispiele: Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Autoencoder.
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - Arten
+.pull-left[
+##### Shallow Learning:
+
+Beispielalgorithmen:
+
+* k-Nearest Neighbors (k-NN)
+* Naive Bayes
+* Linear/Logistic Regression
+* Decision Trees und Random Forest
+* Gradient Boosting
+* Support Vector Machines (SVMs)
+* Principal Component Analysis (PCA)
+]
+.pull-right[
+.center[
+Support Vector Machine:
+&lt;img src="bilder/svm.png" width="350px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - Arten
+.pull-left[
+##### Shallow Learning:
+
+Beispielalgorithmen:
+
+* k-Nearest Neighbors (k-NN)
+* Naive Bayes
+* Linear/Logistic Regression
+* Decision Trees und Random Forest
+* Gradient Boosting
+* Support Vector Machines (SVMs)
+* Principal Component Analysis (PCA)
+]
+.pull-right[
+.center[
+Decision Tree:
+
+&lt;img src="bilder/Unknown.png" width="350px" /&gt;
+]
+]
+
+
+
+
+* Tiefe des Machine Learning-Algorithmus steht nicht unbedingt mit seiner Leistungsfähigkeit in Verbindung , und dass einige dieser Algorithmen, 
+* z.B. Random Forest und Gradient Boosting, können auch tiefere Netze verwenden  und somit als "shallow" oder "deep" angesehen werden
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Machine Learning - Arten
+
+##### Deep Learning
+
+.pull-left[
+&lt;small&gt;
+
+* Basiert auf künstlichen neuronalen Netzen, die aus Schichten von Neuronen (sogenannten "Knoten") bestehen.
+
+* Jede Schicht wird trainiert, um bestimmte Merkmale oder Eigenschaften aus den Daten zu extrahieren.
+
+* Die erste Schicht erkennt einfache Merkmale, die nächste Schicht erkennt komplexere Merkmale auf der Grundlage der ersten Schicht, und so weiter.
+
+* Durch das Training der Netze mit großen Mengen an Daten, können die Neuronen selbstständig Muster und Zusammenhänge erkennen.
+
+* Die tiefste Schicht des Netzes (die sogenannte "output layer") trifft schließlich die Entscheidung oder gibt eine Vorhersage ab.
+
+&lt;/small&gt;
+]
+
+.pull-right[
+.center[
+&lt;img src="bilder/nnet.png" width="650px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Beispiel - Vorhersage von Schizophrenie-Onset im Prodrom (Koutsouleris et al. 2021)
+
+.center[
+&lt;img src="bilder/pronia.png" width="850px" /&gt;
+]
+
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Logik der Prädiktiven Modellierung
+
+.pull-left[
+**Szenario:**
+
+* Wir haben einen Trainingsdatensatz mit Brainscans 
+
+* Wir wissen für Personen im Trainingsdatensatz, wer eine Diagnose hatte (rot) und wer nicht (blau)
+
+* Prädiktion: Für neue Person (nicht im Datensatz) auf Basis der Brainscans vorhersagen, ob Diagnose vorhanden
+
+]
+.pull-right[
+.center[
+&lt;img src="bilder/pred1.png" width="150px" /&gt;
+]
+.center[
+&lt;img src="bilder/pred0.1.png" width="350px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Logik der Prädiktiven Modellierung
+
+.pull-left[
+**Schritt 1:**
+
+* Im Trainingsdatensatz Modell auf Basis der Aktivierungsmuster im Brainscan trainieren
+]
+.pull-right[
+.center[
+&lt;img src="bilder/pred2.png" width="650px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Logik der Prädiktiven Modellierung
+
+.pull-left[
+**Schritt 2:**
+
+* Im Trainingsdatensatz Modell auf Basis der Aktivierungsmuster im Brainscan trainieren.
+
+* Prüfen, ob Diagnose durch das Modell vorhergesagt werden kann.
+]
+.pull-right[
+.center[
+&lt;img src="bilder/pred3.png" width="650px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Logik der Prädiktiven Modellierung - Genauigkeitsmaße
+
+.pull-left[
+.center[
+&lt;img src="bilder/acc.png" width="550px" /&gt;
+]
+]
+.pull-right[
+.center[
+&lt;img src="bilder/pred3.png" width="550px" /&gt;
+]
+* Vorhersagegenauigkeit = **Accuracy**
+
+* Vorliegen von Diagnose korrekt zu erkennen = **Sensitivität**
+
+* Abwesenheit von Diagnose korrekt zu erkennen = **Spezifität**
+
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Generalisierbarkeit und Kreuzvalidierung
+
+**Schritt 3:** Um zu prüfen, ob das trainierte Modell gut funktioniert, müssen wir es validieren
+
+* **Validierung**: Modell an Fällen erproben die nicht im Trainingsset dabei waren
+
+* VORSICHT: strikte Trennung zwischen Trainings- und Testdaten (Data-Leakage) `\(\rightarrow\)` sonst droht ein **Overfit**
+  * Unfairer Vorteil: Vorhersage von Fällen, die das Modell schon "kennt"
+  * Modell würde sonst besser performen, als in der Realität
+
+* Einfachstes Szenario: **Simple Split** `\(\rightarrow\)` Datensatz wird z.B. 50/50 in Tranings- und Testdatensatz geteilt
+  * Problem: Forscher könnte genau so trennen, dass Modell gut funktioniert (das wäre Schummeln)
+  
+* Lösung: (k-fold) **Nested-Cross-Validation** (häufigstes Modell für kleinere Datensätze)
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Generalisierbarkeit und Kreuzvalidierung
+
+.pull-left[
+&lt;small&gt;
+** (k-fold) Nested-Cross-Validation:**
+
+* Datensatz wird in k Folds geteilt (hier k=5)
+
+* Runde 1: Training: 1-4 Folds, Test: 5. Fold
+* Runde 2: Training: 1,2,3,5 Folds, Test: 4. Fold
+* Runde 3: Training: 1,2,4,5 Folds, Test: 3. Fold
+* ...
+
+* Am Ende Gesamtgenauigkeit ausrechnen
+
+* Vorteil: Kein Overfit + ganzer Datensatz kann ohne Data-Leakage genutzt werden 
+
+&lt;/small&gt;
+]
+.pull-right[
+.center[
+&lt;img src="bilder/predx.png" width="650px" /&gt;
+]
+.center[
+&lt;img src="bilder/nested.png" width="550px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+.pull-left[
+#### Generalisierbarkeit und Kreuzvalidierung
+&lt;small&gt;
+**Generalisierbarkeitspyramide:**
+
+* Je unterschiedliher die Kontexte (z.B. zeitlich, geografisch, kulturell) von Traning und Test Folds, desto generalisierbarer ist das Modell
+
+* Leave-Site-out `\(\rightarrow\)` Folds = einzelne Studienzentren
+  * Modell funktioniert nicht nur in Klinik A sondern auch in Klinik B
+  
+* External `\(\rightarrow\)` Folds = einzelne Studien
+  * Modell funktioniert nicht nur in Studie A sondern auch in Studie B
+
+* Prospective `\(\rightarrow\)` Folds = Zeit
+  * Modell kann fälle vorhersagen, die in der Zukunft liegen
+  
+&lt;/small&gt;
+]
+.pull-right[
+.center[
+&lt;img src="bilder/pred5.png" width="400px" /&gt;
+]
+]
+
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Generative Modelle
+.pull-left[
+
+&lt;small&gt;
+
+**Generative Adversarial Networks (GAN):**
+
+* Können nach einem Vorbild Content erzeugen
+
+* Klassifikationsalgorithmus tritt gegen generativen Algorithmus an
+  
+* Iterative Annäherung an Zielzustand durch Induktion von Zufälligkeit
+
+* Es können ohne großen Aufwand neue Inhalte kreiert werden
+  
+&lt;/small&gt;
+]
+.pull-right[
+.center[
+&lt;img src="bilder/gan.jpeg" width="600px" /&gt;
+]
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Generative Modelle - Bildtransfer
+
+.center[
+&lt;img src="bilder/gan1.jpeg" width="800px" /&gt;
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Generative Modelle - Bildtransfer
+
+.center[
+&lt;img src="bilder/gan2.jpg" width="900px" /&gt;
+]
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Generative Modelle - Reperatur kompromittierter MRT Scans
+
+.center[
+&lt;img src="bilder/gan3.jpg" width="900px" /&gt;
+]
+
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Mensch-Maschine Interaktion
+
+Analogie: Stufen autonomen Fahrens
+
+&lt;table class="table lightable-classic" style='font-size: 18px; margin-left: auto; margin-right: auto; font-family: "Arial Narrow", "Source Sans Pro", sans-serif; margin-left: auto; margin-right: auto;'&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Stufe &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Name &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Interaktion &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; No automation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Fehlen von Assistenzsystemen. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Driver assistance &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Systeme, die dem Fahrer helfen, die Geschwindigkeit zu halten oder in der Spur zu bleiben, aber dem Fahrer die Kontrolle überlassen. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Partial automation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Die Kombination aus automatischer Geschwindigkeits und Lenkung - zum Beispiel Tempomat und Spurhaltung. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Conditional automation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Automatisierte Systeme, die die Umgebung steuern und überwachen, aber auf einen menschlichen Fahrer als Unterstützung angewiesen sind. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; High automation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Automatisierte Systeme, die alles erledigen - ohne menschliche Unterstützung - aber nur unter bestimmten Umständen. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Full automation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Der echte elektronische Chauffeur: Er behält die volle Kontrolle über das Fahrzeug, braucht keine menschliche Unterstützung und fährt unter allen Bedingungen. &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Mensch-Maschine Interaktion
+
+.center[
+&lt;img src="bilder/stages.png" width="750px" /&gt;
+]
+
+* Stufe 5, d. h. eine vollständige Automatisierung ohne die Möglichkeit der Unterstützung von Klinikpersonal, ist nicht das Ziel. 
+* Auch Stufe 4 mit menschlicher Unterstützung unter sehr begrenzten Bedingungen ist nicht das Ziel. 
+* Angestrebt werden Synergieeffekte, d. h. die Kombination von Funktionen, die Maschinen am besten erledigen, mit solchen, die am besten für Kliniker geeignet sind.
+ 
+---
+class: top, left
+### Big Data und Machine-Learning
+
+#### Klinische Akzeptanz von KI (Koutsouleris, 2021)
+
+Anforderungen:
+
+* Medizinische KI muss mindestens so genau sein kann wie menschliche, Heuristik
+* KI muss mindestens so generalisierter sein wie klinische Entscheidungsfindungen
+* KI muss so trainiert werden kann dass sie zu einer effektiven Nutzung bestehender Ressourcen führt
+* Die Anwendungsindikation von medizinischer KI muss klar definiert ist
+* Der Bias von KI muss offen gelegt werden können
+* KI muss transparent bezüglich der eigenen Unsicherheit sein, um übermäßiger Technik Gläubigkeit vorzubeugen
+* KI muss handlungsrelevante Informationen produzieren
+* KI muss klinisch kontrolliert werden können (was eine entsprechende Ausbildung im Studium erfordert)
+
+---
+class: top, left
+### Take-Aways
+.content-box-gray[
+
+* **Kapazitätsproblem:** menschliche Kapazität mit effizient Wissenszuwachs umzugehen ist begrenzt
+
+* **Machine Learning:** Computerfunktionalität die nicht explizit programmiert wurde, sondern selbstständig "lernt"
+
+* **Unsupervised ML** `\(\rightarrow\)` Mustererkennung, **Supervised M**L `\(\rightarrow\)` Prädiktion, **Reward Learning** `\(\rightarrow\)` Operation
+
+* Vorhersagegenauigkeit eines Prädiktionsmodells muss mittels **Validierung** geprüft werden.
+
+* **Deep Learning:** Klasse von ML Modellen, die mit neuronalen Netzen (inkl. hidden layers) arbeiten
+
+* **Overfit:** Überanpassung an die Daten `\(\rightarrow\)` führt zu veringerter Generalisierbarkeit.
+
+* **Generative Modelle** können genutzt werden um Inhalte zu erzeugen.
+]
+
+[**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLSfkQM2uaO1Qv_PggSXeXiIc90D68uMN_3S_vdmBn6Ed8uJ0uA/viewform?usp=sf_link)
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
