@@ -337,7 +337,7 @@ class: top, left
 
 <small>
 
-Man unterscheidet im Machine Learninng i.d.R. drei unterschiedliche Anwendungsbereiche:
+Man unterscheidet im Machine Learning i.d.R. drei unterschiedliche Anwendungsbereiche:
 
 * **Unsupervised Learning:**
   * Beinhaltet keine vorgegebenen Labels oder Zielvariablen.
@@ -900,4 +900,8 @@ class: top, left
 ]
 
 [**Link zur Wissensüberprüfung**](https://docs.google.com/forms/d/e/1FAIpQLSfkQM2uaO1Qv_PggSXeXiIc90D68uMN_3S_vdmBn6Ed8uJ0uA/viewform?usp=sf_link)
+
+```{r eval=FALSE, include=FALSE}
+# https://rviews.rstudio.com/2021/11/18/deploying-xaringan-slides-a-ten-step-github-pages-workflow/
+```
 
